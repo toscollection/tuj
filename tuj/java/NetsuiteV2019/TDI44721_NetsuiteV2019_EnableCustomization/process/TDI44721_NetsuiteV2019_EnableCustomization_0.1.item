@@ -18,7 +18,7 @@
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="576"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="384"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -58,7 +58,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:6QkdKqCl9FUYwCFspamUNaRlxEdxdj5MrPnUNsMf"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:w3wys5oCWWDAFOeV88XVBsolqssxg79VTrVYS533"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -93,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:m4WmkTRb+I4+ZxB/ODMrMHtH5mL1FBdjRKu2KApZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:a/dH/QCTpC+vGumMaxqwpH7sOwyUOgDtFLBAt0ds"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,7 +129,7 @@
     <routinesParameter id="_nnyHoFdYEeiAS_VFe2B33g" name="DataMasking"/>
     <routinesParameter id="_n48wIFdYEeiAS_VFe2B33g" name="DataQualityDependencies"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-512">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.param_file_path"/>
@@ -185,7 +185,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-512">
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
@@ -292,7 +292,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GlCEFfWwPcQAyuV3zl1rRFyNhyG/UL5NAyUi8MtZBXcwABm6k/Fl355m+tN6XJ6DwOmR"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nny/ljiaHXauM4VaktLg0aT8xszOPsp92F7bvv+moybmmX+oc8lnjaxecCkaUVTqDPFU"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -392,7 +392,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="-512">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -400,7 +400,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-384">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -422,7 +422,7 @@
       <column comment="" key="false" length="255" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-384">
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_3"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
@@ -473,7 +473,7 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlPdXRwdXQ"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" show="false" value="context.ns_account"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" show="false" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:T5XjLCSVELuj/rvK0dl1KtyvwzTN7gTWMP/gPR6WFTqPp9Uh4bntYOpFWiepl4Q="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:CiXgG1BAQZpBiJokOkg8zXIJgUkIHnXettEfIvmGHI1Xj9NztLmlBYvYzuaKJCs="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" show="false" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" show="false" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="CalendarEvent"/>
@@ -535,7 +535,7 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlJbnB1dA"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" show="false" value="context.ns_account"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" show="false" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:S+Wi3J9Z5e2PAzLkqA8zwlJ1xVaPC/D9ZB2ChpenKaSW36x1DDqC2PCIiWB2KeM="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:vGSzCtNpk3KqIesIOBkShiB8sJlkfWgW4YejR7EMqVbZRF8Z4ydOUlAP74tLESc="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" show="false" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" show="false" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="CalendarEvent"/>
@@ -651,7 +651,7 @@
       <column comment="idanylenko_multiselect" key="false" length="-1" name="Custeventidanylenko_multiselect" nullable="true" originalDbColumnName="custeventidanylenko_multiselect" originalLength="-1" pattern="" precision="-1" sourceType="MultiSelectCustomFieldRef" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-256">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="String title = &quot;tuj_tdi44721_&quot; + pid;&#10;globalMap.put(&quot;title&quot;, title);&#10;&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -701,7 +701,7 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlPdXRwdXQ"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" show="false" value="context.ns_account"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" show="false" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:bBtDok0DExekUfdEUuwQCbt4iCK3GQkbjcAXmjXnvprFz6IMQxudAG0HVjHTzlc="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:XqIWtOO32BdZmUIkW+sDNx/cQ91MoNBeKYSq/I/AHYV+gKZNx+lZh9sU2OPQLI4="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" show="false" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" show="false" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="CalendarEvent"/>
@@ -727,18 +727,23 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-96">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_6"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
-    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
-    <elementParameter field="TABLE" name="VALUES">
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
       <elementValue elementRef="VALUE" value="(String)globalMap.get(&quot;title&quot;)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Custeventidanylenko_multiselect"/>
       <elementValue elementRef="VALUE" value=""/>
     </elementParameter>
-    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
-    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
+    <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="Title" value="(String)globalMap.get(&quot;title&quot;)"/>
+      <elementValue elementRef="Custeventidanylenko_multiselect" value=""/>
+      <elementValue elementRef="Title" value="(String)globalMap.get(&quot;title&quot;)"/>
+      <elementValue elementRef="Custeventidanylenko_multiselect" value="&quot;{\&quot;value\&quot;:[{\&quot;name\&quot;:\&quot;Accounts Payable\&quot;,\&quot;internalId\&quot;:\&quot;113\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;},{\&quot;name\&quot;:\&quot;Accounts Receivable\&quot;,\&quot;internalId\&quot;:\&quot;122\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;}]}&quot;"/>
+    </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
@@ -756,7 +761,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-96">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
@@ -804,11 +809,11 @@
     <elementParameter field="TEXT" name="configuration.account" value="context.ns_account"/>
     <elementParameter field="CLOSED_LIST" name="configuration.loginType" value="TBA"/>
     <elementParameter field="TEXT" name="configuration.email" show="false" value=""/>
-    <elementParameter field="PASSWORD" name="configuration.password" show="false" value="enc:system.encryption.key.v1:Z9x1zZ6s9KIBEQreiUXy+jdvesB+nDSRB4WfBw5x"/>
+    <elementParameter field="PASSWORD" name="configuration.password" show="false" value="enc:system.encryption.key.v1:2e7ReVYu5U15JGfQj5gNIRxOMLUV0grZJJgTN2W/"/>
     <elementParameter field="TEXT" name="configuration.consumerKey" value="context.ns_consumer_key"/>
-    <elementParameter field="PASSWORD" name="configuration.consumerSecret" value="enc:system.encryption.key.v1:80GWCqz9F3Fm4X9xb/QWrHVlar2FcOhLgVbxwVRQhtVR0nSp4SyQ2f1ZFdqmJnPkGs9pAs0x"/>
+    <elementParameter field="PASSWORD" name="configuration.consumerSecret" value="enc:system.encryption.key.v1:cQOod+uogsxUfuVhkXyXWik/4emj/DuF027CFRPF2IlSN07iNuFxOSOnOnykrjC5AeVNxUMH"/>
     <elementParameter field="TEXT" name="configuration.tokenId" value="context.ns_token_id"/>
-    <elementParameter field="PASSWORD" name="configuration.tokenSecret" value="enc:system.encryption.key.v1:mfNs50o3jx9PiVQHGyIzRmNeHucey6oqy9pnarSlvp+S/HFz+M9tJZK59YKf8k8qyQKr"/>
+    <elementParameter field="PASSWORD" name="configuration.tokenSecret" value="enc:system.encryption.key.v1:kPOGT7i/SdFHYsq9Lb5qLL51mLah725Y1Mw8myukiZtXm1T/fvoW9xsYMfyY2BQashkj"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tNetSuiteV2019Connection_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
@@ -820,7 +825,7 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlJbnB1dA"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" show="false" value="context.ns_account"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" show="false" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:9zjyrrsZBrJi1POkNjOUduC3g3eBSLIH/aPohusExyzbmgcB3H/SU78OLfrlJaw="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" show="false" value="enc:system.encryption.key.v1:H3aDQgIFkaKlemIeMmGcS1CPnf8RXgzE9v3E+VuhfS7JfbxPfx1lFXnL3pJHVYY="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" show="false" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" show="false" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="CalendarEvent"/>
@@ -934,77 +939,6 @@
     <metadata connector="FLOW" name="tFileOutputDelimited_1">
       <column comment="" key="false" length="-1" name="Title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="idanylenko_multiselect" key="false" length="-1" name="Custeventidanylenko_multiselect" nullable="true" originalDbColumnName="custeventidanylenko_multiselect" originalLength="-1" pattern="" precision="-1" sourceType="MultiSelectCustomFieldRef" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="0">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_4"/>
-    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
-    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
-    <elementParameter field="TABLE" name="VALUES">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
-      <elementValue elementRef="VALUE" value="(String)globalMap.get(&quot;title&quot;)"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Custeventidanylenko_multiselect"/>
-      <elementValue elementRef="VALUE" value="&quot;{\&quot;value\&quot;:[{\&quot;name\&quot;:\&quot;Accounts Payable\&quot;,\&quot;internalId\&quot;:\&quot;113\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;},{\&quot;name\&quot;:\&quot;Accounts Receivable\&quot;,\&quot;internalId\&quot;:\&quot;122\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;}]}&quot;"/>
-    </elementParameter>
-    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
-    <elementParameter field="TABLE" name="INTABLE" show="false"/>
-    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value="tuj_tdi44721_Bks3oU;&#13;&#13;&#10;tuj_tdi44721_Bks3oU;&quot;{\&quot;value\&quot;:[{\&quot;name\&quot;:\&quot;Accounts Payable\&quot;,\&quot;internalId\&quot;:\&quot;113\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;},{\&quot;name\&quot;:\&quot;Accounts Receivable\&quot;,\&quot;internalId\&quot;:\&quot;122\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-112\&quot;}]}&quot;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFixedFlowInput_4">
-      <column comment="" key="false" length="-1" name="Title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="idanylenko_multiselect" key="false" length="-1" name="Custeventidanylenko_multiselect" nullable="true" originalDbColumnName="custeventidanylenko_multiselect" originalLength="-1" pattern="" precision="-1" sourceType="MultiSelectCustomFieldRef" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Custeventidanylenko_multiselect"/>
-        <additionalField key="netsuite.customField.scriptId" value="custeventidanylenko_multiselect"/>
-        <additionalField key="netsuite.customField.internalId" value="89"/>
-        <additionalField key="netsuite.customField.customizationType" value="crmCustomField"/>
-        <additionalField key="netsuite.customField.type" value="MULTI_SELECT"/>
-        <additionalField key="netsuite.customField" value="true"/>
-      </column>
-    </metadata>
-  </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="0">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_4"/>
-    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
-    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.data_output_dir + &quot;/&quot;+jobName+&quot;/ref.csv&quot;"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="CHECK" name="APPEND" value="true"/>
-    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
-    <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="SPLIT" value="false"/>
-    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
-    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
-    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileOutputDelimited_4">
-      <column comment="" key="false" length="-1" name="Title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="idanylenko_multiselect" key="false" length="-1" name="Custeventidanylenko_multiselect" nullable="true" originalDbColumnName="custeventidanylenko_multiselect" originalLength="-1" pattern="" precision="-1" sourceType="MultiSelectCustomFieldRef" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Custeventidanylenko_multiselect"/>
-        <additionalField key="netsuite.customField.scriptId" value="custeventidanylenko_multiselect"/>
-        <additionalField key="netsuite.customField.internalId" value="89"/>
-        <additionalField key="netsuite.customField.customizationType" value="crmCustomField"/>
-        <additionalField key="netsuite.customField.type" value="MULTI_SELECT"/>
-        <additionalField key="netsuite.customField" value="true"/>
-      </column>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tContextLoad_1">
@@ -1194,7 +1128,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_6" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_6" target="tFixedFlowInput_4">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_6" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_6" target="tNetSuiteV2019Connection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tNetSuiteV2019Connection_1" offsetLabelX="0" offsetLabelY="0" source="tNetSuiteV2019Connection_1" target="tFixedFlowInput_3">
@@ -1232,13 +1166,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
-  </connection>
-  <connection connectorName="FLOW" label="row14" lineStyle="0" metaname="tFixedFlowInput_4" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_4" target="tFileOutputDelimited_4">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_4" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_4" target="tNetSuiteV2019Connection_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk12"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
@@ -1326,18 +1253,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_4"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a1c51bf1-c243-4947-8406-694136ddbabc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GlZyrgBXHb6oLdTo425otxFmeW+sDQMkisDuvIqgoFVZ8agauQSSkOI5DKHCb7nXC5Bo2iqFXL37&#13;
-PIgyjBE98Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7b77e849-2844-40d2-b79e-8c5d6bb3a3b2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Lz5UtTrmKODfHyzklCTlnIgP8AjM1PJRPsBJb8m6x73NcnXNsgGTOZGPlFvQ1uWl2z7c70imYmOZ&#13;
-05aHVgfiLw==</DigestValue></Reference></SignedInfo><SignatureValue>dANFXp8Rq6jBApg5qaPCZEzT0QUGt+qzuVebyArdQZ1iNwuW4ZC0307KqvTaC5SLmTFbMgSw5mTe&#13;
-p9oT9q+HdIDviqajrLQBvFMsxSlK+dafRq0Q+CYGcsu5e9uSbmObmMQRIKkLECMa2TTD+RTR59gq&#13;
-XeSZOcHEYDsr9E7qq6jBLMRPszzijpLtULn0DWLuSXbMvK+TT1rMcB4t2eS9sW6OV0iwYbEw0L8k&#13;
-k2F8AY+aw8queqgCVckou+2f142CbflRC9tiWCk4VMAh+giefI1nx8Eq28eKHYLcN94Af7MquvPX&#13;
-3Qopik0cl3eN8xiNLYD5UAawUO27Y4FFVAaOwQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cf4457fe-1916-41cf-b7a1-4b7909ef9f1e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1rDST75MuVKFBX27SIwcPbD3uAhF/i9IvItr0dWc3g74Y/XmPeThxAvV1DxJRESZDrw6QU1Gc0lQ&#13;
+uZr4WC5u5A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_423dee19-9fd6-4448-a64d-f1cb6a6fd735"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oBPfimt5qJU2hV0TLAKKI5XmKr5uneOisUo3/gwwVJSCl7odrLtENohcKgHyh7d+z62F5REULeKa&#13;
+BkCVHbTV4g==</DigestValue></Reference></SignedInfo><SignatureValue>QxexA/OJY9savPhfUE2kx01baEoodEyyvEkZhiCRL4z3lulxOjgKiPrvnUiVWStDKFk1x0zjyH0x&#13;
+80HuqXMxZah6nBt7tGanAMVHpjfCJrkXnjQLYWbAwTPdf2wh3Up6ZRPc0cNe1IcR9cXLBBoGpQPB&#13;
+/0EfAUUEuwmpj+5lO/GUrgf4McAUlEqlrvIsn0zufY4qm3zJAJspSMHgaesozdiXQBG0thYAV4i8&#13;
+3e6Ynmi8UprSFaiPMNcWwy0V8mgWd/DIW9NZVyYZ5ut3mXs9Lmsjd+dfg/jEoyHsG0oZj+9lx1ME&#13;
+vtbdGig9U49/DHeN/pABH7Q5mouUeS5rM/jMWg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1359,4 +1281,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7b77e849-2844-40d2-b79e-8c5d6bb3a3b2" Target="#_a1c51bf1-c243-4947-8406-694136ddbabc"><Timestamp>2021-05-27 17:08:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_423dee19-9fd6-4448-a64d-f1cb6a6fd735" Target="#_cf4457fe-1916-41cf-b7a1-4b7909ef9f1e"><Timestamp>2021-05-28 14:39:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
