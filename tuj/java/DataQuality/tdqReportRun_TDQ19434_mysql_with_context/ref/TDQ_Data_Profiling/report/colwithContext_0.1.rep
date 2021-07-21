@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_LmbyEOn1Eeu6xcdVyEenAw" name="colwithContext" creationDate="2021-07-21T15:28:01.968+0800">
+  <clientDependency href="../Analyses/colwithContext_0.1.ana#_LmbyIun1Eeu6xcdVyEenAw"/>
+  <taggedValue xmi:id="_LmbyEen1Eeu6xcdVyEenAw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_LmbyEun1Eeu6xcdVyEenAw" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_LmbyE-n1Eeu6xcdVyEenAw" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_LmbyFOn1Eeu6xcdVyEenAw" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_LmbyFen1Eeu6xcdVyEenAw" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_LmbyFun1Eeu6xcdVyEenAw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_LmbyF-n1Eeu6xcdVyEenAw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_LmbyGOn1Eeu6xcdVyEenAw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_LmbyGen1Eeu6xcdVyEenAw" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_LmbyGun1Eeu6xcdVyEenAw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:fPV7oHULIlOVFu8g+HHpHwarUTG9MkR7odG7zA=="/>
+  <taggedValue xmi:id="_LmbyG-n1Eeu6xcdVyEenAw" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_LmbyHOn1Eeu6xcdVyEenAw" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\stdio\Talend-Studio-20210716_1950-V8.0.1SNAPSHOT\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_LmbyHen1Eeu6xcdVyEenAw" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_LmbyHun1Eeu6xcdVyEenAw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_LmbyH-n1Eeu6xcdVyEenAw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_LmbyIOn1Eeu6xcdVyEenAw" tag="Author" value="user@talend.com"/>
+  <analysisMap xmi:id="_LmbyIen1Eeu6xcdVyEenAw" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/colwithContext_0.1.ana#_HbkUIOn1Eeu6xcdVyEenAw"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_NZAi8On1Eeu6xcdVyEenAw" executionDate="2021-07-21T15:28:11.942+0800" executionDuration="2041" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+</dataquality.reports:TdReport>
