@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_ZgGeMO3zEeuIVcMueSpwlA" name="salary_search" creationDate="2021-07-26T17:25:20.890+0800">
+  <clientDependency href="../Analyses/salary_search_0.1.ana#_ZgHFQO3zEeuIVcMueSpwlA"/>
+  <taggedValue xmi:id="_ZgGeMe3zEeuIVcMueSpwlA" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_ZgGeMu3zEeuIVcMueSpwlA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_ZgGeM-3zEeuIVcMueSpwlA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_ZgGeNO3zEeuIVcMueSpwlA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_ZgGeNe3zEeuIVcMueSpwlA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_ZgGeNu3zEeuIVcMueSpwlA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_ZgGeN-3zEeuIVcMueSpwlA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_ZgGeOO3zEeuIVcMueSpwlA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_ZgGeOe3zEeuIVcMueSpwlA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_ZgGeOu3zEeuIVcMueSpwlA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:ydGMn+IPBb8wQDvqCQgl4UtQ/k2cp+S8bSgTRw=="/>
+  <taggedValue xmi:id="_ZgGeO-3zEeuIVcMueSpwlA" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_ZgGePO3zEeuIVcMueSpwlA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\stdio\Talend-Studio-20210715_1937-V8.0.1SNAPSHOT\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_ZgGePe3zEeuIVcMueSpwlA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_ZgGePu3zEeuIVcMueSpwlA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_ZgGeP-3zEeuIVcMueSpwlA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_ZgGeQO3zEeuIVcMueSpwlA" tag="Author" value="user@talend.com"/>
+  <analysisMap xmi:id="_ZgGeQe3zEeuIVcMueSpwlA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/salary_search_0.1.ana#_78wVEe3yEeuIVcMueSpwlA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_eA0QUO3zEeuIVcMueSpwlA" executionDate="2021-07-26T17:25:50.772+0800" executionDuration="417" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+</dataquality.reports:TdReport>
