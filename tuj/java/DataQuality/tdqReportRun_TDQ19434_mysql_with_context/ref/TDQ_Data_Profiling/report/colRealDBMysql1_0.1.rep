@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_0-4IEPNEEeu1r-7nDVprrQ" name="colRealDBMysql1" creationDate="2021-08-02T11:50:50.341+0800">
+  <clientDependency href="../Analyses/colRealDBMysql1_0.1.ana#_0-4vIPNEEeu1r-7nDVprrQ"/>
+  <taggedValue xmi:id="_0-4IEfNEEeu1r-7nDVprrQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_0-4IEvNEEeu1r-7nDVprrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_0-4IE_NEEeu1r-7nDVprrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_0-4IFPNEEeu1r-7nDVprrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_0-4IFfNEEeu1r-7nDVprrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_0-4IFvNEEeu1r-7nDVprrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_0-4IF_NEEeu1r-7nDVprrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_0-4IGPNEEeu1r-7nDVprrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_0-4IGfNEEeu1r-7nDVprrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_0-4IGvNEEeu1r-7nDVprrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:c3zWh+NX4gvj9TB0dH1iQHPKNWs3ucrVEAsLmQ=="/>
+  <taggedValue xmi:id="_0-4IG_NEEeu1r-7nDVprrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_0-4IHPNEEeu1r-7nDVprrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\stdio\Talend-Studio-20210716_1950-V8.0.1SNAPSHOT\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_0-4IHfNEEeu1r-7nDVprrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_0-4IHvNEEeu1r-7nDVprrQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_0-4IH_NEEeu1r-7nDVprrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_0-4IIPNEEeu1r-7nDVprrQ" tag="Author" value="user@talend.com"/>
+  <analysisMap xmi:id="_0-4IIfNEEeu1r-7nDVprrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/colRealDBMysql1_0.1.ana#_ZxB2sPNEEeu1r-7nDVprrQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_5gRPoPNEEeu1r-7nDVprrQ" executionDate="2021-08-02T11:51:18.924+0800" executionDuration="1806" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+</dataquality.reports:TdReport>
