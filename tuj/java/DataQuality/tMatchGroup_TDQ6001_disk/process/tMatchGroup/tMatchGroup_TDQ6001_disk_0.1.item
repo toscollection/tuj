@@ -24,7 +24,7 @@
     <contextParameter xmi:id="_GfWIhgW0EeK2zebMHHDR4g" comment="" name="result_username" prompt="result_username?" promptNeeded="false" repositoryContextId="_lSe3wAWvEeK2zebMHHDR4g" type="id_String" value="null"/>
   </context>
   <parameters xmi:id="_GfWIhwW0EeK2zebMHHDR4g">
-    <elementParameter xmi:id="_GfWIiAW0EeK2zebMHHDR4g" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_GfWIiQW0EeK2zebMHHDR4g" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;--add-opens&quot;,&quot;java.base/java.io=ALL-UNNAMED&quot;]}"/>
     <elementParameter xmi:id="_GfWIiQW0EeK2zebMHHDR4g" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true"/>
     <elementParameter xmi:id="_GfWIigW0EeK2zebMHHDR4g" field="TEXT" name="SCREEN_OFFSET_X" value="32"/>
     <elementParameter xmi:id="_GfWIiwW0EeK2zebMHHDR4g" field="TEXT" name="SCREEN_OFFSET_Y" value="96"/>
