@@ -10,7 +10,7 @@
     <contextParameter comment="" internalId="_B5ztJ-hzEeuHPumT9yQo1w" name="result_port" prompt="result_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_B5ztKOhzEeuHPumT9yQo1w" name="result_table" prompt="result_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_B5ztKehzEeuHPumT9yQo1w" name="result_username" prompt="result_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
-    <contextParameter comment="" internalId="_91LaYPNEEeu1r-7nDVprrQ" name="mysql6_Server" prompt="mysql6_Server?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_String" value="192.168.32.192"/>
+    <contextParameter comment="" internalId="_91LaYPNEEeu1r-7nDVprrQ" name="mysql6_Server" prompt="mysql6_Server?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_String" value="10.67.8.78"/>
     <contextParameter comment="" internalId="_91LaYfNEEeu1r-7nDVprrQ" name="mysql6_AdditionalParams" prompt="mysql6_AdditionalParams?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" internalId="_91LaYvNEEeu1r-7nDVprrQ" name="mysql6_Login" prompt="mysql6_Login?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_String" value="root"/>
     <contextParameter comment="" internalId="_91LaY_NEEeu1r-7nDVprrQ" name="mysql6_Password" prompt="mysql6_Password?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_Password" value="enc:system.encryption.key.v1:0xUQvNIMgbgjZSa2cvvJd23jp4YjDQF/iPOzqLm4d2SlqQ=="/>
@@ -18,6 +18,8 @@
     <contextParameter comment="" internalId="_91LaZfNEEeu1r-7nDVprrQ" name="mysql6_Port" prompt="mysql6_Port?" promptNeeded="false" repositoryContextId="_S7Xl4O3zEeuIVcMueSpwlA" type="id_String" value="3305"/>
   </context>
   <parameters>
+  	<elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;--add-opens&quot;,&quot;java.base/java.lang=ALL-UNNAMED&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>

@@ -14,8 +14,8 @@
   <parameters>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="E:/dev/workspace-rcp/trunk_2"/>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="E:/dev/workspace-rcp/trunk_2/debug_trunk"/>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
-    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;--add-opens&quot;,&quot;java.base/java.io=ALL-UNNAMED&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true"/>
     <elementParameter field="TEXT" name="AUTHOR" value="a@b.com"/>
     <elementParameter field="TEXT" name="STATUS" value=""/>
     <elementParameter field="TEXT" name="NAME" value="tRecordMatching_13701_Blocking0_Other2"/>
