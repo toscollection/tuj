@@ -12,6 +12,8 @@
     <contextParameter comment="" name="result_username" prompt="result_username?" promptNeeded="false" repositoryContextId="_WLO6gIgnEd-DDNdoAmGYeA" type="id_String" value="null"/>
   </context>
   <parameters>
+  	<elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;--add-opens&quot;,&quot;java.base/java.io=ALL-UNNAMED&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true"/>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="f:/test"/>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="E:/dev/workspace-rcp/trunk_2/debug_trunk"/>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
