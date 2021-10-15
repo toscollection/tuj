@@ -1,0 +1,48 @@
+{
+  "itemId" : "_QAlWUPpVEeutJ8jc5FZA_Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_c_FzcPj9EeuO7pwxHwoiSw",
+    "parameterList" : [ {
+      "id" : "_c_s3cPj9EeuO7pwxHwoiSw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_c_s3cfj9EeuO7pwxHwoiSw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_c_s3cvj9EeuO7pwxHwoiSw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_c_s3c_j9EeuO7pwxHwoiSw",
+      "name" : "result_database"
+    }, {
+      "id" : "_c_s3dPj9EeuO7pwxHwoiSw",
+      "name" : "result_host"
+    }, {
+      "id" : "_c_s3dfj9EeuO7pwxHwoiSw",
+      "name" : "result_password"
+    }, {
+      "id" : "_c_s3dvj9EeuO7pwxHwoiSw",
+      "name" : "result_port"
+    }, {
+      "id" : "_c_s3d_j9EeuO7pwxHwoiSw",
+      "name" : "result_table"
+    }, {
+      "id" : "_c_s3ePj9EeuO7pwxHwoiSw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_AGolgBGAEeS0bMZ292Rrew",
+    "parameterList" : [ {
+      "id" : "_w53OYvoyEeuBWKLjU5MRPw",
+      "name" : "salesforce_password"
+    }, {
+      "id" : "_-VqFIPoyEeuBWKLjU5MRPw",
+      "name" : "salesforce_token"
+    }, {
+      "id" : "_w53OYfoyEeuBWKLjU5MRPw",
+      "name" : "salesforce_username"
+    } ]
+  } ]
+}
