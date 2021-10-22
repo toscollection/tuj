@@ -9,10 +9,11 @@
     <contextParameter comment="" internalId="_tbpiFpg9Eeuy3bJ7E0TGvA" name="result_port" prompt="result_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_tbpiF5g9Eeuy3bJ7E0TGvA" name="result_table" prompt="result_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_tbpiGJg9Eeuy3bJ7E0TGvA" name="result_username" prompt="result_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_hLJKkCs5EeyeIJ0NbSLhHA" name="teradata_host" prompt="teradata_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_hLJKkis5EeyeIJ0NbSLhHA" name="teradata_database" prompt="teradata_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_hLJKlCs5EeyeIJ0NbSLhHA" name="teradata_username" prompt="teradata_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_hLJKlSs5EeyeIJ0NbSLhHA" name="teradata_password" prompt="teradata_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_hLJKkCs5EeyeIJ0NbSLhHA" name="teradata16_host" prompt="teradata16_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_hLJKkis5EeyeIJ0NbSLhHA" name="teradata16_database" prompt="teradata16_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_hLJKlCs5EeyeIJ0NbSLhHA" name="teradata16_username" prompt="teradata16_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_hLJKlSs5EeyeIJ0NbSLhHA" name="teradata16_password" prompt="teradata16_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_5oSNcDMREeyJL4dhhOlhRA" name="teradata16_port" prompt="teradata16_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -58,7 +59,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:tPA7lYOqKo7o7P+/8heYPm+W6UMmVSyrDAlgUSlP"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yqmPm0rX9u7nw+eueATKYDSihhSYzc0kzYSt12zB"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -93,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:J7ecgHnrvQ6yNkg4vsH4+g610Ice73i5P+TKufTZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DQ2YxXixMap31OV1RKytmRi3cYPf6xoLLfpRo7Ed"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -286,7 +287,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:siSx1iR1dH+eertu8oJ6UHxiCxo7ImIQ6I9UFTTPTTf//EDa4SQKRyR/hU9/IlJaWxmB"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:72mZs9AJLTTL+h/Df0RcWbQ98Lp+l3u6U1JXxqIrMWl/4eQgfvMlyGQGswsROcIcSbR1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -430,7 +431,7 @@
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;tal-rd169.talend.lan&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;XE&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;TUJ_USER&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wWXmlVRFGfCxAvt6TsuI1FQWvCFgx5CH0J2IfnBjwHwMJnO+9xk="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6T01klRSj4TUGBNtBFHKrpS+0XvSSJ1tzgLjglmEVrSIEyEYtcQ="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TDI45864tera&quot;+pid"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -630,7 +631,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Teradata"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;XE&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;TUJ_USER&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FKuZlO2C+NnDmjTZANvRxYDVgTCILdLajITpWEBHtX2sX4BbJbk="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:gDSrXjt0DST0JdGjWVV0PuijfF3M47XlkPVXW5zQN9U2phSTUqg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TDI45864teragen&quot;+pid"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" value="SET"/>
@@ -746,7 +747,7 @@
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;tal-rd169.talend.lan&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;XE&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;TUJ_USER&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vDacCVYJJhIGowc/ALVWZB7EOIE0bAxxvJzw9VddxSUR0wiZVDA="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:kp0BVj+sc2NbkPigc0RybLzjk6pZj/N1Amp3jm0J5J70AksDz6g="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TDI45864teragen&quot;+pid"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -900,11 +901,11 @@
   </node>
   <node componentName="tTeradataConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
-    <elementParameter field="TEXT" name="HOST" value="context.teradata_host"/>
+    <elementParameter field="TEXT" name="HOST" value="context.teradata16_host"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.teradata_database"/>
-    <elementParameter field="TEXT" name="USER" value="context.teradata_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4yyhg0IXWgt9e02KWqpuzRhpapvUkWsBjRzk3Y8S26d+Ja3MT71RgatN+VJ3FUBDJxxyuCc="/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.teradata16_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.teradata16_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:n196U8Vb54OsAA1rHcHShNCOSVq8khAWKHKjRWrPhtQE+U2NSC8vPVvJPvIbVusO3lXp2TLZcg=="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -973,7 +974,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Teradata"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zwOxRRhhDfbs0t8/DR2kH+AUmWnVVOcLIAxHBoAj"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JPag4HyBJ+nyF909EXkFoozSwYzbJLkgHWyOgUyz"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TDI45864tera&quot;+pid"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" value="SET"/>
@@ -1089,7 +1090,7 @@
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RniagXjaEQioryDc7gLzqTpgnUNCObyu0PamVbyG"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mn5kIcXfAnVgBxI0qRr7dEil21BdQfKbwCbc/VUT"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1121,7 +1122,7 @@
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:U9OuVg1UHDBTf/XfMUShrfrf6U61YMFO3j7nlNtE"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7zo9N+pVvpBydQxYyPLkyIT3WO/jH9GGPh30GnR/"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1418,13 +1419,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_93f8cc3d-bf80-4e28-8ebe-9620b59484bc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8YJgkktkeTOCRsIcTKX6CoTFrozXi90394e5xSIYHsArzKr2RbyKq+5FuK3UP1VzZXDx8dxcIe+p&#13;
-5a5gaP4MKg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1342ee24-4f23-4c36-91e3-02fae4087a5a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AK1c4BzARWwisyScSl0XvKvcEUXFpJqj1b81hU9fk+F8EsVM7ruJjf6Yr37TSEATSzi4Bp8XuMC5&#13;
-5MxYrJO9qw==</DigestValue></Reference></SignedInfo><SignatureValue>ld+40SQl98McguludvBAIw6GjUpqYJRdeyOP9p27MB3O15rw7yGAQh39dt+CRDyBpx79leae07Ym&#13;
-9q1pj5C/ySqetRSbppqUE6EUK0dfWL3nL0RyVIasVIs9xtle6kQRXXAUAG2M8eQ0VpJV69GUWnTF&#13;
-fATFkEgIXpvJy8imT5PS/7z7RONEG3/VbAK1UHnR0mc344iGJC/Bbij55S22bxGVvlcawzzdjiP/&#13;
-dyWv7PEP+imEv5Fpz3kPyT9UZiRPORtBvbxTBsZAJzE2LCQAyslLArStKeZGzOw28I5mqoojitjq&#13;
-B4t6AYwwQ7tlwidtEVQ77CVtpe8CaBglzF8IXw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_90b2d6a5-2075-4c9c-98f1-07e68e174bd4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xoxC+IsKJB8HVasL7UeumsX9r9ZlTUzmaw8G/4y46i6QJaKr0CzOzExxudbvXxDFtOregPhRv4AD&#13;
+ru+gIwCmZg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_75d8e5ba-d30c-4173-9b49-0ca406f39478"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hgZJjat5lXBVknpX044Z4iBSN+m9bCLxhMsSuBr+OWIHVdYdgXIOH9xWy1G204PQzzQIN8vdfFEY&#13;
+HxjYkaUXvA==</DigestValue></Reference></SignedInfo><SignatureValue>bESEGtxnuPrAH7o5jN+D3CO1tryqUBrge/Z0XUST+dT/GRa2DbbKmgc/kCymmqNADfkBdnctP3p4&#13;
+HsYxAEJcjgHxTpWtqVqIaISREEWb5ulEqgkuCT27KZc17cMNIqaA507TqR2PTeusKVPRpgMi4S8/&#13;
+mK8YJvOvsbyXwGNCpKJxnTx3hHpiDqTrhl/hS3fAAXdjCOdnViMpLpEsGht5hWqZe1Njtbywzr1k&#13;
+1sKldUlNanEawYnmALlu9vK24/Tq+55etisTY8rqrSfxJsB1M5HjNfXcMtsyB0Zm+XgYfuXjd5ZR&#13;
+Fka/UtScQtPvXlFRUhBq1YsrLj/mrkzuX+CxXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1446,4 +1447,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1342ee24-4f23-4c36-91e3-02fae4087a5a" Target="#_93f8cc3d-bf80-4e28-8ebe-9620b59484bc"><Timestamp>2021-10-22 01:30:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_75d8e5ba-d30c-4173-9b49-0ca406f39478" Target="#_90b2d6a5-2075-4c9c-98f1-07e68e174bd4"><Timestamp>2021-10-22 08:30:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
