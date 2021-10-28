@@ -95,7 +95,7 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2021-07",
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2021-10",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "ok"
@@ -322,11 +322,6 @@
     "id" : "org.talend.designer.esb.webservice.RestRequestWrongCallMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
-    "status" : "ok"
-  }, {
-    "id" : "org.talend.designer.esb.webservice.UpdateBuildTypeForDataServiceMigrationTask",
-    "breaks" : "7.3.0",
-    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.designer.esb.webservice.migration.ReplaceDefaultProxyIPMigrationTask",
@@ -897,6 +892,11 @@
     "id" : "org.talend.repository.model.migration.AddHashKeyFromInputConnector4tHashOutput",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.AddHourFormatToBigqueryBulkOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.AddIncludTrashFilesOnGoogleDriveListTask",
