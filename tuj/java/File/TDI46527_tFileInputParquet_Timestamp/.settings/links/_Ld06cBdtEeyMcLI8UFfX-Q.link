@@ -1,0 +1,57 @@
+{
+  "itemId" : "_Ld06cBdtEeyMcLI8UFfX-Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__-4m4PmgEeak6ejxj0PNSg",
+    "parameterList" : [ {
+      "id" : "_1OepERRfEee2U5mYeY1TYQ",
+      "name" : "data_dir"
+    }, {
+      "id" : "_1OepEhRfEee2U5mYeY1TYQ",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_1OepExRfEee2U5mYeY1TYQ",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_1OepFBRfEee2U5mYeY1TYQ",
+      "name" : "result_database"
+    }, {
+      "id" : "_1OepFRRfEee2U5mYeY1TYQ",
+      "name" : "result_host"
+    }, {
+      "id" : "_1OepFhRfEee2U5mYeY1TYQ",
+      "name" : "result_password"
+    }, {
+      "id" : "_1OepFxRfEee2U5mYeY1TYQ",
+      "name" : "result_port"
+    }, {
+      "id" : "_1OepGBRfEee2U5mYeY1TYQ",
+      "name" : "result_table"
+    }, {
+      "id" : "_1OepGRRfEee2U5mYeY1TYQ",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_kbpp4BXAEeyMe7SCSuzsrg",
+    "parameterList" : [ {
+      "id" : "_kb6IkxXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_database"
+    }, {
+      "id" : "_kb6IkRXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_host"
+    }, {
+      "id" : "_kb6IlhXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_password"
+    }, {
+      "id" : "_kb6IkhXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_port"
+    }, {
+      "id" : "_kb6IlBXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_schema"
+    }, {
+      "id" : "_kb6IlRXAEeyMe7SCSuzsrg",
+      "name" : "oracle19_username"
+    } ]
+  } ]
+}

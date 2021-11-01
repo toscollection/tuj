@@ -1,0 +1,54 @@
+{
+  "itemId" : "_SkNMIPkBEeuO7pwxHwoiSw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_c_FzcPj9EeuO7pwxHwoiSw",
+    "parameterList" : [ {
+      "id" : "_c_s3cPj9EeuO7pwxHwoiSw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_c_s3cfj9EeuO7pwxHwoiSw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_c_s3cvj9EeuO7pwxHwoiSw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_c_s3c_j9EeuO7pwxHwoiSw",
+      "name" : "result_database"
+    }, {
+      "id" : "_c_s3dPj9EeuO7pwxHwoiSw",
+      "name" : "result_host"
+    }, {
+      "id" : "_c_s3dfj9EeuO7pwxHwoiSw",
+      "name" : "result_password"
+    }, {
+      "id" : "_c_s3dvj9EeuO7pwxHwoiSw",
+      "name" : "result_port"
+    }, {
+      "id" : "_c_s3d_j9EeuO7pwxHwoiSw",
+      "name" : "result_table"
+    }, {
+      "id" : "_c_s3ePj9EeuO7pwxHwoiSw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_8UXXkEN_EeK0nZUMqQIKvQ",
+    "parameterList" : [ {
+      "id" : "_QFP5Ifl_EeuAp7Rxuhak1g",
+      "name" : "mysql8_database"
+    }, {
+      "id" : "_QFP5Ivl_EeuAp7Rxuhak1g",
+      "name" : "mysql8_host"
+    }, {
+      "id" : "_QFP5I_l_EeuAp7Rxuhak1g",
+      "name" : "mysql8_password"
+    }, {
+      "id" : "_QFP5JPl_EeuAp7Rxuhak1g",
+      "name" : "mysql8_port"
+    }, {
+      "id" : "_QFP5Jfl_EeuAp7Rxuhak1g",
+      "name" : "mysql8_username"
+    } ]
+  } ]
+}
