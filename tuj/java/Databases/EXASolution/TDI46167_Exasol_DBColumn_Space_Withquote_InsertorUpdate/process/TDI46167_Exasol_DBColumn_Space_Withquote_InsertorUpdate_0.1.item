@@ -13,7 +13,6 @@
     <contextParameter comment="" internalId="_xHX8-t-6EeuVecc5rIZFXg" name="exa6_port" prompt="exa6_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_xHX8-9-6EeuVecc5rIZFXg" name="exa6_username" prompt="exa6_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_xHX8_N-6EeuVecc5rIZFXg" name="exa6_password" prompt="exa6_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_xHX8_d-6EeuVecc5rIZFXg" name="exa6_database" prompt="exa6_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_xHX8_t-6EeuVecc5rIZFXg" name="exa6_schema" prompt="exa6_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
@@ -59,7 +58,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:u/u6JbBD/7HEiu8ygfcmWDQNhBMg2b+tAMQpCMEU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:edI7xzSai2DuSnDz6P97F9+78HZIdy0frpAd+fG6"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -74,7 +73,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/731Patch/07EAP/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/731Patch/Oct_1019/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -94,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:oJN07VcLqkvzvTqv4NqsuogVr5Dmx1SzMvCcLzge"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KK01CpholWy6Na9pUwC3aImA6SKEdAN9K54zI/oH"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -327,7 +326,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nURCqDfy61VQt0Nir0WI4gtWQE02pngdrrJdS/WqxnGYGW71EjMMbtMjK3Ozqr0LDiXk"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:F2vxQOmO9dwpb6iwI0hMO9sSvxYT5+zK3LdCOrz/yRGf0qn0V8U5uGvDbdUEdwAEvwuu"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -439,7 +438,7 @@
     <elementParameter field="LABEL" name="NOTE" show="false" value="Note: You can configure a server or cluster as ip-address range or comma separated host/ip-address list. &#10;        Examples: &quot;172.16.173.128&quot; or &quot;172.16.173.128..130&quot; or &quot;server1,server2&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:baq1gLp41bXPi5upj405QaETUFZZQZAcLavQzzoQ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:4h+rycC7dFLEfgaglHvzj09TeN/flA9QWF0puWBX"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -484,9 +483,9 @@
     <elementParameter field="TEXT" name="HOST" value="context.exa6_host"/>
     <elementParameter field="TEXT" name="PORT" value="context.exa6_port"/>
     <elementParameter field="LABEL" name="NOTE" value="Note: You can configure a server or cluster as ip-address range or comma separated host/ip-address list. &#10;        Examples: &quot;172.16.173.128&quot; or &quot;172.16.173.128..130&quot; or &quot;server1,server2&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.exa6_database"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.exa6_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.exa6_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Bto2ZMuCQEXXGS+gjQ6cf5+UuoLpZRdLj0dFi0Ga+tDVDJU8vquhb0HpmV8c3o2tmA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LWwmnxNmyszi8st2xnuoGrzd4ATuYoZ2qpb2+wZSvFKp1S6WFY8yyXgjF0kwoC50mA=="/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
@@ -540,7 +539,7 @@
     <elementParameter field="LABEL" name="NOTE" show="false" value="Note: You can configure a server or cluster as ip-address range or comma separated host/ip-address list. &#10;        Examples: &quot;172.16.173.128&quot; or &quot;172.16.173.128..130&quot; or &quot;server1,server2&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Gob7T2bDRPgIjaQr9B4+JE0h6qgrwqMc2xI0S31e"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DFjLVOh5CqIoYCl4SQenQVigJ4yOKvqcx5lxT1rL"/>
     <elementParameter field="DBTABLE" name="TABLE" value="(String)globalMap.get(&quot;tableName&quot;)"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -624,7 +623,7 @@
     <elementParameter field="LABEL" name="NOTE" show="false" value="Note: You can configure a server or cluster as ip-address range or comma separated host/ip-address list. &#10;        Examples: &quot;172.16.173.128&quot; or &quot;172.16.173.128..130&quot; or &quot;server1,server2&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Jx1CQhztbdEzKBeH3gbNqzvBzT3JfBHPiAcLGhyN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:M2VOX5X6LH8/EKz2C3ZTh9TFKJQnCt353FiDbPgu"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -808,7 +807,7 @@
     <elementParameter field="LABEL" name="NOTE" show="false" value="Note: You can configure a server or cluster as ip-address range or comma separated host/ip-address list. &#10;        Examples: &quot;172.16.173.128&quot; or &quot;172.16.173.128..130&quot; or &quot;server1,server2&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qfwNUcoepKBmGrvb6J5bXadf1ZAWXCpI65Qj4LLE"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lAatMODio/xK1trRPY+S3I7k4kqwSmN9zYmYbr9n"/>
     <elementParameter field="DBTABLE" name="TABLE" value="(String)globalMap.get(&quot;tableName&quot;)"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -1126,13 +1125,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7f29bb03-7994-4eb2-bde6-debfaf9b5314"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YNJt9Bilb8d2aKy0gzxz9dRbwoGeS9S9RYL/4JOzwvr30JIeZgT2WV9bHnUuRi92v59nE8OUL4Ni&#13;
-n/KGm+J9jA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fdc91be0-f62c-4249-84aa-bee7810e169b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1zLLN36L445lom5e3ZB92gSa9TUW2UtMI5smJ7O2F84f2BfFH91z0rGJGg1ytc9397OY0QNZ1272&#13;
-2CVObMWf2g==</DigestValue></Reference></SignedInfo><SignatureValue>YCKg7RbD2TWy3OsE2tyKaou295tKqCOnm2ZNBg6tdb91a8n7TqHdUZE+nqMNnzgVRrcIO8GEFVpL&#13;
-tfqlG+NVopohIq7gH+VGWFsEmIg9GCA6BHW68PquEq2UdgYvyiWxfVPfQnkDcoFyN+LaunqMeZm3&#13;
-1BvdFLpiYkRyqRMbK55QPOST4kwWfWw8+gnIlJAQsRfDrR4bsuPnHgiz88ttd5wC/VwzpUnLTb1V&#13;
-HfkFih/Tu13Yh0y4uefOLItlXq34GV+11k0GAthA6oejc7iPTX2HADIwuAfypQyoUNe4ltwy7v8W&#13;
-K01Vi9pkQVsrxiytdE7U2M1RAgX9kk5cJusmSg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_93cc1331-3298-4bf4-86fb-250edf68179c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bbznRex3g4y25weLX1MfoSR+hz/HYo7b7R+V4yxPCaFQ9tRwpHtsNxUwYdjTTa31btMf/gJ0iawW&#13;
+Rodp0PwaBA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_23df40e9-7732-42f9-95af-f5c0bfe4b99b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gALWmN3wsuUK9nvYL281RTqscRvwtAFkaCTfLDamZuaC2YWw2b0+hUXyfMNNv1KJWqCmQkWByjPS&#13;
+qtg7Z1JD+Q==</DigestValue></Reference></SignedInfo><SignatureValue>MQ5sYRTkwXPhib5mQoiWwmrfS85OFLIlt2KCYg77h7SjjZwnocmU1e8dxamCs6AIiPkwgtGdx9zX&#13;
+L0LQgXUae4VvZdoDZHOFTDBDaCyA9c0OtSzT2ywiroHVERUw/+oJEnfvBNLmAJoUSzGkRoEx5kmm&#13;
+pStpwsYwZujBz6jUzgAwR9QSqcSwh+Lw4wbx0Abl9GtIKP58LH2U0C3vc6AbUr+wHCl+evf7xCB3&#13;
+koVmulvMPv25iZzuoYt9vtroiFAQvaQJt76E+B21c8IcOQxzZI34vir9n8AvuwuK+dLPuxgVO6Z3&#13;
+5Fcl/QkQGLLxWLo/XJFdNeuX0AEnHDdmUctphw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1154,4 +1153,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fdc91be0-f62c-4249-84aa-bee7810e169b" Target="#_7f29bb03-7994-4eb2-bde6-debfaf9b5314"><Timestamp>2021-07-23 06:32:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_23df40e9-7732-42f9-95af-f5c0bfe4b99b" Target="#_93cc1331-3298-4bf4-86fb-250edf68179c"><Timestamp>2021-11-01 06:35:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
