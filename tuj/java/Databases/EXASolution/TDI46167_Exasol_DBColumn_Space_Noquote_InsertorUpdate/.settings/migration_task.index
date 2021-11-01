@@ -95,7 +95,7 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2021-03",
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2021-10",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "ok"
@@ -397,6 +397,11 @@
     "id" : "org.talend.designer.mapreduce.repository.migration.UnifyPasswordEncryption4ParametersInMRJobMigrationTask",
     "breaks" : "5.6.0",
     "version" : "5.6.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.UpdateActionOnFileForHDFSComponentsMigrationTask",
+    "breaks" : "6.5.1",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.designer.mapreduce.repository.migration.UpdateOracle18VersionSupportMigrationTask",
@@ -889,6 +894,11 @@
     "version" : "5.2.4",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.AddHourFormatToBigqueryBulkOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.AddIncludTrashFilesOnGoogleDriveListTask",
     "breaks" : "6.5.0",
     "version" : "6.5.1",
@@ -1062,6 +1072,11 @@
     "id" : "org.talend.repository.model.migration.ChangeDBName4Hive",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeDBVersion4tSAPConnection",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeDBVersionValue4BonitaComponents",
@@ -1822,6 +1837,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.RenameConnectionName4tSQSOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.RenameConnectionNameofSalesforceOutput",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -2089,6 +2109,11 @@
     "id" : "org.talend.repository.model.migration.SetDefaultValue4tWriteJSONFieldGroupByOutput",
     "breaks" : "5.6.0",
     "version" : "5.6.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.SetDefaultValueForAttributesToElements",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.SetDefaultValueForNewerEmailFirstOfTDI35976",

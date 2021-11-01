@@ -65,7 +65,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:UO34HCdX4smJLNoS90MKJWxDGr9jfKHZNklvQ5RR"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:1dH+aAhT8lehmwJVFqY8sl9jboj9dljNMXYO5zVD"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/731Patch/07EAP/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/731Patch/Oct_1019/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -100,7 +100,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JL/896RNx+D8f0HUpZCVGbovkQagkoGO1PeJ2SBP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8vAFseJ9KWrHUPLyLeWvbqpPFLN+QEfMzIvOFKhl"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -237,12 +237,12 @@
     <elementParameter field="TEXT" name="PORT" value="context.mongodb34_port"/>
     <elementParameter field="TEXT" name="DATABASE" value="context.mongodb34_database"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="context.mongodb34_auth_database"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="context.mongodb34_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:N/0cvuVZ16q6vi+PpihgAoFr/JV6GzRMGID8XLan9edegI9+IHTvFOtHLhUrirDyVTXYyrGm"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.mongodb34_username"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:hw148PCw1D4ZSSldwR3Qq/c91XelkbQXsdmQAZk4sng5sfZaHkxpQjiZqET31iP41VGiWJNn"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -273,12 +273,12 @@
     <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" show="false" value="PRIMARY"/>
     <elementParameter field="LABEL" name="READ_PREFERENCE_NOTE" show="false" value="Note : Use Connection component to set Read Preference"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="context.mongodb34_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:bwlCi1lEL8GwcQPf7HhxiSyPBZLri0d2NsimUGyrzuHA+8L9PnvpzV84XUNi3NuYqO1tmBJK"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.mongodb34_username"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:2ZEt7+YrrPChhvMy0nwRDYEmkvNq0kZBa7gOn5R0O9sgP8tX5D9gKufCWX74sIVOzIL/FESL"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -557,12 +557,12 @@
     <elementParameter field="CHECK" name="SET_BULK_WRITE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="BULK_WRITE_TYPE" show="false" value="Unordered"/>
     <elementParameter field="TEXT" name="BULK_WRITE_SIZE" show="false" value="&quot;1000&quot;"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="context.mongodb34_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:GEJpc9Hx5KAjwd+NNiu3JwB7V2Iu/gAQV+0neT2Csq4eIjmkZegEyoeSbf/W+lpu9EV6336g"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.mongodb34_username"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:NgufemdMMj2reBDpXokXyxdgdZrPhFPkzQwkiYh6YbhwcwK9F4xRvilaGpxTUfiD1BnHr1b2"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -685,12 +685,12 @@
     <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" show="false" value="PRIMARY"/>
     <elementParameter field="LABEL" name="READ_PREFERENCE_NOTE" show="false" value="Note : Use Connection component to set Read Preference"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="context.mongodb34_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:pxyMO30WsmYq3uCDXTexK+QoKcLInRPBEV9+e9wS2q0zGy+LfpYn7vxUCJLH1V3jeyhTOnbx"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.mongodb34_username"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:LSBPlsK/v/5G1otZHkY3aA+5Wii66ro5GBQTQGeoKg1LPlQfGeDObZWHcI2hmlo1nggyhyIN"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -949,9 +949,9 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SmgQPurpgni9FWX1miKvj8KV+Qniis+3Mt2KpYOH5mOAO+yWFPsR61W3+PRf+eOw08c4"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mKyviqXusmV7oHc+mV+ONxt9hilvebs55Oo7bj4vHUx/7LqrAKbgElaYgiA/43M/+cFQ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
@@ -1294,13 +1294,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_781f15a2-b2da-4a96-ab1d-453311655b19"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>A6nGuouKJQyhPXL3ey+kk0Whx69iY3FAJdqHxSQrJlGHT+aUy0GcwYgRMhGRdJO1Gp64d0dNKeyA&#13;
-ty93WQHjCg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_95d4efe8-8516-42c5-a765-d6af6b1fd9b5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pw7HC7NE0Y3ZUndQQlKuvpAz4cHNRqtqxUd6/wGBq9KJIfwyUofjb5c8mdNYw6DyNesoLG43alJV&#13;
-/QA4+eKWSQ==</DigestValue></Reference></SignedInfo><SignatureValue>ZGE44qlO8+FG3+CzmLMMq/l4abEDESjvzp6pZjOvHfWHcKTaaly1Ny0AMhrWK1jOPHuE02PcnFey&#13;
-hgNTsOWXgE7BuLzskvrcMiDvoU/TnwiJTVvq1eHljNpFKAOYddID3NHjRJKvXujcO05WcDdn4AxB&#13;
-xxv4JMhAzc9yDwBdTJ0jn8SPYt1zkL8DLCcv3GxSjBusIY4xusLBozxFhtnI/POFK2SjAwwDFVXa&#13;
-ozMEGIBis2BHonSyvs38C9kvJtLGWagPzVziXd64mrxSOavf2eFyh3qYhHNBazGRp6nEJPABFpKq&#13;
-cszjDxiEbyyeetdZ6PYurtUZYXBx7l5A5YWShw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d6fdb749-fd13-4dab-b27a-6c1df9f31b80"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>daTe8UzYQ2/k9OvHe3+JVAqQAEusfTDb8/1W0AGrJ0BNsn42T0uT74DNLDeVWZD6sbDV5ZOwEqP4&#13;
+dbEbTp39fQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_66cd4def-ee45-4aae-9c7e-56a13877e6fd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>svqyX86/d30iIvppPb+nLy9bK2BBt2YYT2WBLAlls5D9bp1wNYPjQYuTC9BODEb0zmF7ucCs2r/U&#13;
+jIe7xqkFeg==</DigestValue></Reference></SignedInfo><SignatureValue>Qmu9uy9SAWjQYR596ELe40wRSS3j8XT/BoyWFs68jh8/o65BWlWXu2KsIJD/9WyNK0oADSVLPrRi&#13;
+2NDD2OMQcFtHgGcEh6461SuwhGLI36LqNuoBDORot7MEMRFv5/8t4itkNzZUmH8KdVuZBI3/jo0m&#13;
+TxnZLeeABWMZdWG4seBU/600j/TPengnfJQLO9pSmIoV0R0z15zwiFf87I/VdTiItusyh7auBRmm&#13;
+JOyIlFbxtfqIMpx3VCN/Yt1GFZC+iXpuWcEgFpOdaA0HkRbILF/htY/zTEu52NM9uGzRh6CkBjhz&#13;
+jFa3ZoB18VGqimaGqeIVHYOwhlQ4uDMDaasGLw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1322,4 +1322,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_95d4efe8-8516-42c5-a765-d6af6b1fd9b5" Target="#_781f15a2-b2da-4a96-ab1d-453311655b19"><Timestamp>2021-07-23 06:29:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_66cd4def-ee45-4aae-9c7e-56a13877e6fd" Target="#_d6fdb749-fd13-4dab-b27a-6c1df9f31b80"><Timestamp>2021-11-01 07:04:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
