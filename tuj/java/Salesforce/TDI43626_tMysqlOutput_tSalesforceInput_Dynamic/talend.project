@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_olZMMV6pEeqcnbI-yNuUYw" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_olrgEF6pEeqcnbI-yNuUYw" productVersion="Talend Data Fabric-7.4.1.20200304_1948-SNAPSHOT" itemsRelationVersion="1.3">
-    <migrationTask xmi:id="_p1xO8F6pEeqcnbI-yNuUYw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  <TalendProperties:Project xmi:id="_--iHcfv9Eeuz2u4DnXISKQ" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_--pcMPv9Eeuz2u4DnXISKQ" productVersion="Talend Data Fabric-7.3.1.20210812_1039-patch" type="MDM" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_9x72kP8gEeuoYuBtpSpDcw" name="DI|tEXistConnection" family="Deprecated"/>
+    <componentsSettings xmi:id="_8sQFMAACEeywi9bvgBSN7w" name="DI|tMondrianInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_9PIv0AACEeywi9bvgBSN7w" name="DI|tPaloCheckElements" family="Deprecated"/>
+    <componentsSettings xmi:id="_skEEMAADEeywi9bvgBSN7w" name="DI|tVtigerCRMInput" family="Deprecated"/>
+    <migrationTask xmi:id="__MIekPv9Eeuz2u4DnXISKQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
-  <TalendProperties:User xmi:id="_olrgEF6pEeqcnbI-yNuUYw" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_--pcMPv9Eeuz2u4DnXISKQ" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
 </xmi:XMI>
