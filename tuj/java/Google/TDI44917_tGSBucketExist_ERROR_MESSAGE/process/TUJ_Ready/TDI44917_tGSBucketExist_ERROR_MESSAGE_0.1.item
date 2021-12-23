@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="data_dir" prompt="new2?" promptNeeded="false" type="id_String" value="c:/temp/tujs/"/>
-    <contextParameter comment="" name="data_output_dir" prompt="new1?" promptNeeded="false" type="id_String" value="c:/temp/tuj_output/"/>
-    <contextParameter comment="" name="param_file_path" prompt="new1?" promptNeeded="false" type="id_String" value="C:/Devx/Tujs/context/template.csv"/>
-    <contextParameter comment="" name="result_database" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="result_host" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="result_password" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="result_port" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="result_table" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="result_username" prompt="new1?" promptNeeded="false" type="id_String" value="null"/>
-    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;default.txt&quot;"/>
-    <contextParameter comment="" name="filesize" prompt="filesize?" promptNeeded="false" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_VhwKED1XEeynDIDaFT-_ow" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/temp/tujs/"/>
+    <contextParameter comment="" internalId="_VhwKET1XEeynDIDaFT-_ow" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/temp/tuj_output/"/>
+    <contextParameter comment="" internalId="_VhwKEj1XEeynDIDaFT-_ow" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Talend\context.csv"/>
+    <contextParameter comment="" internalId="_VhwKEz1XEeynDIDaFT-_ow" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKFD1XEeynDIDaFT-_ow" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKFT1XEeynDIDaFT-_ow" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKFj1XEeynDIDaFT-_ow" name="result_port" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKFz1XEeynDIDaFT-_ow" name="result_table" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKGD1XEeynDIDaFT-_ow" name="result_username" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
+    <contextParameter comment="" internalId="_VhwKGT1XEeynDIDaFT-_ow" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;default.txt&quot;"/>
+    <contextParameter comment="" internalId="_VhwKGj1XEeynDIDaFT-_ow" name="filesize" prompt="filesize?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_MAfhQD4-Eey4q6r2dSy_2g" name="google_service_account" prompt="google_service_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Debug"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
@@ -54,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:9tR/0JUiDDGoA6mdHMdp4h4FxrNw7qJHgqEFCuMb"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:dEqQYjVAFfRuuo+xV5ffrQD1qxF1SmP2YFMT45Um"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -69,7 +72,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/Studio/Talend-Studio-20200219_1130-V7.3.1-TDI-44917/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/Studio/Talend-Studio-20211102_1238-V8.0.1-TDI-46945/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -89,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:438htVVkskaiVZbzNe8Fob27r2yZT+gbgrRPOso6"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:bkmIIHc1BbulH+YoXC0SZUwZZHBQyOnM2OV/oI7X"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,12 +121,6 @@
     <routinesParameter id="_nF5yUAyjEeujsMqW0F80Gw" name="TalendDate"/>
     <routinesParameter id="_nF_48AyjEeujsMqW0F80Gw" name="TalendStringUtil"/>
     <routinesParameter id="_nF81oAyjEeujsMqW0F80Gw" name="TalendString"/>
-    <routinesParameter id="_7EYO8Hg7EeuMjI_Ixq8SGQ" name="DataQuality"/>
-    <routinesParameter id="_7EcgYHg7EeuMjI_Ixq8SGQ" name="DataQualityDependencies"/>
-    <routinesParameter id="_7EkcMHg7EeuMjI_Ixq8SGQ" name="DQTechnical"/>
-    <routinesParameter id="_7EpUsHg7EeuMjI_Ixq8SGQ" name="MDM"/>
-    <routinesParameter id="_7ET9gHg7EeuMjI_Ixq8SGQ" name="DataMasking"/>
-    <routinesParameter id="_7Egx0Hg7EeuMjI_Ixq8SGQ" name="DqStringHandling"/>
   </parameters>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
@@ -408,7 +405,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DR00AobxM4egCCz80z/C144tPYrXeOOzi7j6P57/aACM3IoYrbhdlDEOWlnpRT7IPPgC"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SNmuR3agDM1zhr55vJCjALDeeKopwCjv0M3wc6sItxnXIjJowBw6t+m9L3EbAeEaBsYJ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -546,9 +543,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tGSBucketExist_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:ID+T1it3ihUEHdQUFuvrdR6uRUeHPAvHHrhdM3hR"/>
-    <elementParameter field="TEXT" name="BUCKET" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" value="context.google_service_account"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:z29DATwk6MxT6RMoRPkwJ5g2iZ1peB/E0hbM9W9M"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET" value="&quot;42&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -556,9 +556,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tGSBucketExist_2"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:gbtX/KU5iFMVq1ByxbtPJ8FAywfe88qqeIfamBXx"/>
-    <elementParameter field="TEXT" name="BUCKET" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" value="context.google_service_account"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:3Xxb+N+hx2u51NVsKJPpyEyTbmVZuLS6VcycFlyH"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET" value="&quot;42&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -717,6 +720,8 @@
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tGSBucketExist_2" offsetLabelX="0" offsetLabelY="0" source="tGSBucketExist_2" target="tAssert_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
   </connection>
+  <note opaque="true" posX="224" posY="480" sizeHeight="64" sizeWidth="449" text="Die on Error false:&#13;&#10;Connection successful, wrong name for a bucket."/>
+  <note opaque="true" posX="224" posY="736" sizeHeight="64" sizeWidth="449" text="Die on Error true:&#13;&#10;Connection successful, wrong name for a bucket."/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
@@ -768,13 +773,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6a81605e-7632-4728-afef-252c270b491d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oh63iZyjfXH8SfvIwm8/BXXbsSmLr/hO/uaN28zlVlkkGYgCHfvuC5WHZzNb6+vM11U+o91mX/Uw&#13;
-1tFidqe8qg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d57e0f5-b8d9-49b5-8c1e-c42892313bab"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tDBpvslv5skSe0BoUoq05bA/HYqYhgffaNnIk+mi3Vjt3zq2FKyZynd/PAvg9LAIFlXjrxAeJ6uI&#13;
-jAjlBwwByA==</DigestValue></Reference></SignedInfo><SignatureValue>ejxbhCTNQMNqpLRxR5jrGdACEJjSpjVELcEuHxWcls18O8AHfO0n7Zrl8tSoL9Eviz4d7YO3rTR1&#13;
-o2IapTt47Y+HVNqU1U4WCeRxTSsCxIVSUNwYI3Exg2SISjTtMaZFUxtVWYAH6ynyvBtE60TVOCry&#13;
-L5ihfw18VuB7s5deV3NotT2YTr/kjKhD1WzQVa1ocOWOzmHwNF6i5bhrmhPr8zjBneg1EPW8ID9K&#13;
-H1sSFQGIFu/dZBDsHZVOPLzpGABV/9FvBXYigHbZzC84H9pVihyP8UXxJq/sqwV9SF6V9dB9H7k+&#13;
-FF9gcwBV3qbImwmaUrHi5TZIIA5PNU2rvJwRcg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d0ebd44b-d3cd-432e-a37a-d60cfff98e0e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TTX2JVfHijI6fFpB71xVFFtn1N9/7bO6dAwQ9WgLsU5KQ9nsw8H+ZITSl5zd5FCvmEy6qT8UkgCI&#13;
+8ObpYQOAmQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_51091528-f2c2-411a-b1be-fb8e0670410b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TVz0CZ1ScjcvFeiNEkJu3oQ5Ar1L4uy5icdF8tkITgg6Ytvqbs6jExDhVwEJKp9dpzI/lJmZw0bx&#13;
+H9t3ChfPdg==</DigestValue></Reference></SignedInfo><SignatureValue>BZwvA+HmESZ7l0HvlG9CvtuSdjh/lBv/5jChA4Kw2LLxFdCHUPHXOOJJVngxvgbUa5I0N7xJcYF8&#13;
+2/x2mZwXFBei5QuFOIkSjSjayQ/SBupzxQPTpdWdm14GDDaJMT57eF+3aNpRWmhSQ+Wo24yyWao2&#13;
+NQrfQ9zzfp9f8T+JOr3F1spgfkidciRFlf0+i+8p7x9bbjqzmLjuN5SVUHngxC93mhQtOK6Ggf2f&#13;
+A/czg1lfvbHEoCOqmiaqSYPGQZCkMN+HxT2XndII1UXN0Wmz1Svr6yrZS7dvp+WS7nuPvRzlWXJq&#13;
+1/tY9NnwfKgCG+12HYaYaXc69MbUHSMADCzaPg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -796,4 +801,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d57e0f5-b8d9-49b5-8c1e-c42892313bab" Target="#_6a81605e-7632-4728-afef-252c270b491d"><Timestamp>2021-03-24 15:16:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_51091528-f2c2-411a-b1be-fb8e0670410b" Target="#_d0ebd44b-d3cd-432e-a37a-d60cfff98e0e"><Timestamp>2021-11-08 11:16:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
