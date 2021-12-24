@@ -75,6 +75,26 @@ The template, as cleaning example, delete the file created by the `tFileTouch`.
 To help you to design TUJs, a template has been created.
 
 ### Import the template into your studio
+
+![To remember](./images/warning.png) 
+:warning: The Studio version should be an official release and the oldest possible still supported version (see https://www.talend.com/technical-support/support-statements/).
+  
+Examples with explanations:
+- Case 1: Feature is available starting from 7.3.1-R2021-10
+  - Expected:
+    - Create TUJ on Official Released 7.3.1-R2021-10
+  - Version:
+    - Use version of the feature implementation to create automated tests.
+    - What to avoid: Using a later version (ex: 8.0.1+) won't allow to run TUJ on previous ones.
+  - Official: 
+    - Official version allow TUJs to check regression over time, on stable environments.
+    - Nightly version should not be used for TUJs as they are temporary versions. Later failures might not be traced back to a regression.
+- Case 2: Feature exists since 7.0.1 but was not yet covered by a TUJ. After looking at support statement, oldest supported version is 7.2 at time of TUJ creation.
+  - Expected:
+    - Create TUJ on Official Released 7.2 Vanilla. 
+  - TUJ are created for supported versions.
+<br/>  
+<br/>  
 At the same level of this `README.md`, you will find the template for TUJ in standard folder. So:
 - From your studio, execute `Import items` and select `standard` folder
 - Check `standard_tuj_template` and import it
