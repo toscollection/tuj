@@ -25,7 +25,7 @@
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Debug"/>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx4096M&quot;,&quot;-XX:+UseParallelOldGC&quot;]}"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="1056"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="1184"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -65,7 +65,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OJWv4e7AxQOdtYJPTqK6CYjtT4SrwKccyiKR/ljb"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:IFxGAAkGgmcGAFysiPKKTrasT8btIlRXXn6XTFwI"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Talend/builds/801/Talend-Studio-20211109_1610-V8.0.1-22-02-v3/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Talend/builds/801/Talend-Studio-20211109_1610-V8.0.1-22-03/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -100,7 +100,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:4Ffpc+CBgs4Ymj40J0W7zzKiztV1x7dEvzI/MM8O"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:iienNSPDc2EoZZhFG2TA6C0jiBJ7fR7tf9fQzPzD"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -130,11 +130,11 @@
     <routinesParameter id="_6scC0BBwEeSYTs-VzPfvbw" name="SQLike"/>
     <routinesParameter id="_aeoR8IxmEeea_aPBMf1S3Q" name="TalendStringUtil"/>
   </parameters>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-992">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-1120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-992">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-1120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.param_file_path"/>
@@ -187,7 +187,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-992">
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-1120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
@@ -278,7 +278,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BmDZk0Avprk1NgL10SalPgNNHVaFWvsnDxqMLMCPWtL/X6F71hIEI06gtDhMvDjABKyc"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S+inRjMj9E89d34I0nb2PP1NOIgIMscNtKSzSlr6djrPgjJ62sXG/5MD9F0fZvojaTSr"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -390,8 +390,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:d5ucH8R851HeiGE+aOTwQoNVVH8BoYylxpLtVYDlfbc9UqR3yYbte/btjm+V/dfr8ZwZ7A=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:De9iT4HqtFOvyYx6mU+Yol9IFx/wUourxviVK5zpWvwBhsylGjmHOM2kxBXc5i/FCa2TPg=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="TEXT" name="configuration.dataset.schemaName" show="false" value="Extract"/>
     <elementParameter field="TEXT" name="configuration.dataset.tableName" show="false" value="Extract"/>
@@ -465,8 +465,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:Y9ejncxMU/xCe5iNX4WAgHfpiSCEqganpeUn+f0X+4gxQoEPU8dXyfkHqzMXGy7k4T3mFw=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:Ym2HiK6zqReqCiPfd7MJF9RPbiPMxZqYTttEP8kAMYz1YCRb/iQkpIt6u83r1h3Nd/Dbfw=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="OVERWRITE"/>
     <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="10"/>
@@ -500,7 +500,7 @@
     <elementParameter field="TABLE" name="HEADERS"/>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
     <elementParameter field="TEXT" name="USR" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PWD" show="false" value="enc:system.encryption.key.v1:2BsIs5AdFVRduA/u4Sk0qCxHp0p9156i7YYeXnqf"/>
+    <elementParameter field="PASSWORD" name="PWD" show="false" value="enc:system.encryption.key.v1:9r9OjOr+rNmDlGWYzOYoLCxL81NCkSpxMHaZtD0j"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="TIMEOUT_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECT_TIMEOUT" show="false" value="30"/>
@@ -707,8 +707,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:8Fn8rC2LVrXJZB+730CY0qXGSbjTKCV0EX0VpgSTCdxaiA0tph3M2fEClZ98Ac+WlvyPbQ=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:YyofVVh83flbGpll7QAyz0dZJPe7P41tIlZ91/vwBjwX/pkK8LVofqJW0iwzZv/LAxNljg=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="OVERWRITE"/>
     <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="10"/>
@@ -730,8 +730,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:3olRyuwH0/AO8k1SoJapypCNMS71mwv38oq6XgBFhNcXJcKwJR93kUAdGO5b/P7AYYJHNg=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:jazVlruEiu9jsrZc1oSO2S64Gi0cefL5NKPeeymM2w2fqoApMDhhQ5BuqUw9B4NiVXWTCA=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="TEXT" name="configuration.dataset.schemaName" show="false" value="Extract"/>
     <elementParameter field="TEXT" name="configuration.dataset.tableName" show="false" value="Extract"/>
@@ -844,8 +844,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:pw9t7qr4LMSG/mqcfOCyo2tuHxp9f+1QjaMnOWKmp7KhlPregj5weIAx7v2Iopqv1oxhdw=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:rsEBQ2hG0XguDGyNd58hhEkdGrz8PxTxHCOyRQX2+jQZwTeA8l2m94c14FW6TvoTFy9sNw=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="OVERWRITE"/>
     <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="10"/>
@@ -867,8 +867,8 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.serverUrl" value="context.tableau_url"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.site" value="context.tableau_site"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.basicAuth.username" value="context.tableau_user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:ChZ1It40RVxYJyVuzptWVGTNZJWLnVn3y0J9fzuPnFpPTARjonAfOcuLLbRxw2y2dVcTdg=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="context.tableau_subproject_name"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.basicAuth.password" value="enc:system.encryption.key.v1:nT1ujVpoCXhB7Ju4lEdM3rEsKwuKIfhF0KheIVwzDlLaE5kgVLeosXTj+iEB7spiSw1UMQ=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.projectName" value="((String)globalMap.get(&quot;projectName&quot;)).toString()"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.dataSourceName" value="context.tableau_datasource_name"/>
     <elementParameter field="TEXT" name="configuration.dataset.schemaName" show="false" value="Extract"/>
     <elementParameter field="TEXT" name="configuration.dataset.tableName" show="false" value="Extract"/>
@@ -921,6 +921,13 @@
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.io.* ;&#10;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String projectName = context.tableau_project_name + &quot;/SubProject1/SubSubProject1&quot;;&#10;globalMap.put(&quot;projectName&quot;,projectName);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_6"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tFileInputDelimited_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -1116,6 +1123,9 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_5" offsetLabelX="0" offsetLabelY="0" source="tJava_5" target="tAssert_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk17"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_6" offsetLabelX="0" offsetLabelY="0" source="tJava_6" target="tFixedFlowInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk19"/>
+  </connection>
   <note opaque="true" posX="576" posY="-864" sizeHeight="64" sizeWidth="385" text="Test point: SubProject">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="155;199;204"/>
   </note>
@@ -1235,13 +1245,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_13170deb-b08c-41ee-aa23-2dba22cd30a5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qDJPYMMZIuaS2us62ch+TAwDaaxpyjRAvucqBU6ACydFg9x+8zwpOIkeoVUP6C+DFmW4HVnxhQCv&#13;
-aYUsHAaHFQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5487fc7a-b7c8-4b47-9560-71b4662936a2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O/JMRTOv9lgVDaYUE1zUQtwfgmoqi5gJFRL1wQdY24vEJ3hf8S7f3jUsrRQw8fjTVqsntbDOwot2&#13;
-RR09mDBt3Q==</DigestValue></Reference></SignedInfo><SignatureValue>UhFNnK6FT8rtePNMD4eSmRBX5EGbjxJRruZR/MdEANRG3BKFd+mfj4azcUewJJwl58L0ZnTzF1r9&#13;
-l3dQvczHBq9hfz1htZ1IGuEPUJu5HBuLlJ/+NIdcH+94UIaCJJQ8tRtPZ9glzIq23kkeb0RcdK4b&#13;
-t6eU7k9nOhoOjtDWyxDWRngsX8cBNSOgba8vrFRsuYXCIJKKckjHpAvdWIhIR2E4ZXdpLLdLyG7h&#13;
-16JGpGhshpUQBTmU4MnTUSvy5/MDCeudVprzARdTYTJeJMCC1wsuRFHA6iICTDkLAuc6zQCKgxov&#13;
-OyYg1lYBW8J+95neXTN6WSU0aXXQ/ngX2vXwTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0fc3a1bf-4e94-4adf-8a86-972857b11f29"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eVxdCHHURVPl+BfbePmfpbYJxIAtJK7PAqBngFfE2G9sbpReKjv/wK2weeZyGzAt7/5mSRB7Vckd&#13;
+77cCjDgYOQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7977f6b6-19aa-46d9-8491-268e60604e07"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7umSzDCQL74Urn8GLZF9aesi4mROHgtXciLtZma75AbMMC6pI1QGcpwEo5/mrx5CzbyqizL4ECIa&#13;
+c/AnlnjNMA==</DigestValue></Reference></SignedInfo><SignatureValue>G2Ky1thlzHFY2bAbh7bGzvtQZyP/tUGttN/34eBqlViRA0TXWbI15O1a/EWHtzAVA7TYoBhJI/tp&#13;
+g4NKmNYKwctsfKIVht0jFZvcnTm1vKVW7xtnTA+GElbUTTVna0CkLedve0D4bU5WL2m4CTqLEC/X&#13;
+4TROJts7JV0mkevnGKlQcOPO2hnLuo/otyoLg2tO22LiuVrxAhKyZ4Wog38A56Ok6602N4H3LZwL&#13;
+DJROM9x/xvwkuK7IvmoUEXwpL2Yw92o7GNkzvfbUE4KGwDK3jEEki1gImC2N8bXTFmIeQIyySKZu&#13;
+3C19dCukgXw9vp8GLVAR5i99xr8eIva2wMAnWg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1263,4 +1278,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5487fc7a-b7c8-4b47-9560-71b4662936a2" Target="#_13170deb-b08c-41ee-aa23-2dba22cd30a5"><Timestamp>2022-02-25 06:31:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7977f6b6-19aa-46d9-8491-268e60604e07" Target="#_0fc3a1bf-4e94-4adf-8a86-972857b11f29"><Timestamp>2022-04-07 05:49:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
