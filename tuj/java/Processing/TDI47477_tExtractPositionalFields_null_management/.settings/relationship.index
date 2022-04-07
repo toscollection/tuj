@@ -1,0 +1,50 @@
+[ {
+  "baseItem" : {
+    "id" : "_jDO9cENyEeK0nZUMqQIKvQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sTYsoJ7wEeys1avJYfK13g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_u11CABQXEeGKSMIpN30X2g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ZzWP0F_zEeCwo9Sau7r6Ig",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "Encoding",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IMValidations",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "PMIValidations",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_mLOpQP-mEeC1f47GzksRyQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
