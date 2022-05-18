@@ -1,4 +1,4 @@
-country;telephone;StandardizedPhoneNumber;IsValidPhoneNumber;IsPossiblePhoneNumber ;IsAlreadyStandard;PhoneNumberType;ErrorMessage
+country;telephone;StandardizedPhoneNumber;IsValidPhoneNumber;IsPossiblePhoneNumber;IsAlreadyStandard;PhoneNumberType;ErrorMessage
 CA;819 569 0413;(819) 569-0413;true;true;false;FIXED_LINE_OR_MOBILE;
 CHN;459898;;false;false;false;;Error type: INVALID_COUNTRY_CODE. Missing or invalid default region.
 CM;123487;123487;false;false;true;UNKNOWN;
