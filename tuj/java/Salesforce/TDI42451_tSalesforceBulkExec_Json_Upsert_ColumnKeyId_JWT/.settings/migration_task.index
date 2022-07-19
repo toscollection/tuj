@@ -100,7 +100,7 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2022-07",
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2022-07-3",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "ok"
@@ -1925,6 +1925,11 @@
     "id" : "org.talend.repository.model.migration.RenameTCOMPCouchbaseMigrationTask",
     "breaks" : "7.2.0",
     "version" : "7.2.1",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.RenameTimeoutParameterstRESTClient",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.RenameVersionParametersForPigMigrationTask",
