@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_fkIBUGdYEeuvF9ivUG3IAQ" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_fkIBUWdYEeuvF9ivUG3IAQ" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
-    <contextParameter comment="" internalId="_fkIBUmdYEeuvF9ivUG3IAQ" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:\talend\mycontext.csv"/>
+    <contextParameter comment="" internalId="_fkIBUmdYEeuvF9ivUG3IAQ" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\talend\mycontext.csv"/>
     <contextParameter comment="" internalId="_fkIBU2dYEeuvF9ivUG3IAQ" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_fkIBVGdYEeuvF9ivUG3IAQ" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_fkIBVWdYEeuvF9ivUG3IAQ" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
@@ -59,7 +59,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yOwRk9QS615Emaiq+XNkJ3ar/Q2VyIoxjSun8ox5"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:f3Q8tzcg/hcqFQXDZi79Am+8fCR3YUH/s6eAE91F"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -74,7 +74,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/talend-tools/builds/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Talend/builds/801/Talend-Studio-20211109_1610-V8.0.1-couchbase7/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XRAqXhPy8qQWg8JsSGX9ywNInYPCPxQmkXVS+GGH"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6bV9M7iJtrRB50W7AuNzxAZljtRm6bVNBjzPk9OV"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -113,11 +113,7 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_4qG0wEKtEeKUD5pn2GLm-w" name="DQTechnical"/>
     <routinesParameter id="_4p29IEKtEeKUD5pn2GLm-w" name="DataOperation"/>
-    <routinesParameter id="_4qEYgEKtEeKUD5pn2GLm-w" name="DataQuality"/>
-    <routinesParameter id="_4qJRAEKtEeKUD5pn2GLm-w" name="DqStringHandling"/>
-    <routinesParameter id="_4qCjUEKtEeKUD5pn2GLm-w" name="MDM"/>
     <routinesParameter id="_4p5ZYEKtEeKUD5pn2GLm-w" name="Mathematical"/>
     <routinesParameter id="_4pwPcEKtEeKUD5pn2GLm-w" name="Numeric"/>
     <routinesParameter id="_4p9q0EKtEeKUD5pn2GLm-w" name="Relational"/>
@@ -127,8 +123,6 @@
     <routinesParameter id="_4pyrsEKtEeKUD5pn2GLm-w" name="TalendDate"/>
     <routinesParameter id="_4mzpIEKtEeKUD5pn2GLm-w" name="TalendString"/>
     <routinesParameter id="_R1c8cNBQEeeUMrj0_xYmCg" name="TalendStringUtil"/>
-    <routinesParameter id="_nnyHoFdYEeiAS_VFe2B33g" name="DataMasking"/>
-    <routinesParameter id="_n48wIFdYEeiAS_VFe2B33g" name="DataQualityDependencies"/>
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
@@ -293,7 +287,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LN+mAuzN7d9NFizjPJykljA+KcXhZYdICfR6AeA1O80FZNRDxWRXKqfT6Jdqbs3/aBOp"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dT/X4wP+KqTbUDtGjaJIP1nlu/twJM7337Q5xQ+cNRHihEuN82tjPdG6RJ46bqZrsft1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -670,15 +664,19 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="Y291Y2hiYXNlI0NvdWNoYmFzZSNPdXRwdXQ"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.bootstrapNodes" value="context.couchbase_node"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.username" value="context.couchbase_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:DjIaxM9S30xTOh915v9fZW70QxZmIPZyn7SM4782aneENpr8acbL2NhwvjrjhgYl1kdwyjDr"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:nQRgM4oY85fdu5rdSbglsuLZNzROOUnCY0F540aXQA2nj69dZ1o/RIcjy7h3qyh2YY3WYoO5"/>
     <elementParameter field="TEXT" name="configuration.dataSet.bucket" value="context.couchbase_bucket"/>
     <elementParameter field="TEXT" name="configuration.idFieldName" value="id"/>
     <elementParameter field="CHECK" name="configuration.partialUpdate" value="false"/>
     <elementParameter field="CHECK" name="configuration.useN1QLQuery" value="false"/>
     <elementParameter field="TABLE" name="configuration.queryParams" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.datastore.connectTimeout" value="20"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.datastore.useConnectionParameters" value="true"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.datastore.connectionParametersList">
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterName" value="CONNECTION_TIMEOUT"/>
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterValue" value="20000"/>
+    </elementParameter>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="3"/>
     <metadata connector="FLOW" name="CouchbaseOutput_2">
       <column comment="" key="false" length="-1" name="id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
@@ -690,19 +688,24 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="CouchbaseInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
+  <node componentName="CouchbaseInput" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CouchbaseInput_2"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="Y291Y2hiYXNlI0NvdWNoYmFzZSNJbnB1dA"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.bootstrapNodes" value="context.couchbase_node"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.username" value="context.couchbase_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:wIVgp7m8KVmilPagQhfEFq83qEG5R4ChCKyqQpdk5DsPoiLq9Zb7iTgCOddnW4fcsCmLEPHA"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:Y8pXXxH2KUMw0oWn/Ja3hu5oSvmCszIAeQ7ENCATsuas3VWFcma+QqRliwrJtW15Mn6YiQAz"/>
     <elementParameter field="TEXT" name="configuration.dataSet.bucket" value="context.couchbase_bucket"/>
     <elementParameter field="CLOSED_LIST" name="configuration.selectAction" value="N1QL"/>
     <elementParameter field="TEXT_AREA" name="configuration.query" value="&quot;SELECT name,age,tel,rank FROM `&quot;+context.couchbase_bucket+&quot;` WHERE meta().id like 'TDI40639_tCouchbaseInput_Output_read_write_test_flat%' order by meta().id;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.datastore.connectTimeout" value="20"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.datastore.useConnectionParameters" value="true"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.datastore.connectionParametersList">
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterName" value="CONNECTION_TIMEOUT"/>
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterValue" value="20000"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="configuration.limit" show="false" value=""/>
+    <elementParameter field="CHECK" name="configuration.createPrimaryIndex" value="true"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="3"/>
     <metadata connector="FLOW" name="CouchbaseInput_2">
       <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="age" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -806,8 +809,8 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="Cluster cluster = CouchbaseCluster.create(context.couchbase_node);&#10;cluster.authenticate(context.couchbase_username, context.couchbase_password);&#10;ClusterManager clusterManager = cluster.clusterManager(context.couchbase_username, context.couchbase_password);&#10;BucketSettings bucketSettings = new DefaultBucketSettings.Builder()&#10;        .type(BucketType.COUCHBASE)&#10;        .name(context.couchbase_bucket)&#10;        .password(context.couchbase_password)&#10;        .quota(120) // megabytes 兆字节&#10;        .replicas(1)&#10;        .indexReplicas(true)&#10;        .enableFlush(true)&#10;        .build();&#10;&#10;String bucket_name = &quot;&quot;;&#10;try{&#10;    bucket_name = clusterManager.getBucket(context.couchbase_bucket).name();&#10;}catch (Exception e){&#10;    System.out.println(&quot;Has Exception&quot;);&#10;}&#10;&#10;if (bucket_name.equals(context.couchbase_bucket)){&#10;    System.out.println(context.couchbase_bucket + &quot; already exists, please use it !&quot;);&#10;}else {&#10;    clusterManager.insertBucket(bucketSettings);&#10;    Bucket bucket = cluster.openBucket(context.couchbase_bucket);&#10;&#10;&#9;// Perform a N1QL Query&#10;&#9;bucket.query(&#10;        N1qlQuery.parameterized(&quot;create primary index on `&quot;+context.couchbase_bucket+&quot;`;&quot;, JsonArray.from(&quot;African Swallows&quot;))&#10;&#9;);&#10;}&#10;&#10;&#10;&#10;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#10;import com.couchbase.client.java.*;&#10;import com.couchbase.client.java.bucket.BucketType;&#10;import com.couchbase.client.java.cluster.ClusterManager;&#10;import com.couchbase.client.java.cluster.BucketSettings;&#10;import com.couchbase.client.java.cluster.DefaultBucketSettings;&#10;import com.couchbase.client.java.document.*;&#10;import com.couchbase.client.java.document.json.*;&#10;import com.couchbase.client.java.query.*;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="Cluster cluster = Cluster.connect(context.couchbase_node, context.couchbase_username, context.couchbase_password);&#10;&#10;String bucket_name = &quot;&quot;;&#10;Bucket bucket = null;&#10;&#10;try {&#10;    BucketSettings settings = cluster.buckets().getBucket(context.couchbase_bucket);&#10;    bucket = cluster.bucket(context.couchbase_bucket);&#10;    bucket_name = bucket.name();&#10;} catch (Exception e) {&#10;    System.out.println(&quot;Has Exception&quot;);&#10;}&#10;&#10;if (bucket_name.equals(context.couchbase_bucket)) {&#10;    System.out.println(context.couchbase_bucket + &quot; already exists, please use it !&quot;);&#10;} else {&#10;    cluster.buckets()&#10;        .createBucket(BucketSettings.create(context.couchbase_bucket)&#10;            .bucketType(BucketType.COUCHBASE)&#10;            .ramQuotaMB(120)&#10;            .numReplicas(1)&#10;            .replicaIndexes(true)&#10;            .flushEnabled(true));&#10;    bucket = cluster.bucket(context.couchbase_bucket);&#10;    bucket.waitUntilReady(Duration.ofSeconds(10));&#10;}"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.time.Duration;&#10;&#10;import com.couchbase.client.java.*;&#10;import com.couchbase.client.java.manager.bucket.BucketManager;&#10;import com.couchbase.client.java.manager.bucket.BucketSettings;&#10;import com.couchbase.client.java.manager.bucket.BucketType;&#10;import com.couchbase.client.java.manager.query.CreatePrimaryQueryIndexOptions;&#10;&#10;import com.couchbase.client.java.query.*;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
@@ -826,19 +829,24 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="CouchbaseInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="352" posY="672">
+  <node componentName="CouchbaseInput" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="352" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CouchbaseInput_1"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="Y291Y2hiYXNlI0NvdWNoYmFzZSNJbnB1dA"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.bootstrapNodes" value="context.couchbase_node"/>
     <elementParameter field="TEXT" name="configuration.dataSet.datastore.username" value="context.couchbase_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:TpEZmc5KjXkZznf7Ed8sTBPSRHLstV/hlQi3aV3AQA2KiR2SuJfU9fijVts677Mt4gjb20M8"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.datastore.password" value="enc:system.encryption.key.v1:TtcnyUQw4hu8+Jx/Ee7M0RzwmgonQlTp3b83PYpRdokNi3i/hYVHVKg1y6JEAeY8T08TdiyO"/>
     <elementParameter field="TEXT" name="configuration.dataSet.bucket" value="context.couchbase_bucket"/>
     <elementParameter field="CLOSED_LIST" name="configuration.selectAction" value="N1QL"/>
     <elementParameter field="TEXT_AREA" name="configuration.query" value="&quot;DELETE FROM  `&quot;+context.couchbase_bucket+&quot;`  WHERE meta().id like 'TDI40639_tCouchbaseInput_Output_read_write_test_flat%' ;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.datastore.connectTimeout" value="20"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.datastore.useConnectionParameters" value="true"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.datastore.connectionParametersList">
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterName" value="CONNECTION_TIMEOUT"/>
+      <elementValue elementRef="configuration.dataSet.datastore.connectionParametersList[].parameterValue" value="20000"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="configuration.limit" show="false" value=""/>
+    <elementParameter field="CHECK" name="configuration.createPrimaryIndex" value="true"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.datastore.__version" show="false" value="3"/>
     <metadata connector="FLOW" name="CouchbaseInput_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -1195,13 +1203,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8613f72e-df79-4286-abf6-04f630c489e9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3eprRzFL/xrJXDC8Q5LrvaAY2l71ikUmG3qS39FsAzGxRJmwCwM8FqBXG6rmc4wqqYAnVa0oJj6N&#13;
-apRSb35seA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b4887b0a-4e2e-4e28-a3a4-1bd42317df2b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kG/fQnc5rRYKqUR3FfTYD9FdjwWoYuyOBtDTOBeXxQVC72PwEVt54WxsgNb8LFMJx0hjt0xprkxZ&#13;
-6jkY+wUmFg==</DigestValue></Reference></SignedInfo><SignatureValue>Bn23zRWZuCbtkOmNwFU+oLaNm7li+5+egIv+AzGd/qw+LIXR+rDVz8PApPm0w3jY38snEXpUWBQT&#13;
-D13g7zrve02TIrdc9guVLeT/P5Akv1WVU1kF8frV7IRc037pOvAXPWUDCJ/qdZ5+D+PbTnixkM7S&#13;
-WoTw1hVVe/5DRxE8MQdlYT+2pGl/xkOOjBvNfDU/0JeHJD3CstrysvO4gmYwCGzJfIk9AT98oreD&#13;
-byIupT/hqJAFqni2EjWCjmacKDT+sIgsfk0TpYKSnb3tmiTaLNxZaPXlFm7Oy/a4sE1XLMdbHAF4&#13;
-us5jtmjZwOxrBC2zwfAraa2Jk1HaSyR8A5totA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_34803b0f-8898-41f4-ac29-de121619a99e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bIyFdChsTAJARcpo8JOWvAEkPys1m9I+6obGOpTNde0GFau5EcB1Bkqk5AHoWu+EjI9OOgbOy2hX&#13;
+wJrZPn/RJA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1471f0fe-8120-4219-b12b-523cd9574d88"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>16gfjILx9gnVuFYmidQYvFdD2isJZsbxZ6IkqaM49iiZJISbekEGc7NTstIo7JCNpv8MRCyyaSnC&#13;
+F8OPzVPcFA==</DigestValue></Reference></SignedInfo><SignatureValue>PjKYGRhJA5fI/oSsKWbYmKg3BSyajhLFiXBkbydtMkypUSfkLPTFXcUQ/7sbGnJVLlPgFDnlHWf3&#13;
+ATmAJ28mKJMmJ+gMP9dKwDEX94RZXwELQag2802sysJT9SbwkIBFI65zfSwenuNDsVgP4+YKwzrM&#13;
+yt/sFNtwYHGP6MZA8kiV4En7r+yN4CUqtNoG1+TDmAljmmIUI5NGged438wScD++Ochm8u9ze53v&#13;
+K4uBOpStGjFaZ2wJpXmqRGh06x8cAWL8IXXnYC16jI0pF/Kb1+BG04s6XjPCGhu4R6ecJmf3A5fO&#13;
+ZASRUGVaD5K7rp1jp2Kk8kHR2TgHjk+0+yzEwA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1223,4 +1231,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b4887b0a-4e2e-4e28-a3a4-1bd42317df2b" Target="#_8613f72e-df79-4286-abf6-04f630c489e9"><Timestamp>2021-02-05 02:37:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1471f0fe-8120-4219-b12b-523cd9574d88" Target="#_34803b0f-8898-41f4-ac29-de121619a99e"><Timestamp>2022-01-17 02:58:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
