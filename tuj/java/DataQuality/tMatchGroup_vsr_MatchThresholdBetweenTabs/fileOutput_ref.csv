@@ -1,0 +1,17 @@
+GRP_SIZE;MASTER;SCORE;GRP_QUALITY;MATCHING_DISTANCES
+1;true;1.0;1.0;
+1;true;1.0;1.0;
+######## 11 below is FirstTabHigherNo_SecondTabLowerYes ########
+2;true;1.0;0.4;
+######## 22 below is FirstTabHigherYes_SecondTabLowerNo ########
+2;true;1.0;0.5714285714285714;
+2;true;1.0;0.5714285714285714;
+2;true;1.0;0.5714285714285714;
+######## 33 below is FirstTabLowerNo_SecondTabHigherNo ########
+1;true;1.0;1.0;
+1;true;1.0;1.0;
+######## 44 below is FirstTabLowerNo_SecondTabHigherYes ########
+2;true;1.0;0.5714285714285714;
+######## 55 below is FirstTabLowerYes_SecondTabHigherNo ########
+2;true;1.0;0.4;
+2;true;1.0;0.4;
