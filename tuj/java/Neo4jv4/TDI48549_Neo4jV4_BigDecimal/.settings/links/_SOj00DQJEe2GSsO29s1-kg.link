@@ -1,0 +1,48 @@
+{
+  "itemId" : "_SOj00DQJEe2GSsO29s1-kg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Znz2wD1_Ee25MPckMro0PQ",
+    "parameterList" : [ {
+      "id" : "_ZolS0D1_Ee25MPckMro0PQ",
+      "name" : "data_dir"
+    }, {
+      "id" : "_ZolS0T1_Ee25MPckMro0PQ",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_ZolS0j1_Ee25MPckMro0PQ",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_ZolS0z1_Ee25MPckMro0PQ",
+      "name" : "result_database"
+    }, {
+      "id" : "_ZolS1D1_Ee25MPckMro0PQ",
+      "name" : "result_host"
+    }, {
+      "id" : "_ZolS1T1_Ee25MPckMro0PQ",
+      "name" : "result_password"
+    }, {
+      "id" : "_ZolS1j1_Ee25MPckMro0PQ",
+      "name" : "result_port"
+    }, {
+      "id" : "_ZolS1z1_Ee25MPckMro0PQ",
+      "name" : "result_table"
+    }, {
+      "id" : "_ZolS2D1_Ee25MPckMro0PQ",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_bJDAAD1_Ee25MPckMro0PQ",
+    "parameterList" : [ {
+      "id" : "_bJnAsD1_Ee25MPckMro0PQ",
+      "name" : "neo4jv4_host"
+    }, {
+      "id" : "_bJnAsj1_Ee25MPckMro0PQ",
+      "name" : "neo4jv4_password"
+    }, {
+      "id" : "_bJnAsT1_Ee25MPckMro0PQ",
+      "name" : "neo4jv4_username"
+    } ]
+  } ]
+}
