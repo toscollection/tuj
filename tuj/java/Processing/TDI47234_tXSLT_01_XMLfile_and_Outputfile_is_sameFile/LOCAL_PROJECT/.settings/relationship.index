@@ -1,73 +1,68 @@
 [ {
   "baseItem" : {
+    "id" : "_-M5EIC-7EeyQAurbsBludQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9CzPkC-7EeyQAurbsBludQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_-ggswMXyEeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_04HE0MvzEeqi7MyQWakAdw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_14icMJrCEeyEBZPCqCgIPA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_F2nQkKTWEeyUSNvmZIpMTQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_AvRJwGhxEey3LtcoW32QdQ",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "DQTechnical",
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataMasking",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_CTdkcOg0Eeq-46i-S35ElA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataOperation",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataQuality",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataQualityDependencies",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Mathematical",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Numeric",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Relational",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SQLike",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "StringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDataGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDate",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendString",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendStringUtil",
-    "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
@@ -76,68 +71,328 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "DQTechnical",
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HI3rwA5XEe2qB5d6uYLWxw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JAeMYEtUEeeFx5Kzqb8jAA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JicYgD05Ee2bF8MVksuLJQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_KTQcQKZEEeus6PKuuDNQzA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_P8Zp8MX1EeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
   }, {
-    "id" : "DataMasking",
+    "id" : "_0h9h0C-5EeyQAurbsBludQ",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Pq5z0MYBEeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MD8UMMYBEeyWsMXkgIEa_g",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ToSsMC2YEe2iN4M8rKJoQw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_U0OwIKwNEeyJ6q1-lHd9AA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_V4FjkC-7EeyQAurbsBludQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_GJlqYC-7EeyQAurbsBludQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Y_eJkKW2EeuX6_SZVTShwQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__ECOgDSpEe2S565nldlrIw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__w8oML66EeuKdcLjfEku5A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_a1bfYA16Ee2qB5d6uYLWxw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_aA6fAMX5EeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5wYE8MX6EeyWsMXkgIEa_g",
+    "version" : "Latest",
+    "type" : "property"
   }, {
-    "id" : "DataOperation",
+    "id" : "_qcAYcMX5EeyWsMXkgIEa_g",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bNLTQMX4EeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9CzPkC-7EeyQAurbsBludQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cYf6EMX8EeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Yjun8MX8EeyWsMXkgIEa_g",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_f7u8cA7bEe2qB5d6uYLWxw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gF1r4L67EeuKdcLjfEku5A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_h9tm0BFCEe2hQ6RbdswXUA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jDO9cENyEeK0nZUMqQIKvQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lFpvsNYaEeqvWNG70qOjRw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_p9GoMMX0EeyWsMXkgIEa_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sMO_IOhXEeyrpcPgSCTsFA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_uZCu8Bb8Ee2DkeoovU2aZA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_x4gIoDVqEe2PkYzQq1nwjA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_f-COgDVnEe2UiNnf0h2LOQ",
+    "version" : "Latest",
+    "type" : "property"
   }, {
-    "id" : "DataQuality",
+    "id" : "_f-COgDVnEe2UiNnf0h2LOQ - TDI48458",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataQualityDependencies",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yDp10KVgEeuqY4s4BiSUsQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DqStringHandling",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yNFKkC-4EeyQAurbsBludQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_X2htkC-4EeyQAurbsBludQ",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yQyBAC2vEe2iN4M8rKJoQw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Mathematical",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Numeric",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Relational",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SQLike",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "StringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDataGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendDate",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendString",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "TalendStringUtil",
-    "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
   } ]
 } ]
