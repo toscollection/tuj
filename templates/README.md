@@ -66,10 +66,11 @@ If you have some cleaning to do, like remove inserted tuple from the database or
 
 ![Cleaning](./images/template_clean.png)
 
-The template, as cleaning example, delete the file created by the `tFileTouch`. 
+The template, as cleaning example, deletes the file created by the `tFileTouch`.
 
 ![To remember](./images/warning.png)
 - Post job section is dedicated to cleaning
+- Uncheck "fail on error" options on components used during the PostJob sequence to optimize the cleaning.
 
 ## How to design my own TUJ ?
 To help you to design TUJs, a template has been created.
