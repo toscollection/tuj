@@ -1,0 +1,371 @@
+[ {
+  "baseItem" : {
+    "id" : "_BZizgFjTEeyq7ZI8dojDMA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_EC54UFZAEe2vsoT9QmdAQQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_NaXzEM09Eey_T8j6NhnthQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UsciUFUgEe2Fr6tiSW3VPQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jDO9cENyEeK0nZUMqQIKvQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_p6qw8GEOEeuGiuyLGWNVmA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_u6w-kFrtEe2qNoQ17JwEjQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_vbeHUMIZEeSX-JG3J9o2Sg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "Alignment",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "BestScore",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "BooleanUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Cell",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Commons",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Directions",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GlobalMapUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Markups",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatricesCompartor",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Matrix",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatrixLoader",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatrixLoaderException",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "NamedInputStream",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "NumberUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "PasswordUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ResultSetUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Sequence",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SmithWatermanGotoh",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SystemEnvironmentUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TeradataUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TimestampUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "constant",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wbdusM3gEeS28Y0ROxpNTA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "Alignment",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "BestScore",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "BooleanUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Cell",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Commons",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Directions",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GlobalMapUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Markups",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatricesCompartor",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Matrix",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatrixLoader",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MatrixLoaderException",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "NamedInputStream",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "NumberUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "PasswordUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ResultSetUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Sequence",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SmithWatermanGotoh",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SystemEnvironmentUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TeradataUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TimestampUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "constant",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yZ0PMKS4EeanzbLcjgXyHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+} ]
