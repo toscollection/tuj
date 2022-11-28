@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_v8qS8G-QEeuf_o_hftbzyg" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/temp/tujs/"/>
-    <contextParameter comment="" internalId="_v8qS8W-QEeuf_o_hftbzyg" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/temp/tuj_output/"/>
-    <contextParameter comment="" internalId="_v8qS8m-QEeuf_o_hftbzyg" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/template_dev2.csv"/>
+    <contextParameter comment="" internalId="_v8qS8G-QEeuf_o_hftbzyg" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_v8qS8W-QEeuf_o_hftbzyg" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_v8qS8m-QEeuf_o_hftbzyg" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/wyuan/Develop/Testing/Context/context_general_ttp.csv"/>
     <contextParameter comment="" internalId="_v8qS82-QEeuf_o_hftbzyg" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_v8qS9G-QEeuf_o_hftbzyg" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
     <contextParameter comment="" internalId="_v8qS9W-QEeuf_o_hftbzyg" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null"/>
@@ -17,8 +17,8 @@
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="416"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -58,7 +58,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Egw58yRF3IhFz6+qAGx4uUH7E/ZjL1ecVHarvm9+"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:mklsArkyniujNx/kFMHEhGz3j/0keCWzdmaaZl7a"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -73,7 +73,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/1_Work/studio_builds/731_R2021-03_tck_bump_only/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;/home/wyuan/Develop/Product/Talend-Studio-20211109_1610-V8.0.1_R202211/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -93,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:R9q+5kGFGSPEysJWmJKEu3oYOy5x5uiX/Hvh8Pn+"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:diJR3bkvZ+ZEHltGaEALsAcNEJlS1PpRN9albaLZ"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -112,11 +112,7 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_4qG0wEKtEeKUD5pn2GLm-w" name="DQTechnical"/>
     <routinesParameter id="_4p29IEKtEeKUD5pn2GLm-w" name="DataOperation"/>
-    <routinesParameter id="_4qEYgEKtEeKUD5pn2GLm-w" name="DataQuality"/>
-    <routinesParameter id="_4qJRAEKtEeKUD5pn2GLm-w" name="DqStringHandling"/>
-    <routinesParameter id="_4qCjUEKtEeKUD5pn2GLm-w" name="MDM"/>
     <routinesParameter id="_4p5ZYEKtEeKUD5pn2GLm-w" name="Mathematical"/>
     <routinesParameter id="_4pwPcEKtEeKUD5pn2GLm-w" name="Numeric"/>
     <routinesParameter id="_4p9q0EKtEeKUD5pn2GLm-w" name="Relational"/>
@@ -126,10 +122,8 @@
     <routinesParameter id="_4pyrsEKtEeKUD5pn2GLm-w" name="TalendDate"/>
     <routinesParameter id="_4mzpIEKtEeKUD5pn2GLm-w" name="TalendString"/>
     <routinesParameter id="_R1c8cNBQEeeUMrj0_xYmCg" name="TalendStringUtil"/>
-    <routinesParameter id="_nnyHoFdYEeiAS_VFe2B33g" name="DataMasking"/>
-    <routinesParameter id="_n48wIFdYEeiAS_VFe2B33g" name="DataQualityDependencies"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="-352">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.param_file_path"/>
@@ -185,7 +179,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-352">
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
@@ -201,7 +195,7 @@
       <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tAssertCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="512">
+  <node componentName="tAssertCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssertCatcher_1"/>
     <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
     <elementParameter field="CHECK" name="GET_ORIGINAL_EXCEPTION" value="false"/>
@@ -219,7 +213,7 @@
       <column key="false" length="255" name="description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="512">
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tReplicate_1">
@@ -234,7 +228,7 @@
       <column key="false" length="255" name="description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="576">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -282,7 +276,7 @@
       <column key="false" length="255" name="description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="416">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlOutput_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -292,7 +286,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2hY+CLHMmxbfO2djskc2i1efY4MVyfSEktcxCIyw0RhDYoyWpaHpfzI79C/fiP3oMR2e"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VLVakRsj/Rw7RQ29ViP0BlUB2Jz07A6Nn7+uH3b+doAQNG7mFAJkyFkjVVVcnK7Rs7a1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -392,15 +386,15 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="-352">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="288">
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="-192">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -422,7 +416,7 @@
       <column comment="" key="false" length="255" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-192">
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_3"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
@@ -437,7 +431,7 @@
       <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="288">
+  <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileDelete_1"/>
     <elementParameter field="FILE" name="FILENAME" show="false" value="context.data_output_dir + &quot;/&quot;+jobName"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.data_output_dir + &quot;/&quot;+jobName"/>
@@ -449,7 +443,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileDelete_1"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -468,12 +462,14 @@
       <column comment="" key="false" length="-1" name="InternalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="NetSuiteV2019Output" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="416">
+  <node componentName="NetSuiteV2019Output" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNetSuiteV2019Output_2"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlPdXRwdXQ"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.apiVersion" value="V2019_2"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="context.ns_account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.loginType" value="BASIC"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:+/mCsFaYD1Sobb61Ll11bEVFGrMG6Qa3fxa7YkbcOJcRt23ZcVOFtjRimi6oOjQ="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:/8w1RNrZzBI4w+ASpv1JlMe1tQRNjWyHJPc6cHXxQllSytj71PKMVwKGMsai6UE="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="Account"/>
@@ -481,6 +477,7 @@
     <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.dataSet.enableCustomization" value="true"/>
     <elementParameter field="CHECK" name="configuration.useNativeUpsert" show="false" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tNetSuiteV2019Output_2">
@@ -490,7 +487,7 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+  <node componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="704">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_1"/>
     <elementParameter field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP"/>
     <elementParameter field="FILE" name="FILE" value="context.data_output_dir + &quot;/&quot;+jobName+&quot;/out.csv&quot;"/>
@@ -511,7 +508,7 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="544">
+  <node componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="704">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssert_1"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="&quot;&quot;"/>
     <elementParameter field="MEMO_JAVA" name="EXPRESSION" value="((Boolean)globalMap.get(&quot;tFileCompare_1_DIFFERENCE&quot;))"/>
@@ -528,12 +525,14 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="NetSuiteV2019Input" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
+  <node componentName="NetSuiteV2019Input" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNetSuiteV2019Input_2"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlJbnB1dA"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.apiVersion" value="V2019_2"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="context.ns_account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.loginType" value="BASIC"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:QwYw55ajjwqMT9Cce23HGptCJ7nOzfmbWi0rgEvrBKJc3syLFhVOL3uFLjELRZI="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:KctS4e4SPn8XCE3lbU9svLSLyKU58Dhq1Z9vvfi3bfaBe54iAxyyvKZXLXf390k="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="Account"/>
@@ -545,6 +544,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="configuration.dataSet.enableCustomization" value="true"/>
     <elementParameter field="CHECK" name="configuration.bodyFieldsOnly" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
@@ -559,7 +559,7 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="288">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_5"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -598,7 +598,7 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="288">
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;id&quot;"/>
@@ -614,14 +614,14 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="288">
+  <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFilterColumns_2"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFilterColumns_2">
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="288">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_3"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
@@ -655,20 +655,20 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-32">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="String accountName = &quot;tuj_tdi45495_&quot; + pid;&#10;globalMap.put(&quot;accountName&quot;, accountName);&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_4"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="Custrecordtuj_otherrecfield_multiple"/>
-      <elementValue elementRef="VALUE" value="&quot;{\&quot;value\&quot;:[{\&quot;name\&quot;:\&quot;Kyiv\&quot;,\&quot;internalId\&quot;:\&quot;1201\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-103\&quot;}]}&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;{\&quot;value\&quot;:[{\&quot;name\&quot;:\&quot;&quot; + globalMap.get(&quot;location_name&quot;) + &quot;\&quot;,\&quot;internalId\&quot;:\&quot;&quot; + globalMap.get(&quot;location_internalid&quot;) + &quot;\&quot;,\&quot;externalId\&quot;:null,\&quot;typeId\&quot;:\&quot;-103\&quot;}]}&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -681,7 +681,7 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
@@ -715,7 +715,7 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_5"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -757,18 +757,22 @@
       <column comment="" key="false" length="-1" name="Custrecordtuj_otherrecfield_multiple" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="NetSuiteV2019Output" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+  <node componentName="NetSuiteV2019Output" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNetSuiteV2019Output_1"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlPdXRwdXQ"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.apiVersion" value="V2019_2"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="context.ns_account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.loginType" value="BASIC"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" value="context.ns_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:oG0nL7E3/03ltW9TFkE+i13EBLW3xbp9xHDabr2cHboxgLIZ63t+7mJccuBf+AU="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:YnpCK0o5qp+KBW8GAwrLDdBpROUL0FZfpTvpb7Sxq/ZUhQB/lfH5059NdWrQPqA="/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.ns_role"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" value="context.ns_appid"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="Account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.action" value="ADD"/>
     <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.dataSet.enableCustomization" value="true"/>
     <elementParameter field="CHECK" name="configuration.useNativeUpsert" show="false" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tNetSuiteV2019Output_1">
@@ -790,6 +794,54 @@
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="NetSuiteV2019Input" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNetSuiteV2019Input_1"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV0c3VpdGUjTmV0U3VpdGUjVjIwMTlJbnB1dA"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.apiVersion" value="V2019_2"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="1579066"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.loginType" value="BASIC"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.email" value="context.ns_username"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:OJk5LD4tPbL6ze7Y4KEpK2XhGZC5hDmP/VVqwKzt7Od1osIKRf0mKDjI3rS5APo="/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.ns_role"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.applicationId" value="context.ns_appid"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.recordType" value="Location"/>
+    <elementParameter field="TABLE" name="configuration.searchCondition">
+      <elementValue elementRef="configuration.searchCondition[].field" label="internalId" value="internalId"/>
+      <elementValue elementRef="configuration.searchCondition[].operator" label="List.anyOf" value="List.anyOf"/>
+      <elementValue elementRef="configuration.searchCondition[].searchValue" value="&quot;1201&quot;"/>
+      <elementValue elementRef="configuration.searchCondition[].additionalSearchValue" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="configuration.dataSet.enableCustomization" value="true"/>
+    <elementParameter field="CHECK" name="configuration.bodyFieldsOnly" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+    <metadata connector="FLOW" name="tNetSuiteV2019Input_1">
+      <column comment="" key="false" length="-1" name="ExternalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="InternalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="MakeInventoryAvailableStore" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_2"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;location_name&quot;"/>
+      <elementValue elementRef="VALUE" value="row10.Name"/>
+      <elementValue elementRef="KEY" value="&quot;location_internalid&quot;"/>
+      <elementValue elementRef="VALUE" value="row10.InternalId"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_2">
+      <column comment="" key="false" length="-1" name="ExternalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="InternalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="MakeInventoryAvailableStore" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tContextLoad_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
@@ -920,6 +972,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tNetSuiteV2019Output_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
@@ -978,8 +1033,8 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row18"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFixedFlowInput_4">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tNetSuiteV2019Input_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk10"/>
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tFixedFlowInput_4" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_4" target="tFileOutputDelimited_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -994,6 +1049,10 @@
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_5" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_5" target="tNetSuiteV2019Input_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk9"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tNetSuiteV2019Input_1" offsetLabelX="0" offsetLabelY="0" source="tNetSuiteV2019Input_1" target="tSetGlobalVar_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
@@ -1067,13 +1126,20 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b37414e1-bc21-4de5-9606-b30a0dcd7398"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lpRw6E3odxZvKiKOmxD/NoF39MQ3TzNgu0rHld5v+Gl0qHt5Tbw/sz6kL7Un6c+mzP4acaYr+7aa&#13;
-a+M1NUvBtg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_78690bc5-163a-4985-87e8-b8c317541224"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2fXRCmtolr39IKWe1lLLlQgUCM70qlKkA/OYOKVyCXrhEZ1V+EXy8sDS1Odo8rN6YNOAhAbI0FlD&#13;
-5e+nytdIVQ==</DigestValue></Reference></SignedInfo><SignatureValue>NX3iOIyyrmuy3qcFcGYQdUQWhGW/by7RDbWngZBEsKQgGqwGYBshU6J/V1oKTO5XVmPC/+ZTgsNG&#13;
-+AmZR6eubNWZ6MfikMqpBbj1j0QIXYD5wYU9Z8IgD5cPj+AgeC/liQqJ+9xPF18cq1XglxcB8sDf&#13;
-/GfstQJXhzeeTaTypB7r+prDEyeYzZI98ZnoplcGJchvAX4SiBVKEHveD7mzOi05wHS0oPFbC1wf&#13;
-iv0VpKFopw6MgphIiQPeCF8E4oHMfgFFVecXoPVoGHN/MwMK2yRhTL8x/8Qo2kid64jpsss7LOPI&#13;
-yUcbcwxyQDVvOTTJCYtYpLXq/MVeCnsUvOK8fQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNetSuiteV2019Input_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Retrive Location Value"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fec21d8d-4da1-428e-a8a4-9d816c26eba1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ye60E/9E06PXjLhfqNbOF3YduLNHDD46WoupZpa3143maPEGeJ8gDLo9rUD8Imr0S+QvTg0Owaet&#13;
+r9WqTQWM7g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3e7d7841-c462-4ea7-9e1f-bad442298238"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KexBNhbtSV9G5Vi1qBiIwtY/ciAroKURp3GCiGq40fuX9fNn31qN/vHTITOWEbU12QLbGgY85MYV&#13;
+jYzJHqPyAg==</DigestValue></Reference></SignedInfo><SignatureValue>JtJIt780XsG1p2r3QISZCW8VShalWRrmxmXSdZXQM1/YbkMTjtvQtDI9oNO2aYOPjaxYrJZpotmC&#13;
+JfKWJz0j0zFh7biRNLij5WzvR/x19cQoPDLgy7HP69HGS7L3B6k3Aan5muxpOEtm44/BSXMzecMe&#13;
+3MIoDFwns7dFlGDUNww674TYtj0yiWmTLj0GhHWYp9PCQtyViYcr4nez/QL8NCpheLJIG4LnlAv5&#13;
+R4t95EH3q23rr4YhK/FxopQ/A077O3bDMhd5JVVlY+Nm8NHqm0kiZbdS0suXhMauBfhUN6vB8n50&#13;
+0zMJEBmTUA7oiwFCJQVComzbkAZaaH7QPsBiOg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1095,4 +1161,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_78690bc5-163a-4985-87e8-b8c317541224" Target="#_b37414e1-bc21-4de5-9606-b30a0dcd7398"><Timestamp>2021-03-15 17:48:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3e7d7841-c462-4ea7-9e1f-bad442298238" Target="#_fec21d8d-4da1-428e-a8a4-9d816c26eba1"><Timestamp>2022-11-28 01:17:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
