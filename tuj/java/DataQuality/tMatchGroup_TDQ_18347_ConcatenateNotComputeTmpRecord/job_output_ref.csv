@@ -1,0 +1,20 @@
+id;name;address;provinceID;GRP_SIZE;MASTER;SCORE;GRP_QUALITY;MATCHING_DISTANCES
+3;AA;bb2bb2;33;1;true;1.0;1.0;
+5;BBBB;cc2cc2;2;2;true;1.0;1.0;
+6;AAA;bb2bb2bb2;66;3;true;1.0;1.0;
+start of second sub-job###################################
+3;3;true;1.0;0.5;
+7;4;true;1.0;0.5;
+50;1;true;1.0;1.0;
+55;2;true;1.0;1.0;
+66;1;true;1.0;1.0;
+99;3;true;1.0;0.5;
+start of third sub-job###################################
+2;2;true;1.0;1.0;
+3;1;true;1.0;1.0;
+66;3;true;1.0;0.0;
+start of fourth sub-job###################################
+2;2;true;1.0;1.0;
+3;1;true;1.0;1.0;
+55;2;true;1.0;1.0;
+88;2;true;1.0;1.0;
