@@ -95,7 +95,7 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2021-03",
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1-R2022-07-3",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "ok"
@@ -103,11 +103,6 @@
     "id" : "org.talend.camel.designer.migration.UpdateBeansLibrariesMigrationTask.7.3.1",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
-    "status" : "ok"
-  }, {
-    "id" : "org.talend.camel.designer.migration.UpdateBuildTypeForCTalendJobMigrationTask",
-    "breaks" : "5.6.0",
-    "version" : "7.0.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.camel.designer.migration.UpdateRouteResourceTypeMigrationTask",
@@ -324,6 +319,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.designer.esb.webservice.migration.ReplaceDefaultProxyIPMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.designer.joblet.repository.migration.ResetJobletComponentNameMigrationTask",
     "breaks" : "6.3.0",
     "version" : "6.3.1",
@@ -394,6 +394,11 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.UpdateActionOnFileForHDFSComponentsMigrationTask",
+    "breaks" : "6.5.1",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.designer.mapreduce.repository.migration.UpdateOracle18VersionSupportMigrationTask",
     "breaks" : "7.1.1",
     "version" : "7.2.0",
@@ -404,7 +409,7 @@
     "version" : "6.0.2",
     "status" : "ok"
   }, {
-    "id" : "org.talend.designer.spark.repository.migration.AddKafkaExtraInfo",
+    "id" : "org.talend.designer.spark.repository.migration.UpdateDatabricks73Version",
     "breaks" : "7.3.1",
     "version" : "7.3.1",
     "status" : "ok"
@@ -502,6 +507,11 @@
     "id" : "org.talend.repository.ftp.repository.migration.UnifyPasswordEncryption4FtpConnectionMigrationTask",
     "breaks" : "5.6.0",
     "version" : "5.6.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.generic.model.migration.ChangeDbmsIdMigrationTask",
+    "breaks" : "7.3.1",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.generic.model.migration.NewSalesforceMigrationTask",
@@ -859,6 +869,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.AddEncodingToPostParametersFortFileFetchMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.AddEncodingTypeForDQComponentsTask",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
@@ -877,6 +892,11 @@
     "id" : "org.talend.repository.model.migration.AddHashKeyFromInputConnector4tHashOutput",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.AddHourFormatToBigqueryBulkOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.AddIncludTrashFilesOnGoogleDriveListTask",
@@ -1054,6 +1074,11 @@
     "version" : "5.2.4",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeDBVersion4tSAPConnection",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeDBVersionValue4BonitaComponents",
     "breaks" : "6.1.0",
     "version" : "6.1.1",
@@ -1194,6 +1219,11 @@
     "version" : "5.3.1",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeGreenplumDefaultDriverMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeHadoopVersionValue4TDQComponents",
     "breaks" : "5.2.1",
     "version" : "5.2.2",
@@ -1237,11 +1267,6 @@
     "id" : "org.talend.repository.model.migration.ChangeMSSQLDBVersionMigrationTask",
     "breaks" : "6.2.0",
     "version" : "6.3.0",
-    "status" : "ok"
-  }, {
-    "id" : "org.talend.repository.model.migration.ChangeMappingFileMigrationTask",
-    "breaks" : "6.2.1",
-    "version" : "6.2.2",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeMappingParameter4Redshift",
@@ -1429,6 +1454,11 @@
     "version" : "5.6.3",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.CheckLastModifyTFileCopyTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.CheckProductVersionMigrationTask",
     "breaks" : "7.1.0",
     "version" : "7.1.1",
@@ -1531,6 +1561,11 @@
     "id" : "org.talend.repository.model.migration.EncryptDbPasswordforItemFileMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.EncryptPasswordForNexusProxyPasswordMigrationTask",
+    "breaks" : "7.3.1",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.EncryptPasswordInComponentsMigrationTask",
@@ -1802,6 +1837,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.RenameConnectionName4tSQSOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.RenameConnectionNameofSalesforceOutput",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -1875,6 +1915,11 @@
     "id" : "org.talend.repository.model.migration.RenameTCOMPCouchbaseMigrationTask",
     "breaks" : "7.2.0",
     "version" : "7.2.1",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.RenameTimeoutParameterstRESTClient",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.RenameVersionParametersForPigMigrationTask",
@@ -1960,6 +2005,16 @@
     "id" : "org.talend.repository.model.migration.ReplaceHostAndPortByNamenodeURIMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.ReplaceInheritCredentialCheckBoxWithDropDownListTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.ReplaceInheritCredentialCheckBoxWithDropDownListTaskForRedshift",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.ReplaceMultiFlowBytReplicateMigrationTask",
@@ -2061,6 +2116,11 @@
     "version" : "5.6.0",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.SetDefaultValueForAttributesToElements",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.SetDefaultValueForNewerEmailFirstOfTDI35976",
     "breaks" : "6.2.0",
     "version" : "6.2.1",
@@ -2084,6 +2144,11 @@
     "id" : "org.talend.repository.model.migration.SetFilterTiemFromTotoFromPOPComponentsMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.SetForceCopyFortFileCopy",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.SetReadByJSONPathToFalse",
@@ -2151,6 +2216,11 @@
     "version" : "7.0.1",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.TSendMailOAuthMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.TeradataTPTAddDatabaseNameToOptionalTablesMigrationTask",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
@@ -2164,6 +2234,11 @@
     "id" : "org.talend.repository.model.migration.TickDieOnError4tFileUnarchive",
     "breaks" : "6.1.0",
     "version" : "6.1.1",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.UncheckBson2JsonTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.UncheckExceptionOnFileExistMigrationTask",
@@ -2231,11 +2306,6 @@
     "version" : "6.5.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.repository.model.migration.UpdateDaikonCryptoUtilsMigrationTask",
-    "breaks" : "7.3.0",
-    "version" : "7.3.1",
-    "status" : "ok"
-  }, {
     "id" : "org.talend.repository.model.migration.UpdateDbVersionForVerticaMigrationTask",
     "breaks" : "5.4.1",
     "version" : "5.4.3",
@@ -2285,6 +2355,11 @@
     "version" : "6.1.0",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.UpdateMappingFileMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.UpdateTheJobsActionsOnTable",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -2332,6 +2407,11 @@
     "id" : "org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.XSLTCheckCacheFileInMemoryTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.addQuot",
