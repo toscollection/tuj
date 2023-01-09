@@ -1,0 +1,16 @@
+package my.rule2 
+
+rule "Name"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "NameGroup"
+when
+    $input : RecordIn( dataset.isSmallest( name_rank, "name_rank" ) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "id", drools.getRule().getName());
+    dataset.survive( $input.TALEND_INTERNAL_ID, "name_src", drools.getRule().getName());
+
+
+end
+
+

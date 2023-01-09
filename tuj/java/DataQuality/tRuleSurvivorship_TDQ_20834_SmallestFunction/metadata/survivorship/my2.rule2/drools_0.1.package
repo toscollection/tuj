@@ -1,0 +1,21 @@
+package my2.rule2 
+
+import java.util.Date
+import java.math.BigDecimal
+
+global org.talend.survivorship.model.DataSet dataset
+
+declare  RecordIn 
+
+    TALEND_INTERNAL_ID : int  
+    id : Integer  
+    name : String  
+    name_update : Date  
+    name_src : String  
+    name_rank : Integer  
+    address : String  
+    gid1 : String  
+    size : Integer  
+end
+
+

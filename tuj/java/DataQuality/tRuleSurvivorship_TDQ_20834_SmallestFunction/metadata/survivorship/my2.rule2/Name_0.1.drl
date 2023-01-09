@@ -1,0 +1,16 @@
+package my2.rule2 
+
+rule "Name"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "NameGroup"
+when
+    $input : RecordIn( dataset.isLatest( name_update, "name_update" ) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "name", drools.getRule().getName());
+    dataset.survive( $input.TALEND_INTERNAL_ID, "name_src", drools.getRule().getName());
+
+
+end
+
+
