@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.analysis:Analysis xmi:id="_Fl7IsJfHEe2VX9HzNvYXng" name="matchAna" supplierDependency="_dBqaYJfHEe2VX9HzNvYXng" creationDate="2023-01-19T15:01:24.775+0800" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/file1_0.1.item#_xtOYTOkLEeuDvaurjZX-AQ"/>
+    <taggedValue xmi:id="_Fl7IsZfHEe2VX9HzNvYXng" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+    <taggedValue xmi:id="_Fl7IspfHEe2VX9HzNvYXng" tag="Status" value="development"/>
+    <taggedValue xmi:id="_Fl7Is5fHEe2VX9HzNvYXng" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_Fl7ItJfHEe2VX9HzNvYXng" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Fl7ItZfHEe2VX9HzNvYXng" tag="Description" value=""/>
+    <taggedValue xmi:id="_Fl7ItpfHEe2VX9HzNvYXng" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FyxR4JfHEe2VX9HzNvYXng" tag="TEMP_DATA_DIR" value=""/>
+    <taggedValue xmi:id="_FyxR4ZfHEe2VX9HzNvYXng" tag="MAX_BUFFER_SIZE" value="200000"/>
+    <taggedValue xmi:id="_FyxR4pfHEe2VX9HzNvYXng" tag="STORE_ON_DISK" value="false"/>
+    <taggedValue xmi:id="_Fy5NsJfHEe2VX9HzNvYXng" tag="DRILL_DOWN" value="true"/>
+    <taggedValue xmi:id="_HRvKQZfHEe2VX9HzNvYXng" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <context xmi:id="_Fl7It5fHEe2VX9HzNvYXng">
+      <connection href="../../metadata/fileDelimited/file1_0.1.item#_t_osMOkLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osM-kLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osNOkLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osNekLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osNukLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osN-kLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osOOkLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osOekLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osOukLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osO-kLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osPOkLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osPekLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osPukLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osP-kLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osQOkLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osQekLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osQukLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osQ-kLEeuDvaurjZX-AQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/file1_0.1.item#_t_osROkLEeuDvaurjZX-AQ"/>
+    </context>
+    <results xmi:id="_Fl7IuJfHEe2VX9HzNvYXng">
+      <resultMetadata xmi:id="_Fl7IuZfHEe2VX9HzNvYXng"/>
+      <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_Fl7vwJfHEe2VX9HzNvYXng"/>
+      <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_Fl7vwZfHEe2VX9HzNvYXng">
+        <builtInMatchRuleDefinition xmi:id="_Fl7vwpfHEe2VX9HzNvYXng">
+          <blockKeys xmi:id="_Ol8-wJfHEe2VX9HzNvYXng" name="b1" column="first_name">
+            <preAlgorithm xmi:id="_Ol8-wZfHEe2VX9HzNvYXng" algorithmType="NON_ALGO" algorithmParameters=""/>
+            <algorithm xmi:id="_Ol8-wpfHEe2VX9HzNvYXng" algorithmType="first_Char_EW" algorithmParameters=""/>
+            <postAlgorithm xmi:id="_Ol8-w5fHEe2VX9HzNvYXng" algorithmType="NON_ALGO" algorithmParameters=""/>
+          </blockKeys>
+          <matchRules xmi:id="_GJAnoJfHEe2VX9HzNvYXng" name="Match Rule 2">
+            <matchKeys xmi:id="_Qc9jsJfHEe2VX9HzNvYXng" name="m1" column="last_name" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+              <algorithm xmi:id="_Qc9jsZfHEe2VX9HzNvYXng" algorithmType="CUSTOM" algorithmParameters="Custom_t_swoosh_test.mydistance_2.jar||org.talend.mydistance.NoMatchDistance"/>
+            </matchKeys>
+          </matchRules>
+        </builtInMatchRuleDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_Fl7vw5fHEe2VX9HzNvYXng" analysisType="Match Analysis"/>
+    <contextType xmi:id="_HRvKQJfHEe2VX9HzNvYXng" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_dBqaYJfHEe2VX9HzNvYXng" kind="Usage" supplier="_Fl7IsJfHEe2VX9HzNvYXng">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/matchAna_0.1.rep#_dBpzUJfHEe2VX9HzNvYXng"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

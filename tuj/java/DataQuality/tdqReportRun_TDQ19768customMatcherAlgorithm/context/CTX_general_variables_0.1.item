@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="zafkir" xmi:id="_bI2d0LWeEeeepM8Rg62uWg">
+    <contextParameter comment="" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/tuj-tmp" xmi:id="_bI2d0bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/tuj-tmp" xmi:id="_bI2d0rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_bI2d07WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d1LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d1bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d1rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_port" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d17WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_table" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d2LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_username" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d2bWeEeeepM8Rg62uWg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_bI2d2rWeEeeepM8Rg62uWg">
+    <contextParameter comment="" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/rdubois/Desktop/CO/tuj/" xmi:id="_bI2d27WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/rdubois/Desktop/CO/tuj/tmp/" xmi:id="_bI2d3LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/E/tuj/tuj_context/full_context.csv" xmi:id="_bI2d3bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d3rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d37WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d4LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_port" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d4bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_table" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d4rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_username" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d47WeEeeepM8Rg62uWg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Local" xmi:id="_bI2d5LWeEeeepM8Rg62uWg">
+    <contextParameter comment="" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/tmp/tuj-bigdata/tuj/talend-spark-22-local" xmi:id="_bI2d5bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/tmp/tuj" xmi:id="_bI2d5rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_bI2d57WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d6LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d6bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d6rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_port" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d67WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_table" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d7LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_username" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d7bWeEeeepM8Rg62uWg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Local2" xmi:id="_bI2d7rWeEeeepM8Rg62uWg">
+    <contextParameter comment="" name="data_dir" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/rdubois.TALEND/Desktop/CO/tuj/data" xmi:id="_bI2d77WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="data_output_dir" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/rdubois.TALEND/Desktop/CO/tuj/tmp" xmi:id="_bI2d8LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="param_file_path" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/rdubois.TALEND/Desktop/CO/tuj/param" xmi:id="_bI2d8bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_database" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d8rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_host" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d87WeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_password" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d9LWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_port" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d9bWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_table" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d9rWeEeeepM8Rg62uWg"/>
+    <contextParameter comment="" name="result_username" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" xmi:id="_bI2d97WeEeeepM8Rg62uWg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7c0908d1-b1f0-476d-bca9-81b83c3ea6a7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TTvx/2gqgzPWoCBQdT2mt7Q6C3OlyWOrQuTpVFinKWxUUwySa68vEGiPkNLaXIqGqv6ORZlcuihZ&#13;
+5C1Cq0DmDw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_66e71e42-04c4-4c10-b3ef-2bb5912eac66"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QsbuRp0gp0pA7aaWTRsdpL4NXFRW8e9KxoxygfhGZyVvM5CYdibAIsXQbMrGFKo52D2dehVnF9n8&#13;
+It42l+Y96w==</DigestValue></Reference></SignedInfo><SignatureValue>OYN8ZvSS8ka4ELB46aMFKIz6iPUUiOwlHrzpgc7Zn0gIlQLSTV/ZwM2S8UZDRdr2GarUzpJkcA/q&#13;
+PHOtDqR4AwwQ1JGmyMSFu1G/8TTJ/XyDm+vqUpz0vESchq7oG8xhiUFQAEz0jghhXLRhabzV05id&#13;
+e1Vsf+Teu1Mx+jNHULviP/C6jhW/zhpYh5ztO275XmkxhyKigjz0NpUuvlMsg8dDctbPXFipk8Le&#13;
++O5FFqXmJSc0R90LWFuaqgxhxOys3MMscT9m35ZsviNNdue9WqBz1IJMGIpstwb+q860KAyJoiKw&#13;
+x4b7OZZheq0goeJFfnpUcyi+5ziwT5YnKgnFyQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_66e71e42-04c4-4c10-b3ef-2bb5912eac66" Target="#_7c0908d1-b1f0-476d-bca9-81b83c3ea6a7"><Timestamp>2023-01-17 10:15:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

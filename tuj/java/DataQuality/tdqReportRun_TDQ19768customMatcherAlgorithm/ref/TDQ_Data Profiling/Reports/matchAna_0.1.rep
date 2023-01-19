@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_dBpzUJfHEe2VX9HzNvYXng" name="matchAna" creationDate="2023-01-19T15:04:02.046+0800">
+  <clientDependency href="../Analyses/matchAna_0.1.ana#_dBqaYJfHEe2VX9HzNvYXng"/>
+  <taggedValue xmi:id="_dBpzUZfHEe2VX9HzNvYXng" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_dBpzUpfHEe2VX9HzNvYXng" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_dBpzU5fHEe2VX9HzNvYXng" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_dBpzVJfHEe2VX9HzNvYXng" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_dBpzVZfHEe2VX9HzNvYXng" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_dBpzVpfHEe2VX9HzNvYXng" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_dBpzV5fHEe2VX9HzNvYXng" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_dBpzWJfHEe2VX9HzNvYXng" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_dBpzWZfHEe2VX9HzNvYXng" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_dBpzWpfHEe2VX9HzNvYXng" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:RvjeS0AT6qaYVufEfAXQox5HuAWtrtcMaAdWHQ=="/>
+  <taggedValue xmi:id="_dBpzW5fHEe2VX9HzNvYXng" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_dBpzXJfHEe2VX9HzNvYXng" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\801Patch\aaaaaaaa\Talend-Studio-20211109_1610-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_dBpzXZfHEe2VX9HzNvYXng" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_dBpzXpfHEe2VX9HzNvYXng" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_dBpzX5fHEe2VX9HzNvYXng" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_dBpzYJfHEe2VX9HzNvYXng" tag="Author" value="user@talend.com"/>
+  <analysisMap xmi:id="_dBpzYZfHEe2VX9HzNvYXng" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/matchAna_0.1.ana#_Fl7IsJfHEe2VX9HzNvYXng"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
