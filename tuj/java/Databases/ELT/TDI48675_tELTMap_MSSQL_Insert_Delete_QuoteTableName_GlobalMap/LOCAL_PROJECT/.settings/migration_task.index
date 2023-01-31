@@ -1344,6 +1344,11 @@
     "version" : "7.1.0",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.MSCRMSetDefaultVersionTDI48883MigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.MapNetsuiteOperatorValueTDI32245",
     "breaks" : "6.0.0",
     "version" : "6.0.0",
