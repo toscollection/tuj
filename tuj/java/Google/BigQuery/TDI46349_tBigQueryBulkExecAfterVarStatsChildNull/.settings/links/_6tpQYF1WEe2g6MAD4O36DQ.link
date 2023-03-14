@@ -1,0 +1,23 @@
+{
+  "itemId" : "_6tpQYF1WEe2g6MAD4O36DQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_SIHyUL5FEe2YTYpBeoPWuw",
+    "parameterList" : [ {
+      "id" : "_SIZfIL5FEe2YTYpBeoPWuw",
+      "name" : "bigquery_dataset"
+    }, {
+      "id" : "_SIZfIb5FEe2YTYpBeoPWuw",
+      "name" : "google_projectid"
+    }, {
+      "id" : "_SIZfIr5FEe2YTYpBeoPWuw",
+      "name" : "google_service_account"
+    }, {
+      "id" : "_SIZfI75FEe2YTYpBeoPWuw",
+      "name" : "gs_bucket"
+    }, {
+      "id" : "_SIZfJL5FEe2YTYpBeoPWuw",
+      "name" : "gs_bucket_tgt"
+    } ]
+  } ]
+}
