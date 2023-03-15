@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_x3kQMLELEe2LK_o6nu2dgQ" label="CASSANDRA" description="" language="java" technicalLabel="CASSANDRA" local="true" author="_x3kQMbELEe2LK_o6nu2dgQ" productVersion="Talend Data Fabric-8.0.1.20230216_0930-patch" type="MDM" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_Juu5kMLnEe2yDKHTiQuMOQ" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_Juu5kcLnEe2yDKHTiQuMOQ" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_Juu5ksLnEe2yDKHTiQuMOQ" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_Juu5k8LnEe2yDKHTiQuMOQ" name="DI|tArray" family="Technical"/>
+    <migrationTask xmi:id="_x33yMLELEe2LK_o6nu2dgQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_x3kQMbELEe2LK_o6nu2dgQ" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
