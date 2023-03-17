@@ -1055,6 +1055,11 @@
     "version" : "5.4.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeReturnKeysDefault4tAS400Output",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeSalesForceComponetsCustomerModuleName",
     "breaks" : "5.2.2",
     "version" : "5.2.3",
@@ -2255,6 +2260,41 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.sap.migration.SAPADSOCategoryMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.sap.migration.SAPADSOConnectionTypeItemMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.sap.migration.SAPComponentSchemaIdMigrationTask",
+    "breaks" : "5.1.1",
+    "version" : "5.6.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.sap.migration.SAPDatePatternComponentMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.3",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.sap.migration.SAPDatePatternItemMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.3",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.sap.migration.SAPItemMigrationTask",
+    "breaks" : "5.1.1",
+    "version" : "5.6.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.sap.repository.migration.UnifyPasswordEncryption4SapConnectionMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.0",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.sdk.component.studio.metadata.migration.EncryptTckMetadataMigrationTask",
     "breaks" : "7.1.0",
     "version" : "7.3.0",
@@ -2264,15 +2304,5 @@
     "breaks" : "8.0.0",
     "version" : "8.0.1",
     "status" : "ok"
-  }, {
-    "id" : "org.talend.testcontainer.core.ui.migration.TestCaseParentVersionMigrationTask",
-    "breaks" : "6.1.1",
-    "version" : "6.1.1",
-    "status" : "noimpact"
-  }, {
-    "id" : "org.talend.testcontainer.core.ui.migration.TestCaseRoutinesMigrationTask",
-    "breaks" : "6.1.1",
-    "version" : "7.2.1",
-    "status" : "noimpact"
   } ]
 }
