@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_j70gwc3YEe2FRMsQ9y28zg" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_j74yMM3YEe2FRMsQ9y28zg" productVersion="Talend Data Fabric-7.3.1.20230329_2105-patch" type="MDM" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_Rq_50NG_Ee21UpzLG7_Gmw" name="DI|tSAPHanaUnload" family="Databases/DB Specifics/SAP Hana"/>
+    <migrationTask xmi:id="_kKIpkM3YEe2FRMsQ9y28zg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_j74yMM3YEe2FRMsQ9y28zg" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
