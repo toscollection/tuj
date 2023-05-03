@@ -1,0 +1,225 @@
+package routines;
+
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Optional;
+import java.util.Properties;
+
+import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
+import org.jasypt.properties.EncryptableProperties;
+
+
+	public class context {
+
+	  private static Properties properties;
+
+	           
+
+	    /**
+
+	     * getImplicitContextParamterValue: used to return the appropriate parameter for the Implicit Context Load
+
+	     * configuration.
+
+	     *
+
+	     * {talendTypes} String
+
+	     *
+
+	     * {Category} Implicit Context Load
+
+	     *
+
+	     * {param} string("TalendContextDbName") parameter: the parameter name to be returned
+
+	     * {param} string("agh565") rootPID: the root process id
+
+	     * {param} string("agh565") jobPID: the job process id
+
+	     *
+
+	     * {example} getImplicitContextParamterValue("TalendContextDbName", "adfr54","adfr54") # returns "Talend_DB"
+
+	     */
+
+	            public static String value(String parameter) {
+
+	                       String returnVal = "";
+
+
+
+
+	                       //If the properties are null call the getProperties method to populate the properties
+
+	                       if(properties==null){
+
+	                                  getProperties();                               
+
+	                       }
+
+	                       returnVal = properties.getProperty(parameter);
+
+	                      
+
+	                       return Optional.ofNullable(returnVal).orElse("");
+
+	            }
+
+
+
+
+	     /**
+
+	     * getProperties: used to populate the properties variable
+
+	     *
+
+	     * {talendTypes} void
+
+	     *
+
+	     * {Category} Implicit Context Load
+
+	     *
+
+	     *
+
+	     * {example} getProperties("TalendContextDbName", "adfr54","adfr54") # returns "Talend_DB"
+
+	     */
+
+	            private static void getProperties() {
+
+	                       String propFile = getEnvironmentVariable("FILEPATH");
+
+	            //           String encryptionKey = getEnvironmentVariable("ENCRYPTIONKEY");
+	                       
+	                       StringBuilder encryptionKey = new StringBuilder();
+	                       
+	                       String encryptionKeyFile = getEnvironmentVariable("ENCRYPTIONKEYPATH");
+
+	                            
+                                        
+	                       	
+	                       if (propFile != null && encryptionKeyFile != null) {
+
+
+
+
+	                                  try {
+
+	                                  /*
+
+	                                  * First, create the encryptor for decrypting the values in the .properties file.
+
+	                                  */
+
+	                                               StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
+
+	                                               encryptor.setAlgorithm("PBEWithMD5AndDES");
+	                                               
+	                	                           @SuppressWarnings("resource")
+												FileInputStream fileInput1 = new FileInputStream(encryptionKeyFile);
+	                                               
+	                                               int i=0;    
+	                                               
+	                                               while((i=fileInput1.read())!=-1){    
+	                                            	   
+	                                            	   encryptionKey.append((char)i);    
+	                                             
+	                                               }    
+ 
+	                                               encryptor.setPassword(encryptionKey.toString());
+
+	                                               
+
+	                                               /*
+
+	                                                * Create our EncryptableProperties object. This is used to decrypt
+
+	                                                * and variables surrounded by "ENC(" and ")"
+
+	                                                */
+
+	                                               properties = new EncryptableProperties(encryptor);
+
+	                                               File file = new File(propFile);
+
+	                                               FileInputStream fileInput = new FileInputStream(file);
+
+	                                               properties.load(fileInput);
+
+	                                               fileInput.close();
+
+
+
+
+	                                  } catch (FileNotFoundException e) {
+
+	                                              e.printStackTrace();
+
+	                                  } catch (IOException e) {
+
+	                                              e.printStackTrace();
+
+	                                  }
+
+	                       }
+
+	            }
+
+
+
+
+	           
+
+	    /**
+
+	     * getEnvironmentVariable: used to retrieve Environment Variables
+
+	     *
+
+	     * {talendTypes} String
+
+	     *
+
+	     * {Category} Implicit Context Load
+
+	     *
+
+	     * {param} string("TalendContextPassword") variableName: the parameter name to be returned
+
+
+
+
+	     *
+
+	     * {example} getEnvironmentVariable("TalendContextPassword") # returns "My Password"
+
+	     */
+
+	            public static String getEnvironmentVariable(String variableName) {
+
+	                       String returnVal = System.getenv(variableName);
+
+
+
+
+	                       if (returnVal == null) {
+
+	                                  System.out.println(variableName
+
+	                                                         + " does not exist or holds no value");
+
+	                       }
+
+	                       return returnVal;
+	                       
+	            }
+	            
+
+}
