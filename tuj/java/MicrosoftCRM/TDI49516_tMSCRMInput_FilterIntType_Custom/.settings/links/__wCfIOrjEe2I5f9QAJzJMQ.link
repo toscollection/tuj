@@ -1,0 +1,60 @@
+{
+  "itemId" : "__wCfIOrjEe2I5f9QAJzJMQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_pEWHIOrfEe2ji4xhOtY7Nw",
+    "parameterList" : [ {
+      "id" : "_pE0BOOrfEe2ji4xhOtY7Nw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_pE0BN-rfEe2ji4xhOtY7Nw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_pE0BNurfEe2ji4xhOtY7Nw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_pE0BMurfEe2ji4xhOtY7Nw",
+      "name" : "result_database"
+    }, {
+      "id" : "_pE0BMOrfEe2ji4xhOtY7Nw",
+      "name" : "result_host"
+    }, {
+      "id" : "_pE0BNOrfEe2ji4xhOtY7Nw",
+      "name" : "result_password"
+    }, {
+      "id" : "_pE0BMerfEe2ji4xhOtY7Nw",
+      "name" : "result_port"
+    }, {
+      "id" : "_pE0BNerfEe2ji4xhOtY7Nw",
+      "name" : "result_table"
+    }, {
+      "id" : "_pE0BM-rfEe2ji4xhOtY7Nw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Q1AY0OrgEe2ji4xhOtY7Nw",
+    "parameterList" : [ {
+      "id" : "_Q1WXFergEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_appid"
+    }, {
+      "id" : "_Q1WXEOrgEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_endpoint"
+    }, {
+      "id" : "_Q1WXFurgEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_oauth"
+    }, {
+      "id" : "_Q1WXEergEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_orgname"
+    }, {
+      "id" : "_Q1WXEurgEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_password"
+    }, {
+      "id" : "_Q1WXFOrgEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_rooturl"
+    }, {
+      "id" : "_Q1WXE-rgEe2ji4xhOtY7Nw",
+      "name" : "mscrm_online_username"
+    } ]
+  } ]
+}
