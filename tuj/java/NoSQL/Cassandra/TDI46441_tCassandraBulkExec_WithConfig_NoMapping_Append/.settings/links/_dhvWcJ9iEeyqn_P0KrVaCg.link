@@ -1,0 +1,29 @@
+{
+  "itemId" : "_dhvWcJ9iEeyqn_P0KrVaCg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_9q5XwKjEEeyeU59O3O8DnA",
+    "parameterList" : [ {
+      "id" : "_GGOlUKjFEeyeU59O3O8DnA",
+      "name" : "cassandra_datacenter"
+    }, {
+      "id" : "_9ri4AKjEEeyeU59O3O8DnA",
+      "name" : "cassandra_host"
+    }, {
+      "id" : "_9ri4AajEEeyeU59O3O8DnA",
+      "name" : "cassandra_keyspace"
+    }, {
+      "id" : "_9ri4AqjEEeyeU59O3O8DnA",
+      "name" : "cassandra_password"
+    }, {
+      "id" : "_9ri4A6jEEeyeU59O3O8DnA",
+      "name" : "cassandra_port"
+    }, {
+      "id" : "_GRuDoKjFEeyeU59O3O8DnA",
+      "name" : "cassandra_port_ssl"
+    }, {
+      "id" : "_9ri4BKjEEeyeU59O3O8DnA",
+      "name" : "cassandra_username"
+    } ]
+  } ]
+}
