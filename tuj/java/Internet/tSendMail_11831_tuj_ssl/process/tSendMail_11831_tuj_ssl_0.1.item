@@ -30,6 +30,8 @@
     <contextParameter comment="" internalId="_WZeSNvhuEe27J6qnQK9aDw" name="pop_ssl_password" prompt="pop_ssl_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_WZeSN_huEe27J6qnQK9aDw" name="pop_imap_ssl_port" prompt="pop_imap_ssl_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
     <contextParameter comment="" internalId="_WZeSOPhuEe27J6qnQK9aDw" name="pop_pop3_ssl_port" prompt="pop_pop3_ssl_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_k7tgcPkaEe2gNOAx75wlHA" name="mail_ssl_truststore" prompt="mail_ssl_truststore?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_k7tgcfkaEe2gNOAx75wlHA" name="mail_ssl_truststore_password" prompt="mail_ssl_truststore_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -74,7 +76,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:XZ7tlFLeeBKSHjOF3FzdmWmyn+fQddXIPxNQTMnC"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fbfQkQC73cp/CByLW8oflkzsrZn4PNNEPxnQimED"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -109,7 +111,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lI7zjqRJoUEfsV0VbsSleg2H8cBj73q9WHgh8cAy"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:aZf2hY5i9lwwJLULCu37BRQkNQmvFj6q9h76WXb7"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -165,8 +167,8 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.mail_ssl_username"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:GvQg/KfVu3IidHI0EqkmVF+XLav1H3RHC/fWnkUhKg9BEcpF7N/u+iY3hkK38xTcWBnBLPw="/>
-    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:gvWH38jd9AUIetqPBvqkOWAsdmIXcDXpjLb2fcodQwPfZQpROSg="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:UgiEMtlctZ4dE6QPYPfSCVN+MgU73vbxUNgFCDhC3EWvJGvDWiDSy3EbeaG1mqRJiHrGjg8="/>
+    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:3CHNcBVy7cLgOdTPDauv81xU8aTRcadZKiiOtI12E/LIV1sUtGM="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -184,11 +186,11 @@
     <elementParameter field="TEXT" name="PORT" value="context.pop_imap_ssl_port"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.pop_ssl_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:qhHjAlgi+tU/gX34wF9ywH2cOnv6YzBmS3HduWL/W76vItkOZjL0Gbevgtc3ZijNDA0I8w=="/>
-    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:Y7IrQlpPrzN74JcFZ+pyLCfFcvn2YZLMUhv4x1JInbDPRfgR2ws="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:HmGHi8qaqdtNms6QRuPND2l7NsApvKwt1kKfNP5zLfe8XY4mw7zdUbQjtUGRNGklk+Hb0w=="/>
+    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:6+cmWxIJGykRJRuDXcM6bDX470q/qfkIDfPncfTlSZo5m2qU2p0="/>
     <elementParameter field="TEXT" name="TENANT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:ksTVqqcQ+e2JInynZRD9LMvUgoehP5VePMzPP9dgbgnXLxyGSMk="/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:5TWB0OctNLX0qEF2VN82HwGSTCXWgV5QuYDpB7+TFMqP3F/vqsI="/>
     <elementParameter field="DIRECTORY" name="OUTPUT_DIRECTORY" value="context.data_output_dir+&quot;/&quot;+jobName"/>
     <elementParameter field="TEXT" name="FILENAME_PATTERN" value="jobName + &quot;imap_out.mail&quot;"/>
     <elementParameter field="CHECK" name="ALL_EMAILS" value="true"/>
@@ -434,7 +436,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:D5nRRlKJbeJHUkEiKxo9U75JXGf1bVTxNwBJSq+EnyHa7IaW3GRoYLwEq93VQIru6bq1"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BumNS2C6DdAGMDC1xBXueR+rTLSnJ9NXNbRndiZPyuoOG5SXCcPXKgEyZY9draBDjZvL"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -544,12 +546,12 @@
   <node componentName="tSetKeystore" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetKeystore_1"/>
     <elementParameter field="CLOSED_LIST" name="TRUSTSTORE_TYPE" value="JKS"/>
-    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;D:/work/TUJ_File/mailserverssl/truststore_ttpdev&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:GAdOB5M9HPYaXutOoBiWblVNhlZXC38lC0pJvne+xNZcf1D+"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="context.mail_ssl_truststore"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:17Kj9aeRzimjYs9WhVEL9pAPV7uW3/zi4SUjrcAZXD90DqHE8FGGm1Cq/Nf5GlRvprbwQf621I8D1IziPRQ1UQ=="/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" value="false"/>
     <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" show="false" value="JKS"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;C:/client.keystore&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:uWLsYbYz1O8ezIGtbxaGk1wUvHqBGRNmqHvT1OoQnGQjnHBSDOo="/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:akCNXp+6R+BFZAAbJF4E3aSrMP9SUbsmI3QLLDFRaWkVvUqhZa4="/>
     <elementParameter field="CHECK" name="VERIFY_NAME" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -582,11 +584,11 @@
     <elementParameter field="TEXT" name="PORT" value="context.pop_pop3_ssl_port"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.pop_ssl_username"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:ue1gvBEVKBu4FlK3m+jxEE7PvBrHQ5wQK1tk4vNGHyRJOVzjPjPyg3YqbtdzKLlKV4cKWQ=="/>
-    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:Ua7phwBkQ97sIhvrhnqsD8QB6KyDLezERi434aGjhjWstiUac/4="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:q7xu9RgIXUy1qC+rDfyI61iUw9aMU4LRAD0ohzwIDfb7BYPQNODqnVHhcPY2oJgw7w4cOA=="/>
+    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:Mi+DXMA72PhuXl7/V2dIZHHQd8JFKp5+lKWzyupsduug0FOQ4tE="/>
     <elementParameter field="TEXT" name="TENANT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:xJJrK6vPhcjB6cjPCdobM1OdcvavR5ikfeGh1fKxW4l7RG3IJY4="/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:/IG5ZNGA5sncrWQ776NJ0JjuKk/RPj5nihkhDgOcbKrQKaJyHfE="/>
     <elementParameter field="DIRECTORY" name="OUTPUT_DIRECTORY" value="context.data_output_dir+&quot;/&quot;+jobName"/>
     <elementParameter field="TEXT" name="FILENAME_PATTERN" value="jobName + &quot;pop_out.mail&quot;"/>
     <elementParameter field="CHECK" name="ALL_EMAILS" value="true"/>
@@ -842,13 +844,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_37765911-693e-46bf-9eeb-0f7e22a2746b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oAwUwjjjM1k5jtQdelgxH1mgdrC93Z8qM0oiuKw0oUFFX5ieCMdJzTG1b7S/4Xve6fzDk4ffFCn4&#13;
-T+R7vT0ntg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_856cafa5-9a31-49ad-9d18-1bdf648fc8ce"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eVkET1M+SxK8tZbd6tewDlMNBBBk6uJLop39f7uoakq0VnktH8N7pfET9wXe7+q4D6/BPAAOVgTr&#13;
-rfvYJl6UEA==</DigestValue></Reference></SignedInfo><SignatureValue>Lv8ZoXsSBS0J/fKc7F1W1CMqNC/oFlDKUnpymVu+jGMmG7dc8MgMbx4tpM+AaJ317EojvaTJujSN&#13;
-VVXVRmGqGSYiN7JIKDF3Ap4Ta7g3AK0KwZFVOgCtXnxnLk/YnFfxnRAWzx7llIK6+jsBHW6iHP/e&#13;
-c4Uw7L7PWVLRWAefkaOl5M7+/fCZBjMHGixYPz68pUR+RkL9SHtrXwrb8xwc3F6CZZTW4Dcq6ldJ&#13;
-MrhpxGL5E9qr7ezbx6Cg586us7bhAPbFEB1ffexx09Jk9CMzyAHj50YPYC44QfO+o9Wv5BlevOdI&#13;
-Zvaa9kXPWltCEikZoXhwN+qpwGaqtKQ+0rEAdA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_77989f21-fa44-4ec2-96cd-90471a9d6bfd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>C0pLiyzoMHfVFL5OQ8N86iMMQqFcKjdPZP9pZH6V8fhreBiPbQT1CJlPEO1h1w7kIYqhQ4dCSGP5&#13;
+gyGGxQFrKg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fb48d85a-c324-43df-bf21-935535618a59"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>otSAWzEUCqFGTt/bpqDObBF+7qBv59tGFfUvKI53aFg70GGyX2FZYS2mDJB0GJC9JesA7LJCc7x3&#13;
+NHoro0bH3g==</DigestValue></Reference></SignedInfo><SignatureValue>lMIjP6tWD5iw9H04OiyQd4kj3sc5pclXzlt92vxJj8nXDYx29c4Fock2w5JDReuP4Fw1UU7bc6rF&#13;
+rUmoiNEFuGtD1CGaZJou5urTeQXJxi9oH+UU2oBqiX3fMRNVe8tLT6a/cYIYlN0Fb5q/vDy+MAAP&#13;
+qvDmHjoQzafJ3mUfHBMsTBwLpSA4PcvCZs50ZuJH5lx+JgEG/THpQK1ldp6CsQL3VIdP5Itxjg8y&#13;
+j3gftTp+fLAboA6K35CCucyAeqKfkJvTcr84W2jNsrHL2m5ofITCpYQCMXI4Klk3gVqmtwoTUa0L&#13;
+LNQFkIm6uDr0WNJ0f8ixV05tmfXArBO88iIMOA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -870,4 +872,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_856cafa5-9a31-49ad-9d18-1bdf648fc8ce" Target="#_37765911-693e-46bf-9eeb-0f7e22a2746b"><Timestamp>2023-05-23 01:40:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fb48d85a-c324-43df-bf21-935535618a59" Target="#_77989f21-fa44-4ec2-96cd-90471a9d6bfd"><Timestamp>2023-05-23 03:39:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
