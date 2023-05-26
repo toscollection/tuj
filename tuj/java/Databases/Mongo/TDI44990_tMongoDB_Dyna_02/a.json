@@ -1,0 +1,2 @@
+{"_id":"101","name":"name1","address":{"city":"beijing", "code":100000},"age":21,"birth":{"$date":"2017-01-10T16:00:00.000Z"}}
+{"_id":"102","name":"name2","address":{"city":"shanghai", "code":200000},"age":22,"birth":{"$date":"2017-01-10T16:00:00.000Z"}}
