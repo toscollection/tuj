@@ -57,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:V0QP0GXMbHylir/cYTO4OCIuROQDAXEYVeJ0Nrid"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:3pX3gGJmYuH01yjg5Y/ctMhbU79zqYds+HGW0OCp"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -72,7 +72,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/801Patch/801nightly_0307/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/Studio/801Patch/801-0405/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -92,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IJYNCUGd0YiCAPmgT/PAcwTiYmpmcPzpva7hW8uA"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MIZrjsKpXhqvSbr+wR2rSutzcvCLJn13ELsTxeNb"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -121,6 +121,12 @@
     <routinesParameter id="_4MsocBZAEeqmcZW0HI8aPA" name="TalendDate"/>
     <routinesParameter id="_4MyvEBZAEeqmcZW0HI8aPA" name="TalendString"/>
     <routinesParameter id="_4M41sBZAEeqmcZW0HI8aPA" name="TalendStringUtil"/>
+    <routinesParameter id="_CgS_8Ph8Ee2jzIbHODQKyA" name="DqStringHandling"/>
+    <routinesParameter id="_Caoc0Ph8Ee2jzIbHODQKyA" name="MDM"/>
+    <routinesParameter id="_CgDIUPh8Ee2jzIbHODQKyA" name="DataMasking"/>
+    <routinesParameter id="_CgX4cPh8Ee2jzIbHODQKyA" name="DQTechnical"/>
+    <routinesParameter id="_CgMSQPh8Ee2jzIbHODQKyA" name="DataQualityDependencies"/>
+    <routinesParameter id="_CgIA0Ph8Ee2jzIbHODQKyA" name="DataQuality"/>
   </parameters>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
@@ -201,7 +207,7 @@
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="c2FtYmEjU2FtYmEjSW5wdXQConnection"/>
     <elementParameter field="TEXT" name="configuration.host" value="context.samba_host"/>
     <elementParameter field="TEXT" name="configuration.username" value="context.samba_username"/>
-    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:xaRtU5C+nPy047VIsoreVDodvm1hWt8maerInJUjpKQCqO253L57PhxriFNtzas7Dp8="/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:sukQ3GcQoUa6i96TgzzQsI1Yk0O/K47Xnvd7T94ToRNdqcomyGaPvCvVAZYAoPJiSGU="/>
     <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tSambaConnection_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
@@ -843,7 +849,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.result_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.result_database"/>
     <elementParameter field="TEXT" name="USER" value="context.result_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2V3lX42fptpbZrWscESonKwjIlo/Qz8cxO5SAVHqnwK7m1k3WFGtxFkdLbUStDwYHW4q"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zco3TP0Dhrcc2xIRWPc0Do0qenLstrrwl4H027VkMVUEq7NyYR//ZLHeb42wirogJSTh"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.result_table"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1814,7 +1820,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#10;String remotefile1 = &quot;/fieldseparatorCSV/out1_remote.csv&quot;;&#10;String remotefile2 = &quot;/fieldseparatorCSV/out2_remote.csv&quot;;&#10;String remotefile3 = &quot;/fieldseparatorCSV/out3_remote.csv&quot;;&#10;String remotefile4 = &quot;/fieldseparatorCSV/out4_remote.csv&quot;;&#10;String remotefile5 = &quot;/fieldseparatorCSV/out5_remote.csv&quot;;&#10;String directory= &quot;\\\\10.67.8.119\\SmbShare\\fieldseparatorCSV&quot;;&#10;&#10;globalMap.put(&quot;remotefile1&quot;, remotefile1);&#10;globalMap.put(&quot;remotefile2&quot;, remotefile2);&#10;globalMap.put(&quot;remotefile3&quot;, remotefile3);&#10;globalMap.put(&quot;remotefile4&quot;, remotefile4);&#10;globalMap.put(&quot;remotefile5&quot;, remotefile5);&#10;globalMap.put(&quot;directory&quot;, directory);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#10;String remotefile1 = &quot;/fieldseparatorCSV/out1_remote.csv&quot;;&#10;String remotefile2 = &quot;/fieldseparatorCSV/out2_remote.csv&quot;;&#10;String remotefile3 = &quot;/fieldseparatorCSV/out3_remote.csv&quot;;&#10;String remotefile4 = &quot;/fieldseparatorCSV/out4_remote.csv&quot;;&#10;String remotefile5 = &quot;/fieldseparatorCSV/out5_remote.csv&quot;;&#10;String remotepath = &quot;/fieldseparatorCSV/&quot;;&#10;&#10;globalMap.put(&quot;remotefile1&quot;, remotefile1);&#10;globalMap.put(&quot;remotefile2&quot;, remotefile2);&#10;globalMap.put(&quot;remotefile3&quot;, remotefile3);&#10;globalMap.put(&quot;remotefile4&quot;, remotefile4);&#10;globalMap.put(&quot;remotefile5&quot;, remotefile5);&#10;globalMap.put(&quot;remotepath&quot;, remotepath);&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -1823,14 +1829,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSambaDelete_1"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="c2FtYmEjU2FtYmEjRGVsZXRl"/>
     <elementParameter field="TEXT" name="configuration.dataset.shareDir" value="Smbshare"/>
-    <elementParameter field="TEXT" name="configuration.dataset.remoteFile" value="/fieldseparatorCSV"/>
+    <elementParameter field="TEXT" name="configuration.dataset.remoteFile" value="(String)globalMap.get(&quot;remotepath&quot;)"/>
     <elementParameter field="CHECK" name="configuration.removeDirectory" value="true"/>
     <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tSambaConnection_1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.__version" show="false" value="-1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.connection.__version" show="false" value="-1"/>
-    <metadata connector="FLOW" name="tSambaDelete_1"/>
     <metadata connector="FLOW" name="tSambaDelete_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -2289,13 +2294,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5a224698-71d7-4277-9c84-cdc4512fb88b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lL49xXjmAz2B80ULujbrqQ4Rtiwo7KqjxbFf9uGckkLnhWWPFfp0C3KFiZVTo9OGaFpjaVrdYPWb&#13;
-c7BQ3w9L9w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_aa830f3f-9c8a-4857-a9a3-b32fbfca0ba7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qIY0U9UcvfEt/tSo5bzgErdrgujCnU2NODOO4JpaKm/P3fL3B2h7VJDdsIvcIR+Dbdb0PA5GMIIF&#13;
-ZDbLrRp3og==</DigestValue></Reference></SignedInfo><SignatureValue>IDDHzJbaqIpmpKqSo/kovoEbIiDjYzzpf2dILx8Q7GkviPJCyya+LVgBgMrpkaqlAh396tmO43GK&#13;
-6pn96WgiZI2bdYQm2nh2OoDjah+xwmfg/98olkmTK4R9IzbM34Rqod6jooqMkW2hqNhMGx5dkvbT&#13;
-BBkHAPiGIuylC5CvE9Gvl1ceaTNPeOfwIJMykg0KfOpNuJ6+xWlj7Z1bAHasXkzEZZflo5+VhNK/&#13;
-+g35NyU00FDZeMUKBjQQabOlib9CS3nPCpuHXS6+aSf0nc/dfU+wbj1rjoG1VBvgUjJeTnezvQNk&#13;
-jYBj8KW4UkLstKAteg+PYOIALLwTuVfcA37csA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0b6b987d-2e93-43f7-92e2-6d53bccfc20b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aUNC9akrIK+t36KeVrPiwTBFa16nxGiWhDVmqYjW2j/Ygq1wolvkv/QPRIFteaveqpcUpyDaKAmj&#13;
+bH+Gka4NQg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c1e3f0a3-0b9b-497f-ad6e-ad126938e610"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>twlxcc59ctuPbqzZxqilBcG4fidSsOpsE+qihdj7BXo9ONhwtv8cBit3AHYCczlxos4qXAe6brNT&#13;
+z2PYpLLOpQ==</DigestValue></Reference></SignedInfo><SignatureValue>RnJyoEt/fafyXyHQ9ew53/SBrqjsnWW7FHYefVJWoG9Z+1+HeElsArHk+NFWJsLJJnTEInN8R6OH&#13;
+flBjPEsFIVEYsTXHwxq9tUuetk+0Dspt/M1PL6rg8MHRYbkZUsQIqzEfM7G8VULcKodpvE0DRpZv&#13;
+gy7GoyT6Oleag8ZnzdCI5QZvQSZJuo8MqJpQcpSoHu0b02HLVeN8xUvFaMZAtpIAVjVGS5jNjJvz&#13;
+z1tJelmz+z5RMJvByvoUUwmyx7CRukpDkFxrwb928oUCdcdULxTzCjcYVvZgIuXbTqO6Ohit5YZ/&#13;
+/qteJfh4XwkSEFv+lRPNVbclrg4L85w21Dapdw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2317,4 +2322,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_aa830f3f-9c8a-4857-a9a3-b32fbfca0ba7" Target="#_5a224698-71d7-4277-9c84-cdc4512fb88b"><Timestamp>2023-04-18 09:39:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c1e3f0a3-0b9b-497f-ad6e-ad126938e610" Target="#_0b6b987d-2e93-43f7-92e2-6d53bccfc20b"><Timestamp>2023-05-26 01:59:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
