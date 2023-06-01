@@ -1,0 +1,153 @@
+[ {
+  "baseItem" : {
+    "id" : "_0BUOYNeAEe24jOsmpFwwwQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HxiZ0PitEe29ZsgNShbcUg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UFOj4O_4Ee2foaTWWd1PXA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_aadLEPC9Ee2mh_V2-QjN0A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fU9qEPi8Ee29ZsgNShbcUg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_kP9VUOnSEe2E25msYh01uA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nHEyMPMvEe2jkomJGvwQFQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "context",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_rur08PoeEe29ZsgNShbcUg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+} ]
