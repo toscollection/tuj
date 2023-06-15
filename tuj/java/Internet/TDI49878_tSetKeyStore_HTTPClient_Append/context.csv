@@ -1,0 +1,4 @@
+# This file contains specific context values for the associated TUJ. It must not contains sensitive values as credentials (should be in template.csv in tuj-config which is a private repository)
+httpclient_https_url,https://badssl.com/
+httpclient_keystore_password,badssl.com
+httpclient_keystore,/home/tuj/.ks/badssl.com-client.p12
