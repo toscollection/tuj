@@ -55,7 +55,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:8zyne+lL+M5n8QELnjgnScjGpim4F+TVr8jFp5AM"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0HN7P0VVZzoyAyKQsYB5139ktpp3SvL3mkpDCi1J"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -70,7 +70,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/Studio/Talend-Studio-20211109_1610-V8.0.1-R2023-03-HTTPClient/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/Studio/Talend-Studio-20211109_1610-V8.0.1-R2023-06+/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -90,7 +90,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8D3lsy8IcCPHr4nnHy6Dp+qewc8qN80l9IJ8lpgg"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zwl3H3yMRNgqHC0Wek3NoSsYBBVBc6URH7zJeVJT"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -551,6 +551,7 @@
     <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
     <elementParameter field="CHECK" name="configuration.dataset.forwardInput" show="false" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.keyValuePairs" show="false"/>
+    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
     <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
@@ -560,8 +561,13 @@
     <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
     <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
     <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" show="false" value="OFFSET_LIMIT"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" show="false" value="QUERY_PARAMETERS"/>
     <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" show="false" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" show="false" value="true"/>
+    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
+    <elementParameter field="TABLE" name="configuration.uploadFileTable" show="false"/>
     <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.__version" show="false" value="1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" show="false" value="1"/>
@@ -604,7 +610,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_1"/>
     <elementParameter field="FILE" name="FILENAME" value="context.data_output_dir+&quot;/&quot;+jobName+&quot;_&quot;+pid+&quot;/outOriginal.txt&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputRaw_1">
@@ -761,7 +767,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="544">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="// Create a JsonReader from the JSON content&#10;JsonReader reader = Json.createReader(new StringReader(input_row.content.toString()));&#10;JsonObject jsonObject = reader.readObject();&#10;&#10;// Replace the IP address in the &quot;origin&quot; field&#10;jsonObject = Json.createObjectBuilder(jsonObject).add(&quot;origin&quot;, &quot;GenericIPAddress&quot;).build();&#10;&#10;// Replace the Host address in the &quot;headers.Host&quot; field&#10;jsonObject = Json.createObjectBuilder(jsonObject).add(&quot;headers&quot;, Json.createObjectBuilder(jsonObject.getJsonObject(&quot;headers&quot;)).add(&quot;Host&quot;, &quot;GenericHostName&quot;).build()).build();&#10;&#10;&#10;// Write the modified JSON content to a string&#10;StringWriter stringWriter = new StringWriter();&#10;try (JsonWriter writer = Json.createWriter(stringWriter)) {&#10;    writer.writeObject(jsonObject);&#10;}&#10;&#10;output_row.content = stringWriter;&#10;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// Create a JsonReader from the JSON content&#10;JsonReader reader = Json.createReader(new StringReader(input_row.content.toString()));&#10;JsonObject jsonObject = reader.readObject();&#10;&#10;// Replace the IP address in the &quot;origin&quot; field&#10;jsonObject = Json.createObjectBuilder(jsonObject).add(&quot;origin&quot;, &quot;GenericIPAddress&quot;).build();&#10;&#10;// Replace the Host address in the &quot;headers.Host&quot; field&#10;jsonObject = Json.createObjectBuilder(jsonObject).add(&quot;headers&quot;, Json.createObjectBuilder(jsonObject.getJsonObject(&quot;headers&quot;)).add(&quot;Host&quot;, &quot;GenericHostName&quot;).build()).build();&#10;&#10;// Replace the User-Agent in the &quot;headers.User-Agent&quot; field&#10;jsonObject = Json.createObjectBuilder(jsonObject).add(&quot;headers&quot;, Json.createObjectBuilder(jsonObject.getJsonObject(&quot;headers&quot;)).add(&quot;User-Agent&quot;, &quot;GenericUserAgent&quot;).build()).build();&#10;&#10;&#10;// Write the modified JSON content to a string&#10;StringWriter stringWriter = new StringWriter();&#10;try (JsonWriter writer = Json.createWriter(stringWriter)) {&#10;    writer.writeObject(jsonObject);&#10;}&#10;&#10;output_row.content = stringWriter;&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import javax.json.Json;&#10;import javax.json.JsonObject;&#10;import javax.json.JsonReader;&#10;import javax.json.JsonWriter;&#10;import java.io.StringReader;&#10;import java.io.StringWriter;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
@@ -984,7 +990,7 @@
   <note opaque="true" posX="1440" posY="224" sizeHeight="96" sizeWidth="385" text="You can deactivate the colibri database output&#13;&#10;while you develop the TUJ.&#13;&#10;Reactivate it before the export."/>
   <note opaque="true" posX="416" posY="-160" sizeHeight="64" sizeWidth="705" text="Append JobName to context.data_dir.&#13;&#10;Your reference files and local context csv file should be into context.data_dir/jobName/"/>
   <note opaque="true" posX="544" posY="384" sizeHeight="65" sizeWidth="321" text="Regex to check that the value is a valid IP."/>
-  <note opaque="true" posX="544" posY="512" sizeHeight="65" sizeWidth="577" text="Replace IP by a generic IP tag&#13;&#10;Replace Host by a generic Host tag"/>
+  <note opaque="true" posX="544" posY="512" sizeHeight="97" sizeWidth="577" text="Replace IP by a generic IP tag&#13;&#10;Replace Host by a generic Host tag&#13;&#10;Replace User-Agent by a generic User Agent tag"/>
   <note opaque="true" posX="544" posY="640" sizeHeight="65" sizeWidth="321" text="Compare new file with ref (which now contains generic IP tag."/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
@@ -1054,13 +1060,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a88356b2-5746-496d-ada1-a1f0a6d10022"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lmy092flgWmXYsbKGNWR4QibPwtZLY8KYgMqoSdqNU8VtZlM8kV3a0FeAFL3b+DS+MBL/bZjr/vo&#13;
-FOLvb3XK/A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a2e9d4e3-f7a5-4d36-9146-29f972ede20c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qfwh6aqVRs9Omn0oYl2c3Gt/nh8HcgSI3mr9LKUJPDXejj7HIbevwhu59Q/uxOs1zTYzXmzR580+&#13;
-NR5gLYs35g==</DigestValue></Reference></SignedInfo><SignatureValue>isSZVjl0aPCqmJroa7H/Lm1MZyX7ncJBgYkuKn5p0X6fb2OkE+0S0lfAjkV35P/DkwUb/Wii/PxV&#13;
-QProofi9ENvloWFMsGVvX2vbHn1CSDQoGVEdbAOBzKa+eizXMKneL1Sj+piic0H7mRPa2W3D7zzP&#13;
-j+JCv4hjcIEJKrXGgg6fFnxvKfDRLGeHGfqRNv32noLJEisnLzhNlrLlkEC7N3X4fDNKrJHv4a1E&#13;
-ao+p9Wis7iEyuL9RBKQTBkUHQIX+vxVGeh9a+l/Z58Q8jbOS4MugXD77ymWF16dzTARC5/F3BPlE&#13;
-jmGljIY/05gj4wOKBrF4/5zw2g+AUuIcCp/cPQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b5d5ea9c-5ec0-48c5-ad0f-ff3f48638c96"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>V4s7t0Vb2vN54ALXpDgW3VMBqpv2QV09JW25+sZrYvxKZT8KGhX+CTKMqPyfIbxaGPVvHUxWSlvC&#13;
+wPeCNN0WYg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_27d60a0d-4ce8-49f4-b6c0-1158920e14c0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1VmfBofdP7A76Kh4KhGHu9y54z/7EWXH//oxTOZXtyfPDRtntESpTd8qOhAqJfmbevZfHtu6PX2x&#13;
+3xNCX8GXyg==</DigestValue></Reference></SignedInfo><SignatureValue>Sg2LCu0YaZPKroydepZwbsXzIG4f9XPz92Rl2BdXDd3HG7BNsnOygJEO92cP0g92kboKV3GULltc&#13;
+WQElARCRgvfbsX7JoUEC0apytrDnts3XusIbidM8wvIzHJNOxeu+cJX8U5fuQT5m7pz5mnnkQE54&#13;
+yu57PNRYwYIOjOKfFMQuZPgGjvgoyFAr1h5YLbpqXVRCvRmKQGtjXSa2L4GbWADToI4JxAef1Iqj&#13;
+kHaha9aK/TBK/+nKa2QqGyVWb1fgIYBfGIwvWvrj79wFwayVjmqv5/k/RUJMcLjXPIfUA4r3XFx3&#13;
+4rIGjbo0oNEW/TidyOt8sq/ZQB/q3XP+9Rlp9A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1082,4 +1088,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a2e9d4e3-f7a5-4d36-9146-29f972ede20c" Target="#_a88356b2-5746-496d-ada1-a1f0a6d10022"><Timestamp>2023-04-06 16:08:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_27d60a0d-4ce8-49f4-b6c0-1158920e14c0" Target="#_b5d5ea9c-5ec0-48c5-ad0f-ff3f48638c96"><Timestamp>2023-06-22 09:48:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

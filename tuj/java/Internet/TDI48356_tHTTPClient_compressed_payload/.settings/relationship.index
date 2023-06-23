@@ -1,28 +1,6 @@
 [ {
   "baseItem" : {
-    "id" : "_2wsQENItEe2JVMd_RFqcNw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_GEh-0NI0Ee2JVMd_RFqcNw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_YtqEsL29Ee2f34FYBfQcng",
+    "id" : "_aadLEPC9Ee2mh_V2-QjN0A",
     "version" : "0.1",
     "type" : "job"
   },
@@ -34,81 +12,6 @@
 }, {
   "baseItem" : {
     "id" : "_c2dTUMPiEe2x5L8CVZlyMw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_e8tgsNIxEe2JVMd_RFqcNw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_hUtZ4MJ6Ee2fwYUZsRQvyA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_jDO9cENyEeK0nZUMqQIKvQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "DQTechnical",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataMasking",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataQuality",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataQualityDependencies",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_nd6hQCD_EeSTxLtyfLPrXw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_Xz104NUrEeOea7yWOAHgIg",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_ryYOcNOYEe2VEbMXJ_RiLQ",
     "version" : "0.1",
     "type" : "job"
   },
