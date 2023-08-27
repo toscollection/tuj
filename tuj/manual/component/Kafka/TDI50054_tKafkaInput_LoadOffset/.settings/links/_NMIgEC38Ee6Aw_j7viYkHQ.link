@@ -1,0 +1,51 @@
+{
+  "itemId" : "_NMIgEC38Ee6Aw_j7viYkHQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_odtDcCqREe6vsfm578UOpw",
+    "parameterList" : [ {
+      "id" : "_oeAlcCqREe6vsfm578UOpw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_oeAlcSqREe6vsfm578UOpw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_oeAlciqREe6vsfm578UOpw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_oeAlcyqREe6vsfm578UOpw",
+      "name" : "result_database"
+    }, {
+      "id" : "_oeAldCqREe6vsfm578UOpw",
+      "name" : "result_host"
+    }, {
+      "id" : "_oeAldSqREe6vsfm578UOpw",
+      "name" : "result_password"
+    }, {
+      "id" : "_oeAldiqREe6vsfm578UOpw",
+      "name" : "result_port"
+    }, {
+      "id" : "_oeAldyqREe6vsfm578UOpw",
+      "name" : "result_table"
+    }, {
+      "id" : "_oeAleCqREe6vsfm578UOpw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_gxgXUCqSEe6vsfm578UOpw",
+    "parameterList" : [ {
+      "id" : "_gxqIUiqSEe6vsfm578UOpw",
+      "name" : "kafka_broker"
+    }, {
+      "id" : "_Nq3hACq7Ee67OfEIcZcnnA",
+      "name" : "kafka_consumergrp"
+    }, {
+      "id" : "_gxqIUyqSEe6vsfm578UOpw",
+      "name" : "kafka_topic"
+    }, {
+      "id" : "_gxqIUSqSEe6vsfm578UOpw",
+      "name" : "kafka_zookeeper"
+    } ]
+  } ]
+}
