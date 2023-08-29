@@ -1,0 +1,20 @@
+{
+  "itemId" : "_IGRZgC38Ee6Aw_j7viYkHQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_gxgXUCqSEe6vsfm578UOpw",
+    "parameterList" : [ {
+      "id" : "_gxqIUiqSEe6vsfm578UOpw",
+      "name" : "kafka_broker"
+    }, {
+      "id" : "_Nq3hACq7Ee67OfEIcZcnnA",
+      "name" : "kafka_consumergrp"
+    }, {
+      "id" : "_gxqIUyqSEe6vsfm578UOpw",
+      "name" : "kafka_topic"
+    }, {
+      "id" : "_gxqIUSqSEe6vsfm578UOpw",
+      "name" : "kafka_zookeeper"
+    } ]
+  } ]
+}
