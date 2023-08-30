@@ -11,7 +11,7 @@
     <contextParameter comment="" internalId="_UsYRaEWVEe63ccNk9EvYbQ" name="result_username" prompt="result_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_UsYRaUWVEe63ccNk9EvYbQ" name="aws_accesskey" prompt="aws_accesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_UsYRakWVEe63ccNk9EvYbQ" name="aws_secretkey" prompt="aws_secretkey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oAqP8EYNEe63ccNk9EvYbQ" name="aws_sqs_name" prompt="aws_sqs_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;comp_sqs&quot;"/>
+    <contextParameter comment="" internalId="_oAqP8EYNEe63ccNk9EvYbQ" name="aws_sqs_name" prompt="aws_sqs_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;TDI35267_Test&quot;"/>
     <contextParameter comment="" internalId="_oAqP8UYNEe63ccNk9EvYbQ" name="aws_sqs_endpoint" prompt="aws_sqs_endpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
