@@ -1,0 +1,263 @@
+Delivered-To: jose.lise@gmail.com
+Received: by 2002:ab2:7e0f:0:b0:167:2b04:3465 with SMTP id z15csp2942458lqg;
+        Tue, 15 Nov 2022 09:00:44 -0800 (PST)
+X-Google-Smtp-Source: AA0mqf7I7mxM4jjJN6Ypc9ztJ79YQHcFA8KnppRHkdhlFRKbdoYcNn0X0qR6wID4GUgaX7MbmJgS
+X-Received: by 2002:ac8:7ca6:0:b0:3a5:9e38:9f4 with SMTP id z6-20020ac87ca6000000b003a59e3809f4mr17297904qtv.532.1668531643590;
+        Tue, 15 Nov 2022 09:00:43 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1668531643; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DF47ApBtBmwxoK0lSy5bInLdHZ/0ABQivyjmvjgvSn+d/3fyOQThDKFXAKZx4eBEwY
+         7OUFJ5AdSDpIhz8d2+lo/3cj4a2fInjLkyDWWf+Ek2/0CirL2W4GO5N5ebEkqZFof0wm
+         tQtbNeqPsMWB49uvemi0Bo07xLCFzpKGKjerbUbCjIKjKFb1qUxQB5SEqdQLmSLVJ0+L
+         tB5Effxq87pFlWrJ7ZOpjQBpZt0TNHqxis7nIAad+5YE+MekC4knP2ISfPPY1/313ecL
+         36kx+ol4klG7ApWQIUeHc8H0bA3/2yLFjslSDCN5vymxQEVP2xH/gmnUP70qPThWD+9/
+         vf2g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:content-language:accept-language:message-id:date
+         :thread-index:thread-topic:subject:to:from:dkim-signature;
+        bh=Rb/d9h89pzyhGb7JZElkie8pXRCTHQ5hMCp4ojBLjN4=;
+        b=psJFg6x0GK+BheOH2vckko1WAnbQnxJg1n2uJj5j4Mm54qBBq6FVn7/K5Fm6xbT6JG
+         pX17OgimxQ84LEq/EW6bfEFSb6Z+TwkDdLzu73fNU96LMrguAVZu8NN7VKyIg89/s1Td
+         cRCP/9yANM9quvrcGx5FXQfNzdmuH5oUp0c1Fp6gvpCmzvhbXUX5ur191TY84hd8O3wq
+         iiBaUNLGsg6nS8VpOzWYyI2QLEnzoTpJeFjJ3eQA1v8qK10TnJyxXor2rVpMXdo6b1Ja
+         yQvZ/WdiEkqQC40yZ2O6M/T7vZLLzvjY+v1dKW+JztlS2BU0maPYpyMe29KPqMlIBhdP
+         /DQg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@talend.com header.s=selector2 header.b=XuPgWeB7;
+       arc=pass (i=1 spf=pass spfdomain=talend.com dkim=pass dkdomain=talend.com dmarc=pass fromdomain=talend.com);
+       spf=pass (google.com: domain of jlise@talend.com designates 67.231.145.182 as permitted sender) smtp.mailfrom=jlise@talend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=talend.com
+Return-Path: <jlise@talend.com>
+Received: from mx0a-002fb401.pphosted.com (mx0a-002fb401.pphosted.com. [67.231.145.182])
+        by mx.google.com with ESMTPS id t22-20020a05620a451600b006faf6fa4631si8617788qkp.314.2022.11.15.09.00.42
+        for <jose.lise@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Nov 2022 09:00:42 -0800 (PST)
+Received-SPF: pass (google.com: domain of jlise@talend.com designates 67.231.145.182 as permitted sender) client-ip=67.231.145.182;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@talend.com header.s=selector2 header.b=XuPgWeB7;
+       arc=pass (i=1 spf=pass spfdomain=talend.com dkim=pass dkdomain=talend.com dmarc=pass fromdomain=talend.com);
+       spf=pass (google.com: domain of jlise@talend.com designates 67.231.145.182 as permitted sender) smtp.mailfrom=jlise@talend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=talend.com
+Received: from pps.filterd (m0144214.ppops.net [127.0.0.1])
+	by mx0a-002fb401.pphosted.com (8.17.1.19/8.17.1.19) with ESMTP id 2AFGAK9b028936
+	for <jose.lise@gmail.com>; Tue, 15 Nov 2022 17:00:41 GMT
+Received: from nam12-bn8-obe.outbound.protection.outlook.com (mail-bn8nam12lp2170.outbound.protection.outlook.com [104.47.55.170])
+	by mx0a-002fb401.pphosted.com (PPS) with ESMTPS id 3kt0junc45-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <jose.lise@gmail.com>; Tue, 15 Nov 2022 17:00:40 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=UyB93+i/hcboKiTLhTyQb6uPmvYz/FKvKLAbTcRlAUuhV8ckJJasmuYIoseqDy9hgoqpm+sMN+YlbqNtnLBMY3dL0/M8wcjFuDabzVNazcwsr7hm6A70QrszVpy2qY6tAbYAbgNJhiyF4QMzJUGpQQm8el1MlmwBOZJkPRzgGsppM/ZjpN8C5C9FYu/woAgMRm679Es69P7TZfBHNvhAZDIq0C9dmv0MRN5bkj4GuvZrh1Oeyh33abNO22ToZirkiHwPXHZDBJnVXuLaneczZEC3zZPtuHLMTXh8O4ZJKRN6MvtOq7tpGtnPMo60nRyahecNNfOSMGnkgaXNIeqp0A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Rb/d9h89pzyhGb7JZElkie8pXRCTHQ5hMCp4ojBLjN4=;
+ b=gtY2DjGhj0kI2COJjeWPVsI2EjUPcoTzpVj5HAKuN/GZlrrs7PqzBZJcoO24hmSTWxVo0Q6V5zl9c2b1buVxIxpdDU1EMQsdmuNKhHoL+9Koph0i29+HutCyroOxHta7GASsfpeAOpCoh5TfGAqamawi+oMzyr4Mf7vPy8XnOunFe2OoIIo4dHBfFnecPWgxD9/94C3drpY4XxqC43wE+BrksjhATuxxMTUHL59E7Vync1qPY3IpTfzhGY1tjWGv20MMLSS0+czv1P2mGpqYwm0wrI3ptmI99U8DGMVaNA/BsbPQaXKeRGO7BKfoKBPFzgQFquKO/1LAzU7CctKP+g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=talend.com; dmarc=pass action=none header.from=talend.com;
+ dkim=pass header.d=talend.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=talend.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Rb/d9h89pzyhGb7JZElkie8pXRCTHQ5hMCp4ojBLjN4=;
+ b=XuPgWeB7urNCWj88/f6YCVvRihDh9WIR+ZhtAjS/WIhDwPpsSjuuLjSZZ8sjUaA7Gsh+mks3Cncd+XkTvwAFSJPl4luhSmD6z9QumE6S33L1RHRmJP7kzUudtSW9aQ0sfIpImNGTVaVNXo4gFg6h0vxGsGNStuqc6+7AcLjdg/A=
+Received: from MW2PR12MB2539.namprd12.prod.outlook.com (2603:10b6:907:9::30)
+ by BL1PR12MB5851.namprd12.prod.outlook.com (2603:10b6:208:396::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5813.18; Tue, 15 Nov
+ 2022 17:00:36 +0000
+Received: from MW2PR12MB2539.namprd12.prod.outlook.com
+ ([fe80::3874:8c29:b54e:45e1]) by MW2PR12MB2539.namprd12.prod.outlook.com
+ ([fe80::3874:8c29:b54e:45e1%7]) with mapi id 15.20.5813.017; Tue, 15 Nov 2022
+ 17:00:36 +0000
+From: =?iso-8859-1?Q?Constant_Jos=E9_Lise?= <jlise@talend.com>
+To: =?iso-8859-1?Q?Jos=E9_LISE?= <jose.lise@gmail.com>
+Subject: Talend Attachment test 
+Thread-Topic: Talend Attachment test 
+Thread-Index: Adj5E1nCZY/vIXnNQqqqgV0E8URnrA==
+Date: Tue, 15 Nov 2022 17:00:36 +0000
+Message-ID: 
+ <MW2PR12MB253995539574816CAA16551ADA049@MW2PR12MB2539.namprd12.prod.outlook.com>
+Accept-Language: fr-FR, en-US
+Content-Language: fr-FR
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW2PR12MB2539:EE_|BL1PR12MB5851:EE_
+x-ms-office365-filtering-correlation-id: faceba87-956c-4178-cd34-08dac72aeaac
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 
+ rK+UgKJ98RlXrG3pMWikY7P8YcsU7U6e2NKsIDWW/qWLyQm6o009Limib/s+cHkJxE/gTHHsZqbcfPY67WSnOVrTMLLoig+p9FkEG8IY3Q1kLO8dKz/KM2qmFguYP5UNUWqqUX0d5Yq7okNQWoCS6sUMsLzIw37v8JqA0bKi+weaL/1z38dIjCXcpN/jZJ1N1PhiGsvsJXsycWcBymEcr3ByWgsgUSA5UJnYqbt+3tkNZ7xVxFcV4gcsYwDVgp7trnNzdjmP9x1ugv8B7nTY2sx5gZHjq6tbcHKG2SezmEnzihJr3TBVF7uzmkwLzhrHtUxVEDCYWOxU0vAvX6PpO1YkTIL1To77gHddWiyF971Tj9J3E30d6pjZL4Lzz05j2XkVATR8H2b8vXGD04LmeqMXtM4ie5Mdt9jALZqBYTQSfl5pAuQxpHAgt40Ed5rXzYdobKqYq/Ea8LQfNl2tdEU43GpjDwnbB5RT8JNgcKNWHytLULQReP/PqEKgRh8PdY71bIYTf4/sZ201qp5cjCkwIMRUVxVhmJG+dH5KC4xv637As2y28zhMVxdwo3w3iuJ4xcffC6iMvwN73OUnLkq93mi1N3PZJqrQ/Io+HySPnwZEBkqSpadJtx5ygGMA59s2tK69IGiCxyTNtVliKDZ4V2JDvxQsrUyresi900+E2JHtwaJcaa+sJ7zullPsglGEWsabGsyXO6BmhFvc1GaOy0Wbl+w242xC/bRmQcmhdcS78I2yo2m9wx4DK1k9bvYWb36j+juS2KJZTkufDA==
+x-forefront-antispam-report: 
+ CIP:255.255.255.255;CTRY:;LANG:fr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MW2PR12MB2539.namprd12.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230022)(346002)(39860400002)(376002)(366004)(396003)(136003)(451199015)(66899015)(478600001)(7696005)(38070700005)(71200400001)(6506007)(6916009)(166002)(55236004)(76116006)(38100700002)(9686003)(86362001)(4743002)(26005)(316002)(7116003)(64756008)(122000001)(66446008)(99936003)(66476007)(66946007)(66556008)(8676002)(186003)(8936002)(52536014)(5660300002)(55016003)(83380400001)(3480700007)(41300700001)(2906002)(33656002)(558084003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: 
+ =?iso-8859-1?Q?O7JyZr+iSu9fW0DIE0hLKB/rcvFxvMDXDKH6R2DxMrcnWRDDgcrnfY03X0?=
+ =?iso-8859-1?Q?uJIOR3o9udzYW40DkeHleYZDLqOucIu6+ClAhTYJoUggT9MlLUsDyjUNw4?=
+ =?iso-8859-1?Q?KywBB+4pSg+g8Llc5vgSpi+uGkupVHhRmPfp6YKU71TFgcNYIYC0fQwyIV?=
+ =?iso-8859-1?Q?NysKMwlcSfYtDQxScO6UN/j7p6RmcOZr7m7pR89sSX89tOlxffkYAENhyP?=
+ =?iso-8859-1?Q?zp+YBFpTojuGdrV6w9Y1rguvZ/Xi3bM8KLqrZ+uT3UznUaZRM+RMun+7wh?=
+ =?iso-8859-1?Q?D1QntGFcWoLdUYEjCjl2sfyLcI1Y0h0Gsc39ASSB2mplwgcU1zs1uyEeLZ?=
+ =?iso-8859-1?Q?iXcEnozBrkQewEwFSsRJYkrrFisk4aHVZX6UyKzhYSHZIairNZ5al1tucr?=
+ =?iso-8859-1?Q?FXR1B5U8f4wY6k/zJ/YfazKOaoIY6khS543nGPf2P5T33pC09bykgd2v49?=
+ =?iso-8859-1?Q?PzD79GPPYpYoaNpjvRbLs6f5WK6pBYMRLQiILqI1eBmHGHkpOkuZVKVTjM?=
+ =?iso-8859-1?Q?1swkuJgzq8Q2nMIgDmlTMBSCNOGVzNEvlOjReZM6AI50O0rF8Pr7kcnsG/?=
+ =?iso-8859-1?Q?hea/81AMbjfal/6bAgfnsrA+SKe2bcyP3nG11LBmmLZMvtpACL8/RxPYY0?=
+ =?iso-8859-1?Q?st/k/sM/oerf0ELUPelAt5Yd9jLbcwY8JfoSsrroUchhj0TPCQ63zx1HMe?=
+ =?iso-8859-1?Q?AhwjI02suaqgMH4unFKI9swr9FNy/0nqT5tlFJjD10I7/uaPxdrQH2m74M?=
+ =?iso-8859-1?Q?xF0r9MM+RfDVJuY/LxF0O3198/LmxtpNyWSqb8ii6K0x/IlE2Qa9lqqcdx?=
+ =?iso-8859-1?Q?9MEv65XJd05d1+w9L946FYtku6jj/8On7t02S7hw+mHEyrYy+Y+COCh0OE?=
+ =?iso-8859-1?Q?mcReAsfUMwEkCnzCo2Yji0wVT7+95XOdGjD003pavPBuv/mbMm25rYes7a?=
+ =?iso-8859-1?Q?tUv3N9XGdMW5s90FHdGo6OpneJrX9XFV9U/VC3KpPopELLAy83LMNsHfWO?=
+ =?iso-8859-1?Q?o6lHnf68KjAdiAE3A3PZUvQTUqxOG31WXcO6IXJI/5ZiBc32SiBQ5okQ9U?=
+ =?iso-8859-1?Q?2rsmNjuSoWfzuVqCGLLYQ9nw1irDb/1hTqeNflRdcSEWX/rvxKd7AfQepg?=
+ =?iso-8859-1?Q?ERoKDKHf27pCsm3zF9tW53udKTfqbCJtgHwCWUJEX+OniBTVrM27rETAwQ?=
+ =?iso-8859-1?Q?0kMDRJINIa0klHxwWf3i9WSFYr6/AaHEC5u+ux0FgXAwIRAP4pGTjqtPPj?=
+ =?iso-8859-1?Q?eeJ0nLsa7b7MsT6TxMnPmB0FHOH9+yJFVSP//haQHuuGGGI70AtISWYaMG?=
+ =?iso-8859-1?Q?v82HELIBK2C4oQwPjDb14YK2oXgwAelk8k+YaD5YI4GuBpCC4XaaMyDhWM?=
+ =?iso-8859-1?Q?NyDZOn1gcpqIMq8GIempSuQIL68CpC2wmXfjOK9cF6BwLIevmLIsJMi7qY?=
+ =?iso-8859-1?Q?le5g3OwyGga77y3IiIlGx0QQoNcP+eLmE8cTXD/IsgjB1GqZLZuVt/fMnN?=
+ =?iso-8859-1?Q?qbEYAjOwP8qlGEpJicLD/zvlIMN6eYNfy2CZuJmtVTTs8QnKzoy+/laVk9?=
+ =?iso-8859-1?Q?R5lJZWgZKxzYIHw+/az2o+KMA6InL6kF5ku6NUdAHflRpRTlVcNQxtegXZ?=
+ =?iso-8859-1?Q?5XjCjpi7GVAOo=3D?=
+Content-Type: multipart/mixed;
+	boundary="_004_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: talend.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MW2PR12MB2539.namprd12.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: faceba87-956c-4178-cd34-08dac72aeaac
+X-MS-Exchange-CrossTenant-originalarrivaltime: 15 Nov 2022 17:00:36.5624
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 0333ca35-3f21-4f69-abef-c46d541d019d
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: jC38tYrgemdSoapaeRb8Ynn74+nWvgK8RlnUxzG2VIz6bQr7x2RWzCrt7UTAoHV5fw0PRbT0KwFRBvgWQ+X4uw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL1PR12MB5851
+X-Proofpoint-GUID: iCXE3PJWVbTN2QimaYoBpAU1HvPrjbnf
+X-Proofpoint-ORIG-GUID: iCXE3PJWVbTN2QimaYoBpAU1HvPrjbnf
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.219,Aquarius:18.0.895,Hydra:6.0.545,FMLib:17.11.122.1
+ definitions=2022-11-15_08,2022-11-15_03,2022-06-22_01
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 impostorscore=0
+ lowpriorityscore=0 malwarescore=0 suspectscore=0 clxscore=1011 mlxscore=0
+ phishscore=0 adultscore=0 priorityscore=1501 spamscore=0 mlxlogscore=377
+ bulkscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2210170000 definitions=main-2211150115
+
+--_004_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_"
+
+--_000_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Talend Attachment test
+
+As a recipient of an email from Talend, your contact personal data will be =
+on our systems. Please see our privacy notice. <https://www.talend.com/priv=
+acy/>
+
+
+
+--_000_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"FR" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:bre=
+ak-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Talend Attachment test<o:p></o:p></p>
+</div>
+<div style=3D"padding:.8em; ">
+<p style=3D"font-size:8pt; line-height:10pt; font-family: 'Calibri','times =
+roman',serif;">
+<b>As a recipient of an email from Talend, your contact personal data will =
+be on our systems. Please see our<a href=3D"https://www.talend.com/privacy/=
+"> privacy notice.
+</b></a></p>
+<br>
+<br>
+</div>
+</body>
+</html>
+
+--_000_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_--
+
+--_004_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_
+Content-Type: application/octet-stream; name="Studio-error-txt"
+Content-Description: Studio-error-txt
+Content-Disposition: attachment; filename="Studio-error-txt"; size=1247;
+	creation-date="Mon, 10 Oct 2022 13:20:25 GMT";
+	modification-date="Tue, 15 Nov 2022 17:00:36 GMT"
+Content-Transfer-Encoding: base64
+
+U3RhcnRpbmcgam9iIFN1cHBvcnRfanNBUFBOWFNfU2VsbGVyX0ZpbGxfRGVsaXZlcnlfTmV0d29y
+a19UZXN0X0l0ZXJhdGlvbiBhdCAwNzowNCAxMC8xMC8yMDIyLg0Kb3JnLmFwYWNoZS5zcGFyay5T
+cGFya0V4Y2VwdGlvbjogWWFybiBhcHBsaWNhdGlvbiBoYXMgYWxyZWFkeSBlbmRlZCEgSXQgbWln
+aHQgaGF2ZSBiZWVuIGtpbGxlZCBvciB1bmFibGUgdG8gbGF1bmNoIGFwcGxpY2F0aW9uIG1hc3Rl
+ci4NCglhdCBvcmcuYXBhY2hlLnNwYXJrLnNjaGVkdWxlci5jbHVzdGVyLllhcm5DbGllbnRTY2hl
+ZHVsZXJCYWNrZW5kLndhaXRGb3JBcHBsaWNhdGlvbihZYXJuQ2xpZW50U2NoZWR1bGVyQmFja2Vu
+ZC5zY2FsYTo4OSkNCglhdCBvcmcuYXBhY2hlLnNwYXJrLnNjaGVkdWxlci5jbHVzdGVyLllhcm5D
+bGllbnRTY2hlZHVsZXJCYWNrZW5kLnN0YXJ0KFlhcm5DbGllbnRTY2hlZHVsZXJCYWNrZW5kLnNj
+YWxhOjYzKQ0KCWF0IG9yZy5hcGFjaGUuc3Bhcmsuc2NoZWR1bGVyLlRhc2tTY2hlZHVsZXJJbXBs
+LnN0YXJ0KFRhc2tTY2hlZHVsZXJJbXBsLnNjYWxhOjE2NCkNCglhdCBvcmcuYXBhY2hlLnNwYXJr
+LlNwYXJrQ29udGV4dC48aW5pdD4oU3BhcmtDb250ZXh0LnNjYWxhOjUwMCkNCglhdCBvcmcuYXBh
+Y2hlLnNwYXJrLmFwaS5qYXZhLkphdmFTcGFya0NvbnRleHQuPGluaXQ+KEphdmFTcGFya0NvbnRl
+eHQuc2NhbGE6NTgpDQoJYXQgY2psaXNlLnN1cHBvcnRfanNhcHBueHNfc2VsbGVyX2ZpbGxfZGVs
+aXZlcnlfbmV0d29ya190ZXN0X2l0ZXJhdGlvbl8wXzEuU3VwcG9ydF9qc0FQUE5YU19TZWxsZXJf
+RmlsbF9EZWxpdmVyeV9OZXR3b3JrX1Rlc3RfSXRlcmF0aW9uLnJ1bkpvYkluVE9TKFN1cHBvcnRf
+anNBUFBOWFNfU2VsbGVyX0ZpbGxfRGVsaXZlcnlfTmV0d29ya19UZXN0X0l0ZXJhdGlvbi5qYXZh
+OjExODIpDQoJYXQgY2psaXNlLnN1cHBvcnRfanNhcHBueHNfc2VsbGVyX2ZpbGxfZGVsaXZlcnlf
+bmV0d29ya190ZXN0X2l0ZXJhdGlvbl8wXzEuU3VwcG9ydF9qc0FQUE5YU19TZWxsZXJfRmlsbF9E
+ZWxpdmVyeV9OZXR3b3JrX1Rlc3RfSXRlcmF0aW9uLm1haW4oU3VwcG9ydF9qc0FQUE5YU19TZWxs
+ZXJfRmlsbF9EZWxpdmVyeV9OZXR3b3JrX1Rlc3RfSXRlcmF0aW9uLmphdmE6MTAzMykNCg0KSm9i
+IFN1cHBvcnRfanNBUFBOWFNfU2VsbGVyX0ZpbGxfRGVsaXZlcnlfTmV0d29ya19UZXN0X0l0ZXJh
+dGlvbiBlbmRlZCBhdCAwNzowNSAxMC8xMC8yMDIyLiBbRXhpdCBjb2RlICA9IDFdDQo=
+
+--_004_MW2PR12MB253995539574816CAA16551ADA049MW2PR12MB2539namp_--
