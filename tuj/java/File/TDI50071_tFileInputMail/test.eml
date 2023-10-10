@@ -1,0 +1,143 @@
+Received: from vthwexch01.versatel.local (10.224.2.200) by
+ vthwexch01.versatel.local (10.224.2.200) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23 via Mailbox Transport; Fri, 7 Jul 2023 14:37:41 +0200
+Received: from vthwexch03.versatel.local (10.224.2.202) by
+ vthwexch01.versatel.local (10.224.2.200) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23; Fri, 7 Jul 2023 14:37:40 +0200
+Received: from mailintvt.versatel.de (10.224.201.100) by
+ vthwexch03.versatel.local (10.224.2.202) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23 via Frontend Transport; Fri, 7 Jul 2023 14:37:40 +0200
+Received: from mxintlb11fl.versatel.de (mxintlb11fl.versatel.de [62.214.97.105])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mailintvt.versatel.de (Postfix) with ESMTPS id AFAB12E038D
+	for <svc.sdwan-com-sys-st@1und1.net>; Fri,  7 Jul 2023 14:37:40 +0200 (CEST)
+Received: from [94.100.132.222] (helo=mx-relay22-hz1.antispameurope.com)
+	by mailintvt.versatel.de with ESMTPS (eXpurgate 4.46.0)
+	(envelope-from <prvs=054533d99a=cs.incident.1u1@test-sys.de>)
+	id 64a80714-ac76-3ed661692729-5e6484def5eb-3
+	for <svc.sdwan-com-sys-st@1und1.net>; Fri, 07 Jul 2023 14:37:40 +0200
+Received: from mail-be0deu01lp2174.outbound.protection.outlook.com ([104.47.7.174]) by mx-relay22-hz1.antispameurope.com;
+ Fri, 07 Jul 2023 14:37:40 +0200
+Received: from FR0P281CA0114.DEUP281.PROD.OUTLOOK.COM (2603:10a6:d10:a8::16)
+ by BEXP281MB0037.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:4::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6565.25; Fri, 7 Jul
+ 2023 12:37:33 +0000
+Received: from BE0DEU01FT006.eop-deu01.prod.protection.outlook.com
+ (2603:10a6:d10:a8:cafe::a2) by FR0P281CA0114.outlook.office365.com
+ (2603:10a6:d10:a8::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6588.12 via Frontend
+ Transport; Fri, 7 Jul 2023 12:37:33 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 20.79.222.204)
+ smtp.mailfrom=test-sys.de; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=test-sys.de;
+Received-SPF: Pass (protection.outlook.com: domain of test-sys.de designates
+ 20.79.222.204 as permitted sender) receiver=protection.outlook.com;
+ client-ip=20.79.222.204; helo=de2-emailsignatures-cloud.codetwo.com; pr=C
+Received: from de2-emailsignatures-cloud.codetwo.com (20.79.222.204) by
+ BE0DEU01FT006.mail.protection.outlook.com (20.128.125.79) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6588.13 via Frontend Transport; Fri, 7 Jul 2023 12:37:33 +0000
+Received: from DEU01-BE0-obe.outbound.protection.outlook.com (104.47.7.171) by de2-emailsignatures-cloud.codetwo.com with CodeTwo SMTP Server (TLS12) via SMTP; Fri, 07 Jul 2023 12:37:30 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=e3nFn0Y/cdQv5GD3CTWAUQpGrgdpKBOtSOydRh6yfGUnOuAA8OKaueulQY7XWZoTDXRRK4+Jxao1rvr6gZrOtHZIoQTO6typqfdL2jO0w7gzER6BeJHo6gd/ROQFXKpYNN5hRC88wVZjaVZb35oT10qvd1NbTk+RZSOtKV4QcYRrbQrp5rliorRVa5vrYGDqK+CdXTwMa0LVUZ+XdLvrlc3ZYgnsIUem+dqlIDoIv16BHGvQLeCl2Ib7S/UXeDhlgwQgzGQYGk+7CRVuh5otI6HhB3i4I/B70OEyH7mnbmBzscEy6ZeXwxC79/qwJFhPlD8XMj0A+PjdhxgMz4YuuQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=fVOQKiNSlCNm7n8PswdwW+C2rsqM7Eb8vdMRb8KkX1Q=;
+ b=B7fO7VcHZov93eC4jYlibnV1ouFhTCHYPYichWnzH/7hF8t3wuHQXgcRaRgbZToBXLnyGIZRxOptUtEA9Vx8xVUKXA1cPDkoWRGc0CSpcaKwqzMSddUQE2fXP867J0Vz6bOoSBjCodozU7RcGM5ArOYXqg3egkwg3/zX/bSEErHDQ5a4UwUZVK/9jDbY7qQ4BVWTPaDSlDWikjyOvQOjHIuH9sJruAqAsUzVjxmEyHGpKEdOMd0mfeBWOc2TplNmvQxv6dWXtqPXdofltGbwgwLhwL1lZ328Owzd9bceJgt4HNnektoc3fG8U4+MCcMzSrU4tzhtmakZAKWLhQti7A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=test-sys.de; dmarc=pass action=none header.from=test-sys.de;
+ dkim=pass header.d=test-sys.de; arc=none
+Authentication-Results-Original: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=test-sys.de;
+Received: from BE1P281MB1698.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:16::12)
+ by FR2P281MB3104.DEUP281.PROD.OUTLOOK.COM (2603:10a6:d10:68::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6565.25; Fri, 7 Jul
+ 2023 12:37:29 +0000
+Received: from BE1P281MB1698.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::d1f3:5611:8a69:dd33]) by BE1P281MB1698.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::d1f3:5611:8a69:dd33%4]) with mapi id 15.20.6565.025; Fri, 7 Jul 2023
+ 12:37:29 +0000
+Date: Fri, 7 Jul 2023 05:37:29 -0700
+From: "helpdesk@test-sys.de" <CS.Incident.1u1@test-sys.de>
+Reply-To: <CS.Incident.1u1@test-sys.de>
+To: <svc.sdwan-com-sys-st@1und1.net>
+Message-ID: <14175545.7296.1688733449117@app123456.abc123.service-now.com>
+Subject: =?UTF-8?Q?{"1&1_Versatel_TT-Nr.":_"1234567SO65?=
+ =?UTF-8?Q?4321",_"Typ":"update",_"Subject":"Ei?=
+ =?UTF-8?Q?ngangsbest=C3=A4tigung",_"Technological_S?=
+ =?UTF-8?Q?ystems_GmbH_Ticket_ID":_"AB0012345"}?=
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-ServiceNow-Source: Notification-e777ff2bdbc4cd501db05a3bd39619b7
+X-ServiceNow-SysEmail-Version: 2
+Precedence: bulk
+Auto-Submitted: auto-generated
+X-ServiceNow-Generated: true
+X-ClientProxiedBy: AM0PR10CA0016.EURPRD10.PROD.OUTLOOK.COM
+ (2603:10a6:208:17c::26) To BE1P281MB1698.DEUP281.PROD.OUTLOOK.COM
+ (2603:10a6:b10:16::12)
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-TrafficTypeDiagnostic: BE1P281MB1698:EE_|FR2P281MB3104:EE_|BE0DEU01FT006:EE_|BEXP281MB0037:EE_
+X-MS-Office365-Filtering-Correlation-Id: c8bd9e39-0562-4de5-3602-08db7ee6efb1
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: 016wOQUB0HTzrxeWdpUJ8WP0zWv3SEJSbWW6FaDSCFsFIY+1OHdPbbJqxGiwULqmtFjoEfha83AhpDH31/AsxzKW/o9O9mvq9Bm490BzoUxdgWMGDKgzCN9X00Ep7S37MYbs+pi7QVYs72wt/OSeGi0OC0XmLviD5UBTwxujFR9K+iq7P1TH449bibhBLvM9wq162MPNtxAwQncBuzC+15VbVmGl6rIgyvlokldGrQVyivenKW5WaDCIxur4Aj/5K7kOTnYdF85x8x098vuOEOh8nHDFF8UO0uc3CCO/8ReVRBpMv9uKT86ihhTp2snGOjQOM99PTzhmbOTL7T5e2iAQSI+3WKb3e1yfYpUSaeu4YzKR5N6yOvwpwtXQ1ROv/YPpeKshWHyKqKAsevY2uPuCUlLaggnG3RLk/GfbAv9meCISouZiA4wTKms/ulHQT/wXsQ21U3KjlHKcVv5PUFPdQwwzLY/SOboFN61CV9C7Y1NjguMwmjX3nlSxFoe5+sTtdGdaz1h37miRF8y0ysDHfK0RyELDD4wSaRQhphV7VqBlDYH9efNSuXoIRS6wVj9BX9gL0QjyYXOySnHDdQ9Bo/XYJKJJHS/D1FPP3cVbDiGN6TZ/DZn4Px0Ao+KlDbF6xivG6EcHY8M/NIDeMA==
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:de;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BE1P281MB1698.DEUP281.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230028)(396003)(39840400004)(376002)(346002)(366004)(136003)(451199021)(478600001)(6486002)(26005)(186003)(6506007)(9686003)(6512007)(2906002)(41300700001)(66476007)(316002)(6916009)(66946007)(8936002)(5660300002)(66556008)(38100700002)(86362001)(558084003)(224303003)(83380400001)(3450700001)(40822002);DIR:OUT;SFP:1101;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: FR2P281MB3104
+X-CodeTwo-MessageID: 8e30efd2-ae8f-4256-9fc9-51188e60caf7.20230707123730@de2-emailsignatures-cloud.codetwo.com
+X-CodeTwoProcessed: true
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BE0DEU01FT006.eop-deu01.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 5bdb0f10-e8fb-4338-4fc9-08db7ee6ed4f
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: slCabFOy5BSf8EH1Rdt5dl16aiuNvXt88X84cAujt4Gd+VBRcT9yxaATb5zpJKcAnt2M7FGxSLupJCoSdQqdFQwBqG9swvL3z8t68s7rU8hj5oNXOtyK4OcYLPzUfLPzUE3Ng19HVm15BZPhEc7v7uU4AsGjc02rvcZ0waeO/GVPbmKRxTtE7Rg9792wKweFSKoTE3/bcGXV2rciVAHRJXYpJ4tHHPOi/r12cQeHMl9/iN7m/8A6Tj5YcQR73HeJSs3jLLu5bz0T37yNHZgv35/CgqZiDMftxnm+QIlvEqXs8hgCtc7cJdBD5vaN3GvYZKm9GDF7nwUbRVg/ZIruJxLQTEdemy5g6RWf04POEt6Dg1rDQZEDD6HTD4z1h0RL8xsz8oj4HtzFW7sqeq8WF3BXcMwPm99hWJTEe6zEPQhrbURyYDT7AJVAdjDfqhpSQxMT29WFA9j3Vf/AhW36QXT2iQlzBzqJbillf6t/C3J4rdd1znjkSzdEWfeTGBJwfsa5PIFDB5hxjS0ep/a9115ZfwKuuQeLwljlaaCu5ZnzK3n89xsneGmpUGOAC6DqYsUYz3qVrQxDCHEoF20zL/s7jLTWoWkWo0h2QLbOj8AZjxRcY8Ap8rPTiYT6KdeDm7j0zgE26Tz3NLtyudIt+vN2H81i7E6IHJw0h+omss5q1tx+3O9qAfdAfTkWKwBrQwhqRR2HAx71sLnGjlVBT65gvxXsXrh3gzoGuF+w3mU3FshQEqJYR1WNVFg39CyDhYvgwD+oELQ392tzh0LYzw==
+X-Forefront-Antispam-Report: CIP:20.79.222.204;CTRY:DE;LANG:de;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:de2-emailsignatures-cloud.codetwo.com;PTR:de2-emailsignatures-cloud.codetwo.com;CAT:NONE;SFS:(13230028)(396003)(376002)(39850400004)(346002)(136003)(451199021)(46966006)(36840700001)(82740400003)(6506007)(26005)(9686003)(316002)(41300700001)(47076005)(6512007)(36860700001)(83380400001)(186003)(336012)(6486002)(478600001)(356005)(7636003)(7596003)(70586007)(6916009)(70206006)(40480700001)(82310400005)(86362001)(558084003)(224303003)(3450700001)(5660300002)(2906002)(8936002)(40822002);DIR:OUT;SFP:1101;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Jul 2023 12:37:33.1690
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c8bd9e39-0562-4de5-3602-08db7ee6efb1
+X-MS-Exchange-CrossTenant-Id: 9bd45fac-42e6-4a2a-af29-e9b86e25bf9b
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=9bd45fac-42e6-4a2a-af29-e9b86e25bf9b;Ip=[20.79.222.204];Helo=[de2-emailsignatures-cloud.codetwo.com]
+X-MS-Exchange-CrossTenant-AuthSource: BE0DEU01FT006.eop-deu01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BEXP281MB0037
+X-cloud-security-sender: cs.incident.1u1@test-sys.de
+X-cloud-security-recipient: svc.sdwan-com-sys-st@1und1.net
+X-cloud-security-crypt: load encryption module
+X-cloud-security-crypt: positive policy
+X-cloud-security-crypt-policy: 359485
+X-cloud-security-sender: cs.incident.1u1@test-sys.de
+X-cloud-security-recipient: svc.sdwan-com-sys-st@1und1.net
+X-cloud-security-Mailarchiv: E-Mail archived for: cs.incident.1u1@test-sys.de
+X-cloud-security-Mailarchivtype: outbound
+X-cloud-security-Virusscan: CLEAN
+X-cloud-security-disclaimer: This E-Mail was scanned by E-Mailservice on mx-relay22-hz1.antispameurope.com with 248DDE40078
+X-cloud-security-connect: mail-be0deu01lp2174.outbound.protection.outlook.com[104.47.7.174], TLS=1, IP=104.47.7.174
+X-cloud-security-Digest: 90afb62855d07ee7a4a24e1fbc5dc2b8
+X-cloud-security: scantime:2.990
+X-purgate-ID: 150646::1688733460-8CFF2D12-4A1F9E27/0/0
+X-purgate-type: clean
+X-purgate-size: 55
+X-purgate-Ad: Categorized by eleven eXpurgate (R) http://www.eleven.de
+X-purgate: This mail is considered clean (visit http://www.eleven.de for further information)
+X-purgate: clean
+Return-Path: prvs=054533d99a=cs.incident.1u1@test-sys.de
+X-MS-Exchange-Organization-Network-Message-Id: e344bb28-f1ff-46c7-c456-08db7ee6f442
+X-EndpointSecurity-0xde81-EV: v:7.9.3.298, d:inc, a:n, w:t, t:22, sv:1688723354, ts:1688733461
+X-MS-Exchange-Organization-AuthSource: vthwexch03.versatel.local
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.2297368
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.023
+MIME-Version: 1.0
+
+
+{"Worklog": "Eingangsbest=C3=A4tigung des Tickets"}
