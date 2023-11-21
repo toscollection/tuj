@@ -795,7 +795,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_7"/>
     <elementParameter field="CLOSED_LIST" name="COMPARISON_MODE" value="BINARY_CMP"/>
     <elementParameter field="FILE" name="FILE" value="context.data_output_dir + &quot;/&quot; + jobName + &quot;/out/out_file/out_PostgrePlus.csv&quot;"/>
-    <elementParameter field="FILE" name="FILE_REF" value="context.data_dir + &quot;/&quot; + jobName + &quot;/ref_XX.csv&quot;"/>
+    <elementParameter field="FILE" name="FILE_REF" value="context.data_dir + &quot;/&quot; + jobName + &quot;/ref1_XX.csv&quot;"/>
     <elementParameter field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;"/>
     <elementParameter field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;"/>
     <elementParameter field="CHECK" name="PRINT" value="true"/>
