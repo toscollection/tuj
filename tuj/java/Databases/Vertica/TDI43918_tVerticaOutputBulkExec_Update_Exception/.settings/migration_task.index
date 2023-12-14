@@ -185,11 +185,6 @@
     "version" : "7.0.1",
     "status" : "ok"
   }, {
-    "id" : "org.talend.designer.core.generic.model.migration.ChangeJDBCConnectionsPropertiesMigrationTask",
-    "breaks" : "7.4.0",
-    "version" : "7.4.1",
-    "status" : "ok"
-  }, {
     "id" : "org.talend.designer.core.generic.model.migration.Dataprep701MigrationTask",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
@@ -1005,11 +1000,6 @@
     "version" : "6.4.0",
     "status" : "ok"
   }, {
-    "id" : "org.talend.repository.model.migration.ChangeDQComponentsLicenseKeyFieldTask",
-    "breaks" : "7.3.1",
-    "version" : "7.4.1",
-    "status" : "ok"
-  }, {
     "id" : "org.talend.repository.model.migration.ChangeDefaultEncodingMigrationTask",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
@@ -1716,11 +1706,6 @@
     "id" : "org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
-    "status" : "ok"
-  }, {
-    "id" : "org.talend.repository.model.migration.RenameSQLDWHMigrationTask",
-    "breaks" : "7.4.0",
-    "version" : "7.4.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.RenameSalesforceWaveMigrationTask",
