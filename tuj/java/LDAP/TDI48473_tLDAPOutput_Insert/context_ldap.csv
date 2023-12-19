@@ -1,0 +1,11 @@
+ldap_host;sv2-tdi-161
+ldap_port;389
+ldap_basedn;dc=example,dc=org
+ldap_username;cn=admin,dc=example,dc=org
+ldap_password;admin
+
+ldaps_host;sv2-tdi-161
+ldaps_port;636
+ldaps_basedn;dc=example,dc=org
+ldaps_username;cn=admin,dc=example,dc=org
+ldaps_password;admin
