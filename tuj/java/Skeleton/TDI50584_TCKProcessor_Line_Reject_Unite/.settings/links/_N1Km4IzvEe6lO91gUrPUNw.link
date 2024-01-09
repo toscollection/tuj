@@ -1,0 +1,110 @@
+{
+  "itemId" : "_N1Km4IzvEe6lO91gUrPUNw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "parameterList" : [ {
+      "id" : "_c_s3cPj9EeuO7pwxHwoiSw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_c_s3cfj9EeuO7pwxHwoiSw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_c_s3cvj9EeuO7pwxHwoiSw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_c_s3c_j9EeuO7pwxHwoiSw",
+      "name" : "result_database"
+    }, {
+      "id" : "_c_s3dPj9EeuO7pwxHwoiSw",
+      "name" : "result_host"
+    }, {
+      "id" : "_c_s3dfj9EeuO7pwxHwoiSw",
+      "name" : "result_password"
+    }, {
+      "id" : "_c_s3dvj9EeuO7pwxHwoiSw",
+      "name" : "result_port"
+    }, {
+      "id" : "_c_s3d_j9EeuO7pwxHwoiSw",
+      "name" : "result_table"
+    }, {
+      "id" : "_c_s3ePj9EeuO7pwxHwoiSw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_gRDdoIIeEe6RHeZomP196Q",
+    "parameterList" : [ {
+      "id" : "_gRVKcIIeEe6RHeZomP196Q",
+      "name" : "snowflake_account"
+    }, {
+      "id" : "_gRVKcYIeEe6RHeZomP196Q",
+      "name" : "snowflake_database"
+    }, {
+      "id" : "_gRVKcoIeEe6RHeZomP196Q",
+      "name" : "snowflake_password"
+    }, {
+      "id" : "_gRVKc4IeEe6RHeZomP196Q",
+      "name" : "snowflake_schema"
+    }, {
+      "id" : "_gRVKdIIeEe6RHeZomP196Q",
+      "name" : "snowflake_userId"
+    }, {
+      "id" : "_gRVKdYIeEe6RHeZomP196Q",
+      "name" : "snowflake_warehouse"
+    } ]
+  }, {
+    "contextName" : "production",
+    "repoId" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "parameterList" : [ {
+      "id" : "_c_s3cPj9EeuO7pwxHwoiSw",
+      "name" : "data_dir"
+    }, {
+      "id" : "_c_s3cfj9EeuO7pwxHwoiSw",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_c_s3cvj9EeuO7pwxHwoiSw",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_c_s3c_j9EeuO7pwxHwoiSw",
+      "name" : "result_database"
+    }, {
+      "id" : "_c_s3dPj9EeuO7pwxHwoiSw",
+      "name" : "result_host"
+    }, {
+      "id" : "_c_s3dfj9EeuO7pwxHwoiSw",
+      "name" : "result_password"
+    }, {
+      "id" : "_c_s3dvj9EeuO7pwxHwoiSw",
+      "name" : "result_port"
+    }, {
+      "id" : "_c_s3d_j9EeuO7pwxHwoiSw",
+      "name" : "result_table"
+    }, {
+      "id" : "_c_s3ePj9EeuO7pwxHwoiSw",
+      "name" : "result_username"
+    } ]
+  }, {
+    "contextName" : "production",
+    "repoId" : "_gRDdoIIeEe6RHeZomP196Q",
+    "parameterList" : [ {
+      "id" : "_gRVKdoIeEe6RHeZomP196Q",
+      "name" : "snowflake_account"
+    }, {
+      "id" : "_gRVKd4IeEe6RHeZomP196Q",
+      "name" : "snowflake_database"
+    }, {
+      "id" : "_gRVKeIIeEe6RHeZomP196Q",
+      "name" : "snowflake_password"
+    }, {
+      "id" : "_gRVKeYIeEe6RHeZomP196Q",
+      "name" : "snowflake_schema"
+    }, {
+      "id" : "_gRVKeoIeEe6RHeZomP196Q",
+      "name" : "snowflake_userId"
+    }, {
+      "id" : "_gRVKe4IeEe6RHeZomP196Q",
+      "name" : "snowflake_warehouse"
+    } ]
+  } ]
+}
