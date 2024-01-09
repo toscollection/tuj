@@ -1,0 +1,276 @@
+[ {
+  "baseItem" : {
+    "id" : "_4Sab0I0JEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_4xDeUJXKEe6NA49A-HQHig",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OIZGwJW0Ee6NA49A-HQHig",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_C2I_QIzIEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_H1f_cJV_Ee6JVsxDJ3v-dQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_I-vsYJW0Ee6NA49A-HQHig",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OIZGwJW0Ee6NA49A-HQHig",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_N1Km4IzvEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VkSiUJWNEe6JVsxDJ3v-dQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_YNm50IzNEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_h9bJQIq4Ee6gy5wHM_zaCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hAQgoIFNEeuJ9JaHhC9HEQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_k-vzYIfUEeecxZQbtqUlkw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_o5WT0IzMEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pzXw4E2sEeKDofL2NjInxA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_uclgAIq1Ee6gy5wHM_zaCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_vG2icIzNEe6lO91gUrPUNw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wFv3YIrPEe6gy5wHM_zaCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xghG4Iq8Ee6gy5wHM_zaCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_U1CBQHiREe6JI9HvMFIWuQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_gRDdoIIeEe6RHeZomP196Q",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+} ]
