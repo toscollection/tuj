@@ -1,0 +1,20 @@
+{
+  "itemId" : "_iH6DkLOMEe6f0bNr0N3l6Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__BsZYLTsEe6Dk7tok2HUVQ",
+    "parameterList" : [ {
+      "id" : "__B_UUbTsEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SK_accountName"
+    }, {
+      "id" : "__B_UUrTsEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SK_endpointSuffix"
+    }, {
+      "id" : "__B_UU7TsEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SK_sharedKey"
+    }, {
+      "id" : "__B_UVLTsEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SK_timeout"
+    } ]
+  } ]
+}
