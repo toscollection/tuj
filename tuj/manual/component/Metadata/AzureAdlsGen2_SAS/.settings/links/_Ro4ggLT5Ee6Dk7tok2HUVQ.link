@@ -1,0 +1,20 @@
+{
+  "itemId" : "_Ro4ggLT5Ee6Dk7tok2HUVQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_0wBDULTuEe6Dk7tok2HUVQ",
+    "parameterList" : [ {
+      "id" : "_0wOesbTuEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SAS_endpointSuffix"
+    }, {
+      "id" : "_0wOesrTuEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SAS_sas"
+    }, {
+      "id" : "_0wOes7TuEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SAS_accountName"
+    }, {
+      "id" : "_0wOetLTuEe6Dk7tok2HUVQ",
+      "name" : "AzureAdlsGen2_SAS_timeout"
+    } ]
+  } ]
+}
