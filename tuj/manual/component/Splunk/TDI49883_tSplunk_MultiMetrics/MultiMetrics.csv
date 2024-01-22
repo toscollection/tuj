@@ -1,0 +1,23 @@
+{
+  "time": 1486683865,
+  "event": "metric",
+  "source": "metrics",
+  "sourcetype": "perflog",
+  "host": "host_1.splunk.com",
+  "fields": {
+    "region": "us-west-1",
+    "datacenter": "dc2",
+    "rack": "63",
+    "os": "Ubuntu16.10",
+    "arch": "x64",
+    "team": "LON",
+    "service": "6",
+    "service_version": "0",
+    "service_environment": "test",
+    "path": "/dev/sda1",
+    "fstype": "ext3",
+    "metric_name:cpu.usr": 11.12,
+    "metric_name:cpu.sys": 12.23,
+    "metric_name:cpu.idle": 13.34
+  }
+}
