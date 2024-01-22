@@ -1,0 +1,17 @@
+{
+  "itemId" : "_GqMKMLX9Ee6TXcKtJPYG_w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_gPnUgLjXEe6MSb7arTrorA",
+    "parameterList" : [ {
+      "id" : "_gP1-AbjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NoAuth_connectionTimeout"
+    }, {
+      "id" : "_gP1-ArjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NoAuth_base"
+    }, {
+      "id" : "_gP1-A7jXEe6MSb7arTrorA",
+      "name" : "HttpClient_NoAuth_receiveTimeout"
+    } ]
+  } ]
+}

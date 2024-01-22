@@ -1,0 +1,26 @@
+{
+  "itemId" : "_NerZ4La6Ee6WD86U5snJTg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_YYPIkLjXEe6MSb7arTrorA",
+    "parameterList" : [ {
+      "id" : "_YYdyEbjXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_connectionTimeout"
+    }, {
+      "id" : "_YYdyErjXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_clientSecret"
+    }, {
+      "id" : "_YYdyE7jXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_receiveTimeout"
+    }, {
+      "id" : "_YYdyFLjXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_tokenEndpoint"
+    }, {
+      "id" : "_YYdyFbjXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_base"
+    }, {
+      "id" : "_YYdyFrjXEe6MSb7arTrorA",
+      "name" : "HttpClient_Auth2_0_clientId"
+    } ]
+  } ]
+}

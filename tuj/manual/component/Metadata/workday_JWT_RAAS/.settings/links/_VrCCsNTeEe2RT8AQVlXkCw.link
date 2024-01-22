@@ -1,0 +1,26 @@
+{
+  "itemId" : "_VrCCsNTeEe2RT8AQVlXkCw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_k1_jYLjPEe6MSb7arTrorA",
+    "parameterList" : [ {
+      "id" : "_k2OM4bjPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_tenantAlias"
+    }, {
+      "id" : "_k2OM4rjPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_userId"
+    }, {
+      "id" : "_k2OM47jPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_clientId"
+    }, {
+      "id" : "_k2OM5LjPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_privateKey"
+    }, {
+      "id" : "_k2OM5bjPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_tokenEndpoint"
+    }, {
+      "id" : "_k2OM5rjPEe6MSb7arTrorA",
+      "name" : "workday_xjliu_JWT_RAAS_endpointPattern"
+    } ]
+  } ]
+}
