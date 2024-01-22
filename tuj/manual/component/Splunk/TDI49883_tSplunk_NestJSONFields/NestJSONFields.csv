@@ -1,0 +1,13 @@
+{
+	"event": {
+		"my_event": "Hello, McKinley High!"
+	},
+	"sourcetype": "_json",
+	"fields": {
+		"club": "glee",
+		"wins": [
+			"regionals",
+			"nationals"
+		]
+	}
+}
