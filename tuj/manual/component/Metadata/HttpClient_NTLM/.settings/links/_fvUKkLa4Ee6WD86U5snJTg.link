@@ -1,0 +1,23 @@
+{
+  "itemId" : "_fvUKkLa4Ee6WD86U5snJTg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_en2sgLjXEe6MSb7arTrorA",
+    "parameterList" : [ {
+      "id" : "_eoIZUbjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NTLM_base"
+    }, {
+      "id" : "_eoIZUrjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NTLM_username"
+    }, {
+      "id" : "_eoIZU7jXEe6MSb7arTrorA",
+      "name" : "HttpClient_NTLM_receiveTimeout"
+    }, {
+      "id" : "_eoIZVLjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NTLM_password"
+    }, {
+      "id" : "_eoIZVbjXEe6MSb7arTrorA",
+      "name" : "HttpClient_NTLM_connectionTimeout"
+    } ]
+  } ]
+}
