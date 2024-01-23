@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" hide="false" name="Default" xmi:id="_3BtOwLUSEe6rWdGBvOd6NA" xmi:version="2.0">
+  <contextParameter comment="" name="couchbase_node" prompt="couchbase_node?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3BtOwbUSEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="couchbase_username" prompt="couchbase_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3BtOwrUSEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="couchbase_password" prompt="couchbase_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_3BtOw7USEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="couchbase_bucket" prompt="couchbase_bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3BtOxLUSEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="apache_kudu_node" prompt="apache_kudu_node?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9ULUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="apache_kudu_port1" prompt="apache_kudu_port1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9UbUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="apache_kudu_port2" prompt="apache_kudu_port2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9UrUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="apache_kudu_port3" prompt="apache_kudu_port3?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9U7UUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_server_url" prompt="jms_activemq_classic_server_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9VLUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_username" prompt="jms_activemq_classic_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9VbUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_password" prompt="jms_activemq_classic_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9VrUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_port" prompt="jms_activemq_classic_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9V7UUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_artemis_server_url" prompt="jms_activemq_artemis_server_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9WLUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_artemis_username" prompt="jms_activemq_artemis_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9WbUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_artemis_password" prompt="jms_activemq_artemis_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9WrUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_artemis_port" prompt="jms_activemq_artemis_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9W7UUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_server_url" prompt="jms_websphere_server_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9XLUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_username" prompt="jms_websphere_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9XbUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_password" prompt="jms_websphere_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9XrUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_port" prompt="jms_websphere_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9X7UUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_channel" prompt="jms_websphere_channel?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9YLUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_queuemanager" prompt="jms_websphere_queuemanager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9YbUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_queuename" prompt="jms_websphere_queuename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9YrUUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_websphere_topicname" prompt="jms_websphere_topicname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_9dJ9Y7UUEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="rabbitmq_hostname" prompt="rabbitmq_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MSjrULUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="rabbitmq_port" prompt="rabbitmq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MSjrUbUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="rabbitmq_username" prompt="rabbitmq_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MSjrUrUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="rabbitmq_password" prompt="rabbitmq_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MSjrU7UVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="tableau_url" prompt="tableau_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9OwALUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="tableau_site" prompt="tableau_site?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9OwAbUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="tableau_project_name" prompt="tableau_project_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9OwArUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="tableau_token_name" prompt="tableau_token_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9OwA7UVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="tableau_token_secret" prompt="tableau_token_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_a9OwBLUVEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_client_id" prompt="jms_activemq_classic_client_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Hq0OsLUWEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="jms_activemq_classic_subscriber_name" prompt="jms_activemq_classic_subscriber_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Hq0OsbUWEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="odata_root_url" prompt="odata_root_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_-p2vELUWEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="odata_connection_timeout" prompt="odata_connection_timeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_PFsPYLUXEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="odata_receive_timeout" prompt="odata_receive_timeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_PFsPYbUXEe6rWdGBvOd6NA"/>
+  <contextParameter comment="" name="odata_username" prompt="odata_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cODwYLWyEe6-j4FjHMERuw"/>
+  <contextParameter comment="" name="odata_password" prompt="odata_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cODwYbWyEe6-j4FjHMERuw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_184ceed1-bda7-4ec3-8c38-b0f4ec6fc671"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>trj/mD8Hd2rS/GC6ovNhT6je9H4GGUqKweMI4rHFGnWqOw758cZMCuyC2ohD28WgM/pTAH0h1N2G&#13;
+oWEoOQtwvQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ac7fb81e-d456-4c43-a37c-c51ffe69a8a7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Bh41iKZiTKyXTsAEFALA7FAPUdVch2Qh8f8ygYikH+2HtDfGHRvNiyyqtDcRrY9oAXHv969t09qv&#13;
+1jYSEawXDg==</DigestValue></Reference></SignedInfo><SignatureValue>Hp3tH1hoDuRuQvdZ+2Z6KGfsy2p4ZIEnMw5yJRW9nx1bOE+latMHBw6ynqSAA/KFrIWviEIpgNW0&#13;
+6YhLz/xuL5qCGX41BQ805Qx4m7Wh++dps/x39/gb51+ry7dVhpu44sRQGTffOcKrOPHANpU5D2Rx&#13;
+qK4f1KzuzovvIuD12ZDvc5+VeMmo9SLTHTo1oEWzJmFMuBl7uYpF2fz5BYFB3rKBLH66bggqtwND&#13;
+C/Nmv/SmYCEMu/8MrPWL0PpCDxr8XHEzwEAsBjOQSWw7QST/omBzjOcTxIrgL17B4WWkiT3vdqRT&#13;
+g9iGFiPbwoABttBVyKCoVtM1ncmdnI6a7iryMA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ac7fb81e-d456-4c43-a37c-c51ffe69a8a7" Target="#_184ceed1-bda7-4ec3-8c38-b0f4ec6fc671"><Timestamp>2024-01-19 01:43:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

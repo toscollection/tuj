@@ -1,0 +1,122 @@
+{
+  "itemId" : "_OTg4cLT_Ee6rWdGBvOd6NA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_3BfzYLUSEe6rWdGBvOd6NA",
+    "parameterList" : [ {
+      "id" : "_3BtOwbUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_node"
+    }, {
+      "id" : "_3BtOwrUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_username"
+    }, {
+      "id" : "_3BtOw7USEe6rWdGBvOd6NA",
+      "name" : "couchbase_password"
+    }, {
+      "id" : "_3BtOxLUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_bucket"
+    }, {
+      "id" : "_9dJ9ULUUEe6rWdGBvOd6NA",
+      "name" : "apache_kudu_node"
+    }, {
+      "id" : "_9dJ9UbUUEe6rWdGBvOd6NA",
+      "name" : "apache_kudu_port1"
+    }, {
+      "id" : "_9dJ9UrUUEe6rWdGBvOd6NA",
+      "name" : "apache_kudu_port2"
+    }, {
+      "id" : "_9dJ9U7UUEe6rWdGBvOd6NA",
+      "name" : "apache_kudu_port3"
+    }, {
+      "id" : "_9dJ9VLUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_server_url"
+    }, {
+      "id" : "_9dJ9VbUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_username"
+    }, {
+      "id" : "_9dJ9VrUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_password"
+    }, {
+      "id" : "_9dJ9V7UUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_port"
+    }, {
+      "id" : "_9dJ9WLUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_artemis_server_url"
+    }, {
+      "id" : "_9dJ9WbUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_artemis_username"
+    }, {
+      "id" : "_9dJ9WrUUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_artemis_password"
+    }, {
+      "id" : "_9dJ9W7UUEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_artemis_port"
+    }, {
+      "id" : "_9dJ9XLUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_server_url"
+    }, {
+      "id" : "_9dJ9XbUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_username"
+    }, {
+      "id" : "_9dJ9XrUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_password"
+    }, {
+      "id" : "_9dJ9X7UUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_port"
+    }, {
+      "id" : "_9dJ9YLUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_channel"
+    }, {
+      "id" : "_9dJ9YbUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_queuemanager"
+    }, {
+      "id" : "_9dJ9YrUUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_queuename"
+    }, {
+      "id" : "_9dJ9Y7UUEe6rWdGBvOd6NA",
+      "name" : "jms_websphere_topicname"
+    }, {
+      "id" : "_MSjrULUVEe6rWdGBvOd6NA",
+      "name" : "rabbitmq_hostname"
+    }, {
+      "id" : "_MSjrUbUVEe6rWdGBvOd6NA",
+      "name" : "rabbitmq_port"
+    }, {
+      "id" : "_MSjrUrUVEe6rWdGBvOd6NA",
+      "name" : "rabbitmq_username"
+    }, {
+      "id" : "_MSjrU7UVEe6rWdGBvOd6NA",
+      "name" : "rabbitmq_password"
+    }, {
+      "id" : "_a9OwALUVEe6rWdGBvOd6NA",
+      "name" : "tableau_url"
+    }, {
+      "id" : "_a9OwAbUVEe6rWdGBvOd6NA",
+      "name" : "tableau_site"
+    }, {
+      "id" : "_a9OwArUVEe6rWdGBvOd6NA",
+      "name" : "tableau_project_name"
+    }, {
+      "id" : "_a9OwA7UVEe6rWdGBvOd6NA",
+      "name" : "tableau_token_name"
+    }, {
+      "id" : "_a9OwBLUVEe6rWdGBvOd6NA",
+      "name" : "tableau_token_secret"
+    }, {
+      "id" : "_Hq0OsLUWEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_client_id"
+    }, {
+      "id" : "_Hq0OsbUWEe6rWdGBvOd6NA",
+      "name" : "jms_activemq_classic_subscriber_name"
+    }, {
+      "id" : "_-p2vELUWEe6rWdGBvOd6NA",
+      "name" : "odata_root_url"
+    }, {
+      "id" : "_PFsPYLUXEe6rWdGBvOd6NA",
+      "name" : "odata_connection_timeout"
+    }, {
+      "id" : "_PFsPYbUXEe6rWdGBvOd6NA",
+      "name" : "odata_receive_timeout"
+    } ]
+  } ]
+}

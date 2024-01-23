@@ -1,0 +1,20 @@
+{
+  "itemId" : "_Elb9sLUMEe6rWdGBvOd6NA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_3BfzYLUSEe6rWdGBvOd6NA",
+    "parameterList" : [ {
+      "id" : "_3BtOwbUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_node"
+    }, {
+      "id" : "_3BtOwrUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_username"
+    }, {
+      "id" : "_3BtOw7USEe6rWdGBvOd6NA",
+      "name" : "couchbase_password"
+    }, {
+      "id" : "_3BtOxLUSEe6rWdGBvOd6NA",
+      "name" : "couchbase_bucket"
+    } ]
+  } ]
+}
