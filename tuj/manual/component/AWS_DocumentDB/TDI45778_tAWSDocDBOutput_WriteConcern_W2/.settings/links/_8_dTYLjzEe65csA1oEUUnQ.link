@@ -1,0 +1,63 @@
+{
+  "itemId" : "_8_dTYLjzEe65csA1oEUUnQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_-kk5ELjdEe65csA1oEUUnQ",
+    "parameterList" : [ {
+      "id" : "_mKoVsaU0Ee6ylbwxYIvaag",
+      "name" : "aws_docdb_authdb"
+    }, {
+      "id" : "_mKoVsKU0Ee6ylbwxYIvaag",
+      "name" : "aws_docdb_db"
+    }, {
+      "id" : "_mKoVsqU0Ee6ylbwxYIvaag",
+      "name" : "aws_docdb_host"
+    }, {
+      "id" : "_WLXkMLjeEe65csA1oEUUnQ",
+      "name" : "aws_docdb_password"
+    }, {
+      "id" : "_WLXkMbjeEe65csA1oEUUnQ",
+      "name" : "aws_docdb_port"
+    }, {
+      "id" : "_WLXkMrjeEe65csA1oEUUnQ",
+      "name" : "aws_docdb_truststore"
+    }, {
+      "id" : "_WLXkM7jeEe65csA1oEUUnQ",
+      "name" : "aws_docdb_truststore_password"
+    }, {
+      "id" : "_hwBxoKU_Ee6ylbwxYIvaag",
+      "name" : "aws_docdb_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JVzMgDyhEeiTCty7byLwmA",
+    "parameterList" : [ {
+      "id" : "_8eFyAWSnEeisiZnXPjs1og",
+      "name" : "data_dir"
+    }, {
+      "id" : "_8eFyAmSnEeisiZnXPjs1og",
+      "name" : "data_output_dir"
+    }, {
+      "id" : "_8eFyA2SnEeisiZnXPjs1og",
+      "name" : "param_file_path"
+    }, {
+      "id" : "_8eFyBGSnEeisiZnXPjs1og",
+      "name" : "result_database"
+    }, {
+      "id" : "_8eFyBWSnEeisiZnXPjs1og",
+      "name" : "result_host"
+    }, {
+      "id" : "_8eFyBmSnEeisiZnXPjs1og",
+      "name" : "result_password"
+    }, {
+      "id" : "_8eFyB2SnEeisiZnXPjs1og",
+      "name" : "result_port"
+    }, {
+      "id" : "_8eFyCGSnEeisiZnXPjs1og",
+      "name" : "result_table"
+    }, {
+      "id" : "_8eFyCWSnEeisiZnXPjs1og",
+      "name" : "result_username"
+    } ]
+  } ]
+}
