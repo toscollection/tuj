@@ -1,0 +1,23 @@
+{
+  "itemId" : "_tO2uELTlEe6rWdGBvOd6NA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_fY7xoLvsEe62Ke6gIGFDtA",
+    "parameterList" : [ {
+      "id" : "_lQaiYLvsEe62Ke6gIGFDtA",
+      "name" : "rabbitmq_hostname"
+    }, {
+      "id" : "_lQaiYbvsEe62Ke6gIGFDtA",
+      "name" : "rabbitmq_port"
+    }, {
+      "id" : "_lQaiYrvsEe62Ke6gIGFDtA",
+      "name" : "rabbitmq_username"
+    }, {
+      "id" : "_lQaiY7vsEe62Ke6gIGFDtA",
+      "name" : "rabbitmq_password"
+    }, {
+      "id" : "_lQaiZLvsEe62Ke6gIGFDtA",
+      "name" : "rabbitmq_queue"
+    } ]
+  } ]
+}

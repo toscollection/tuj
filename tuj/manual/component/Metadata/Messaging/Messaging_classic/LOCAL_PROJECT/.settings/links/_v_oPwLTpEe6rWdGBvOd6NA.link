@@ -1,0 +1,62 @@
+{
+  "itemId" : "_v_oPwLTpEe6rWdGBvOd6NA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_9-k3gLvnEe62Ke6gIGFDtA",
+    "parameterList" : [ {
+      "id" : "_9-uogbvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_server_url"
+    }, {
+      "id" : "_9-uogrvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_username"
+    }, {
+      "id" : "_9-uog7vnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_password"
+    }, {
+      "id" : "_9-uohLvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_port"
+    }, {
+      "id" : "_9-uohbvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_client_id"
+    }, {
+      "id" : "_9-uohrvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_classic_subscriber_name"
+    }, {
+      "id" : "_9-uoh7vnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_artemis_server_url"
+    }, {
+      "id" : "_9-uoiLvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_artemis_username"
+    }, {
+      "id" : "_9-uoibvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_artemis_password"
+    }, {
+      "id" : "_9-uoirvnEe62Ke6gIGFDtA",
+      "name" : "jms_activemq_artemis_port"
+    }, {
+      "id" : "_9-uoi7vnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_server_url"
+    }, {
+      "id" : "_9-uojLvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_username"
+    }, {
+      "id" : "_9-uojbvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_password"
+    }, {
+      "id" : "_9-uojrvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_port"
+    }, {
+      "id" : "_9-uoj7vnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_channel"
+    }, {
+      "id" : "_9-uokLvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_queuemanager"
+    }, {
+      "id" : "_9-uokbvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_queuename"
+    }, {
+      "id" : "_9-uokrvnEe62Ke6gIGFDtA",
+      "name" : "jms_websphere_topicname"
+    } ]
+  } ]
+}
